@@ -1,0 +1,13 @@
+Experiment,NPMI,Diversity,Valid_Topics
+Experiment 1 (BERTopic Light Embeddings Base fullK=10),0.10880233811978912,0.98,10
+Experiment 2 (BERTopic Heavy Embeddings Base fullK=10),0.15901808478920545,0.9444444444444444,9
+Experiment 3 (BERTopic Light Embeddings Base fullK=20),0.12478582305406317,0.9315789473684211,19
+Experiment 4 (BERTopic Heavy Embeddings Base fullK=20),0.16219568121676595,0.9473684210526315,19
+Experiment 5 (BERTopic Light Embeddings Base fullK=30),0.14918529476208384,0.8448275862068966,29
+Experiment 6 (BERTopic Heavy Embeddings Base fullK=30),0.1550342095387677,0.8724137931034482,29
+Experiment 7 (BERTopic Light Embeddings Base fullK=40),0.13681123110663554,0.8447368421052631,38
+Experiment 8 (BERTopic Heavy Embeddings Base fullK=40),0.18788451053369332,0.8621621621621621,37
+Experiment 9 (BERTopic Light Embeddings Base fullK=50),0.1369067848936439,0.8224489795918367,49
+Experiment 10 (BERTopic Heavy Embeddings Base fullK=50),0.1143988815553763,0.8729166666666667,48
+Experiment 11 (BERTopic Light Embeddings Base fullK=60),0.13985098357850068,0.8051724137931034,58
+Experiment 12 (BERTopic Heavy Embeddings Base fullK=60),0.1688973807443027,0.8413793103448276,58

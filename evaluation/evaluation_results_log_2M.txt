@@ -1,0 +1,89 @@
+=== 1. Reconstructing the 2M Reference Corpus ===
+Constructed reference corpus with 1774919 documents.
+Dictionary size: 100000
+
+=== 2. Initializing OCTIS Metrics ===
+
+=== 3. Checking topic files ===
+OK:      bertopic_topics_Best1_2M_K30_fit150k_transform_all.json
+OK:      ctm_topics_CTM_LIGHT_2M_K20_fit150k_transform_all.json
+MISSING: ctm_topics_CTM_HEAVY_2M_K20_fit150k_transform_all.json
+OK:      lda_topics_LDA_2M_VOCAB2000_K10_fullcorpus.json
+OK:      lda_topics_LDA_2M_VOCAB2000_K20_fullcorpus.json
+OK:      lda_topics_LDA_2M_VOCAB2000_K30_fullcorpus.json
+OK:      lda_topics_LDA_2M_VOCAB2000_K40_fullcorpus.json
+OK:      lda_topics_LDA_2M_VOCAB2000_K50_fullcorpus.json
+OK:      lda_topics_LDA_2M_VOCAB2000_K60_fullcorpus.json
+MISSING: etm_topics_ETM_2M_VOCAB2000_K20.json
+
+Existing files: 8
+Missing files:  2
+
+The script will evaluate existing files and skip missing files.
+
+=== 4. Running 2M Evaluations ===
+
+--- Evaluating BERTopic Base D2 K30 fit150k transform all ---
+  -> Dropped 1 degenerate topics fewer than 10 words.
+  -> Topic Coherence (NPMI): 0.1847
+  -> Topic Diversity:        0.8862
+  -> Valid topics:           29
+
+--- Evaluating CTM Light K20 fit150k transform all ---
+  -> Topic Coherence (NPMI): 0.1313
+  -> Topic Diversity:        1.0000
+  -> Valid topics:           20
+
+--- Evaluating CTM Heavy K20 fit150k transform all ---
+  -> SKIPPED: File not found: ctm_topics_CTM_HEAVY_2M_K20_fit150k_transform_all.json
+
+--- Evaluating LDA Vocab2000 K10 full corpus ---
+  -> Topic Coherence (NPMI): 0.0934
+  -> Topic Diversity:        0.9100
+  -> Valid topics:           10
+
+--- Evaluating LDA Vocab2000 K20 full corpus ---
+  -> Topic Coherence (NPMI): 0.0967
+  -> Topic Diversity:        0.9300
+  -> Valid topics:           20
+
+--- Evaluating LDA Vocab2000 K30 full corpus ---
+  -> Topic Coherence (NPMI): 0.0999
+  -> Topic Diversity:        0.9133
+  -> Valid topics:           30
+
+--- Evaluating LDA Vocab2000 K40 full corpus ---
+  -> Topic Coherence (NPMI): 0.0984
+  -> Topic Diversity:        0.9275
+  -> Valid topics:           40
+
+--- Evaluating LDA Vocab2000 K50 full corpus ---
+  -> Topic Coherence (NPMI): 0.0871
+  -> Topic Diversity:        0.9240
+  -> Valid topics:           50
+
+--- Evaluating LDA Vocab2000 K60 full corpus ---
+  -> Topic Coherence (NPMI): 0.0755
+  -> Topic Diversity:        0.9317
+  -> Valid topics:           60
+
+--- Evaluating ETM Vocab2000 K20 full corpus ---
+  -> SKIPPED: File not found: etm_topics_ETM_2M_VOCAB2000_K20.json
+
+=== Final 2M Evaluation Summary Table ===
+   Model                       Variant  K                                 Experiment                                              Topic_File     NPMI  Diversity  Valid_Topics  Dropped_Topics       Status
+BERTopic Base D2 fit150k transform all 30 BERTopic Base D2 K30 fit150k transform all bertopic_topics_Best1_2M_K30_fit150k_transform_all.json 0.184743   0.886207            29             1.0           ok
+     CTM   Light fit150k transform all 20        CTM Light K20 fit150k transform all  ctm_topics_CTM_LIGHT_2M_K20_fit150k_transform_all.json 0.131272   1.000000            20             0.0           ok
+     CTM   Heavy fit150k transform all 20        CTM Heavy K20 fit150k transform all  ctm_topics_CTM_HEAVY_2M_K20_fit150k_transform_all.json      NaN        NaN             0             NaN missing_file
+     LDA         Vocab2000 full corpus 10              LDA Vocab2000 K10 full corpus         lda_topics_LDA_2M_VOCAB2000_K10_fullcorpus.json 0.093416   0.910000            10             0.0           ok
+     LDA         Vocab2000 full corpus 20              LDA Vocab2000 K20 full corpus         lda_topics_LDA_2M_VOCAB2000_K20_fullcorpus.json 0.096702   0.930000            20             0.0           ok
+     LDA         Vocab2000 full corpus 30              LDA Vocab2000 K30 full corpus         lda_topics_LDA_2M_VOCAB2000_K30_fullcorpus.json 0.099887   0.913333            30             0.0           ok
+     LDA         Vocab2000 full corpus 40              LDA Vocab2000 K40 full corpus         lda_topics_LDA_2M_VOCAB2000_K40_fullcorpus.json 0.098386   0.927500            40             0.0           ok
+     LDA         Vocab2000 full corpus 50              LDA Vocab2000 K50 full corpus         lda_topics_LDA_2M_VOCAB2000_K50_fullcorpus.json 0.087073   0.924000            50             0.0           ok
+     LDA         Vocab2000 full corpus 60              LDA Vocab2000 K60 full corpus         lda_topics_LDA_2M_VOCAB2000_K60_fullcorpus.json 0.075468   0.931667            60             0.0           ok
+     ETM         Vocab2000 full corpus 20              ETM Vocab2000 K20 full corpus                    etm_topics_ETM_2M_VOCAB2000_K20.json      NaN        NaN             0             NaN missing_file
+
+Saved 2M evaluation summary to: evaluation_metrics_2M_runs.csv
+Saved evaluation log to: evaluation_results_log_2M.txt
+
+Evaluation Complete!

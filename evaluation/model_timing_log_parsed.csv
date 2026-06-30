@@ -1,0 +1,199 @@
+model,run_name,Timing_K,time_seconds,time_minutes,Model,Variant,Embedding,Vocab,K,Repeat
+BERTopic,LIGHT_EMBfinal_fullK10,10,178.79,2.98,BERTopic,Base fullK,Light,,10,Run1
+BERTopic,HEAVY_EMBfinal_fullK10,10,141.75,2.36,BERTopic,Base fullK,Heavy,,10,Run1
+BERTopic,LIGHT_EMBfinal3_fullK10,10,178.51,2.98,BERTopic,Base fullK,Light,,10,Run3
+BERTopic,HEAVY_EMBfinal3_fullK10,10,141.34,2.36,BERTopic,Base fullK,Heavy,,10,Run3
+BERTopic,LIGHT_EMBfinal_fullK20,20,174.28,2.9,BERTopic,Base fullK,Light,,20,Run1
+BERTopic,HEAVY_EMBfinal_fullK20,20,137.61,2.29,BERTopic,Base fullK,Heavy,,20,Run1
+BERTopic,LIGHT_EMBfinal3_fullK20,20,170.46,2.84,BERTopic,Base fullK,Light,,20,Run3
+BERTopic,HEAVY_EMBfinal3_fullK20,20,136.81,2.28,BERTopic,Base fullK,Heavy,,20,Run3
+BERTopic,LIGHT_EMBfinal_fullK30,30,181.0,3.02,BERTopic,Base fullK,Light,,30,Run1
+BERTopic,HEAVY_EMBfinal_fullK30,30,140.51,2.34,BERTopic,Base fullK,Heavy,,30,Run1
+BERTopic,LIGHT_EMBfinal3_fullK30,30,181.26,3.02,BERTopic,Base fullK,Light,,30,Run3
+BERTopic,HEAVY_EMBfinal3_fullK30,30,140.05,2.33,BERTopic,Base fullK,Heavy,,30,Run3
+BERTopic,LIGHT_EMBfinal_fullK40,40,180.81,3.01,BERTopic,Base fullK,Light,,40,Run1
+BERTopic,HEAVY_EMBfinal_fullK40,40,136.63,2.28,BERTopic,Base fullK,Heavy,,40,Run1
+BERTopic,LIGHT_EMBfinal3_fullK40,40,167.99,2.8,BERTopic,Base fullK,Light,,40,Run3
+BERTopic,HEAVY_EMBfinal3_fullK40,40,139.65,2.33,BERTopic,Base fullK,Heavy,,40,Run3
+BERTopic,LIGHT_EMBfinal_fullK50,50,168.57,2.81,BERTopic,Base fullK,Light,,50,Run1
+BERTopic,HEAVY_EMBfinal_fullK50,50,136.43,2.27,BERTopic,Base fullK,Heavy,,50,Run1
+BERTopic,LIGHT_EMBfinal3_fullK50,50,169.28,2.82,BERTopic,Base fullK,Light,,50,Run3
+BERTopic,HEAVY_EMBfinal3_fullK50,50,135.87,2.26,BERTopic,Base fullK,Heavy,,50,Run3
+BERTopic,LIGHT_EMBfinal_fullK60,60,167.06,2.78,BERTopic,Base fullK,Light,,60,Run1
+BERTopic,HEAVY_EMBfinal_fullK60,60,134.26,2.24,BERTopic,Base fullK,Heavy,,60,Run1
+BERTopic,LIGHT_EMBfinal3_fullK60,60,169.76,2.83,BERTopic,Base fullK,Light,,60,Run3
+BERTopic,HEAVY_EMBfinal3_fullK60,60,138.27,2.3,BERTopic,Base fullK,Heavy,,60,Run3
+BERTopic,LIGHT_EMBfinal_noiseparams_fullK10,10,198.22,3.3,BERTopic,NoiseParams fullK,Light,,10,Run1
+BERTopic,HEAVY_EMBfinal_noiseparams_fullK10,10,156.07,2.6,BERTopic,NoiseParams fullK,Heavy,,10,Run1
+BERTopic,LIGHT_EMBfinal3_noiseparams_fullK10,10,185.8,3.1,BERTopic,NoiseParams fullK,Light,,10,Run3
+BERTopic,HEAVY_EMBfinal3_noiseparams_fullK10,10,154.25,2.57,BERTopic,NoiseParams fullK,Heavy,,10,Run3
+BERTopic,LIGHT_EMBfinal_noiseparams_fullK20,20,191.14,3.19,BERTopic,NoiseParams fullK,Light,,20,Run1
+BERTopic,HEAVY_EMBfinal_noiseparams_fullK20,20,157.5,2.62,BERTopic,NoiseParams fullK,Heavy,,20,Run1
+BERTopic,LIGHT_EMBfinal3_noiseparams_fullK20,20,183.84,3.06,BERTopic,NoiseParams fullK,Light,,20,Run3
+BERTopic,HEAVY_EMBfinal3_noiseparams_fullK20,20,152.93,2.55,BERTopic,NoiseParams fullK,Heavy,,20,Run3
+BERTopic,LIGHT_EMBfinal_noiseparams_fullK30,30,184.59,3.08,BERTopic,NoiseParams fullK,Light,,30,Run1
+BERTopic,HEAVY_EMBfinal_noiseparams_fullK30,30,152.53,2.54,BERTopic,NoiseParams fullK,Heavy,,30,Run1
+BERTopic,LIGHT_EMBfinal3_noiseparams_fullK30,30,192.34,3.21,BERTopic,NoiseParams fullK,Light,,30,Run3
+BERTopic,HEAVY_EMBfinal3_noiseparams_fullK30,30,158.07,2.63,BERTopic,NoiseParams fullK,Heavy,,30,Run3
+BERTopic,LIGHT_EMBfinal_noiseparams_fullK40,40,194.65,3.24,BERTopic,NoiseParams fullK,Light,,40,Run1
+BERTopic,HEAVY_EMBfinal_noiseparams_fullK40,40,157.22,2.62,BERTopic,NoiseParams fullK,Heavy,,40,Run1
+BERTopic,LIGHT_EMBfinal3_noiseparams_fullK40,40,189.49,3.16,BERTopic,NoiseParams fullK,Light,,40,Run3
+BERTopic,HEAVY_EMBfinal3_noiseparams_fullK40,40,153.34,2.56,BERTopic,NoiseParams fullK,Heavy,,40,Run3
+BERTopic,LIGHT_EMBfinal_noiseparams_fullK50,50,189.36,3.16,BERTopic,NoiseParams fullK,Light,,50,Run1
+BERTopic,HEAVY_EMBfinal_noiseparams_fullK50,50,153.45,2.56,BERTopic,NoiseParams fullK,Heavy,,50,Run1
+BERTopic,LIGHT_EMBfinal3_noiseparams_fullK50,50,190.5,3.17,BERTopic,NoiseParams fullK,Light,,50,Run3
+BERTopic,HEAVY_EMBfinal3_noiseparams_fullK50,50,156.16,2.6,BERTopic,NoiseParams fullK,Heavy,,50,Run3
+BERTopic,LIGHT_EMBfinal_noiseparams_fullK60,60,188.29,3.14,BERTopic,NoiseParams fullK,Light,,60,Run1
+BERTopic,HEAVY_EMBfinal_noiseparams_fullK60,60,175.59,2.93,BERTopic,NoiseParams fullK,Heavy,,60,Run1
+BERTopic,LIGHT_EMBfinal3_noiseparams_fullK60,60,204.03,3.4,BERTopic,NoiseParams fullK,Light,,60,Run3
+BERTopic,HEAVY_EMBfinal3_noiseparams_fullK60,60,157.98,2.63,BERTopic,NoiseParams fullK,Heavy,,60,Run3
+BERTopic,LIGHT_EMBfinal2_reassignment_fullK10,10,188.19,3.14,BERTopic,Reassignment fullK,Light,,10,Run2
+BERTopic,HEAVY_EMBfinal2_reassignment_fullK10,10,138.76,2.31,BERTopic,Reassignment fullK,Heavy,,10,Run2
+BERTopic,LIGHT_EMBfinal3_reassignment_fullK10,10,189.07,3.15,BERTopic,Reassignment fullK,Light,,10,Run3
+BERTopic,HEAVY_EMBfinal3_reassignment_fullK10,10,144.22,2.4,BERTopic,Reassignment fullK,Heavy,,10,Run3
+BERTopic,LIGHT_EMBfinal2_reassignment_fullK20,20,192.0,3.2,BERTopic,Reassignment fullK,Light,,20,Run2
+BERTopic,HEAVY_EMBfinal2_reassignment_fullK20,20,153.57,2.56,BERTopic,Reassignment fullK,Heavy,,20,Run2
+BERTopic,LIGHT_EMBfinal3_reassignment_fullK20,20,208.84,3.48,BERTopic,Reassignment fullK,Light,,20,Run3
+BERTopic,HEAVY_EMBfinal3_reassignment_fullK20,20,153.34,2.56,BERTopic,Reassignment fullK,Heavy,,20,Run3
+BERTopic,LIGHT_EMBfinal2_reassignment_fullK30,30,204.29,3.4,BERTopic,Reassignment fullK,Light,,30,Run2
+BERTopic,HEAVY_EMBfinal2_reassignment_fullK30,30,163.39,2.72,BERTopic,Reassignment fullK,Heavy,,30,Run2
+BERTopic,LIGHT_EMBfinal3_reassignment_fullK30,30,196.28,3.27,BERTopic,Reassignment fullK,Light,,30,Run3
+BERTopic,HEAVY_EMBfinal3_reassignment_fullK30,30,149.01,2.48,BERTopic,Reassignment fullK,Heavy,,30,Run3
+BERTopic,LIGHT_EMBfinal2_reassignment_fullK40,40,194.41,3.24,BERTopic,Reassignment fullK,Light,,40,Run2
+BERTopic,HEAVY_EMBfinal2_reassignment_fullK40,40,150.87,2.51,BERTopic,Reassignment fullK,Heavy,,40,Run2
+BERTopic,LIGHT_EMBfinal3_reassignment_fullK40,40,203.24,3.39,BERTopic,Reassignment fullK,Light,,40,Run3
+BERTopic,HEAVY_EMBfinal3_reassignment_fullK40,40,156.34,2.61,BERTopic,Reassignment fullK,Heavy,,40,Run3
+BERTopic,LIGHT_EMBfinal2_reassignment_fullK50,50,223.8,3.73,BERTopic,Reassignment fullK,Light,,50,Run2
+BERTopic,HEAVY_EMBfinal2_reassignment_fullK50,50,169.31,2.82,BERTopic,Reassignment fullK,Heavy,,50,Run2
+BERTopic,LIGHT_EMBfinal3_reassignment_fullK50,50,216.16,3.6,BERTopic,Reassignment fullK,Light,,50,Run3
+BERTopic,HEAVY_EMBfinal3_reassignment_fullK50,50,154.05,2.57,BERTopic,Reassignment fullK,Heavy,,50,Run3
+BERTopic,LIGHT_EMBfinal2_reassignment_fullK60,60,213.15,3.55,BERTopic,Reassignment fullK,Light,,60,Run2
+BERTopic,HEAVY_EMBfinal2_reassignment_fullK60,60,153.34,2.56,BERTopic,Reassignment fullK,Heavy,,60,Run2
+BERTopic,LIGHT_EMBfinal3_reassignment_fullK60,60,211.09,3.52,BERTopic,Reassignment fullK,Light,,60,Run3
+BERTopic,HEAVY_EMBfinal3_reassignment_fullK60,60,165.31,2.76,BERTopic,Reassignment fullK,Heavy,,60,Run3
+ETM,HEAVY_final2_VOCAB2000_K10,10,446.4,7.44,ETM,Base,Heavy,Vocab2000,10,Run2
+ETM,HEAVY_final3_VOCAB2000_K10,10,443.96,7.4,ETM,Base,Heavy,Vocab2000,10,Run3
+ETM,HEAVY_final2_VOCAB6000_K10,10,589.68,9.83,ETM,Base,Heavy,Vocab6000,10,Run2
+ETM,HEAVY_final3_VOCAB6000_K10,10,531.76,8.86,ETM,Base,Heavy,Vocab6000,10,Run3
+ETM,HEAVY_final2_VOCAB2000_K20,20,454.96,7.58,ETM,Base,Heavy,Vocab2000,20,Run2
+ETM,HEAVY_final3_VOCAB2000_K20,20,437.95,7.3,ETM,Base,Heavy,Vocab2000,20,Run3
+ETM,HEAVY_final2_VOCAB6000_K20,20,559.88,9.33,ETM,Base,Heavy,Vocab6000,20,Run2
+ETM,HEAVY_final3_VOCAB6000_K20,20,593.02,9.88,ETM,Base,Heavy,Vocab6000,20,Run3
+ETM,HEAVY_final2_VOCAB2000_K30,30,447.45,7.46,ETM,Base,Heavy,Vocab2000,30,Run2
+ETM,HEAVY_final3_VOCAB2000_K30,30,448.49,7.47,ETM,Base,Heavy,Vocab2000,30,Run3
+ETM,HEAVY_final2_VOCAB6000_K30,30,545.78,9.1,ETM,Base,Heavy,Vocab6000,30,Run2
+ETM,HEAVY_final3_VOCAB6000_K30,30,531.26,8.85,ETM,Base,Heavy,Vocab6000,30,Run3
+ETM,HEAVY_final2_VOCAB2000_K40,40,432.56,7.21,ETM,Base,Heavy,Vocab2000,40,Run2
+ETM,HEAVY_final3_VOCAB2000_K40,40,427.88,7.13,ETM,Base,Heavy,Vocab2000,40,Run3
+ETM,HEAVY_final2_VOCAB6000_K40,40,517.27,8.62,ETM,Base,Heavy,Vocab6000,40,Run2
+ETM,HEAVY_final3_VOCAB6000_K40,40,534.28,8.9,ETM,Base,Heavy,Vocab6000,40,Run3
+ETM,HEAVY_final2_VOCAB2000_K50,50,433.72,7.23,ETM,Base,Heavy,Vocab2000,50,Run2
+ETM,HEAVY_final3_VOCAB2000_K50,50,430.81,7.18,ETM,Base,Heavy,Vocab2000,50,Run3
+ETM,HEAVY_final2_VOCAB6000_K50,50,545.21,9.09,ETM,Base,Heavy,Vocab6000,50,Run2
+ETM,HEAVY_final3_VOCAB6000_K50,50,547.97,9.13,ETM,Base,Heavy,Vocab6000,50,Run3
+ETM,HEAVY_final2_VOCAB2000_K60,60,425.37,7.09,ETM,Base,Heavy,Vocab2000,60,Run2
+ETM,HEAVY_final3_VOCAB2000_K60,60,426.61,7.11,ETM,Base,Heavy,Vocab2000,60,Run3
+ETM,HEAVY_final2_VOCAB6000_K60,60,551.44,9.19,ETM,Base,Heavy,Vocab6000,60,Run2
+ETM,HEAVY_final3_VOCAB6000_K60,60,543.64,9.06,ETM,Base,Heavy,Vocab6000,60,Run3
+LDA,HEAVY_final2_VOCAB2000_K10,10,236.4,3.94,LDA,Base,Heavy,Vocab2000,10,Run2
+LDA,HEAVY_final3_VOCAB2000_K10,10,235.45,3.92,LDA,Base,Heavy,Vocab2000,10,Run3
+LDA,HEAVY_final2_VOCAB2000_K20,20,235.92,3.93,LDA,Base,Heavy,Vocab2000,20,Run2
+LDA,HEAVY_final3_VOCAB2000_K20,20,237.31,3.96,LDA,Base,Heavy,Vocab2000,20,Run3
+LDA,HEAVY_final2_VOCAB2000_K30,30,242.12,4.04,LDA,Base,Heavy,Vocab2000,30,Run2
+LDA,HEAVY_final3_VOCAB2000_K30,30,241.75,4.03,LDA,Base,Heavy,Vocab2000,30,Run3
+LDA,HEAVY_final2_VOCAB2000_K40,40,448.69,7.48,LDA,Base,Heavy,Vocab2000,40,Run2
+LDA,HEAVY_final3_VOCAB2000_K40,40,450.3,7.5,LDA,Base,Heavy,Vocab2000,40,Run3
+LDA,HEAVY_final2_VOCAB2000_K50,50,301.35,5.02,LDA,Base,Heavy,Vocab2000,50,Run2
+LDA,HEAVY_final3_VOCAB2000_K50,50,304.49,5.07,LDA,Base,Heavy,Vocab2000,50,Run3
+LDA,HEAVY_final2_VOCAB2000_K60,60,302.53,5.04,LDA,Base,Heavy,Vocab2000,60,Run2
+LDA,HEAVY_final3_VOCAB2000_K60,60,295.57,4.93,LDA,Base,Heavy,Vocab2000,60,Run3
+CTM,LIGHT_EMBfinal2_K10,10,1587.38,26.46,CTM,Base,Light,,10,Run2
+CTM,HEAVY_EMBfinal2_K10,10,1605.4,26.76,CTM,Base,Heavy,,10,Run2
+CTM,LIGHT_EMBfinal3_K10,10,1499.8,25.0,CTM,Base,Light,,10,Run3
+CTM,HEAVY_EMBfinal3_K10,10,1429.53,23.83,CTM,Base,Heavy,,10,Run3
+CTM,LIGHT_EMBfinal2_K20,20,1431.1,23.85,CTM,Base,Light,,20,Run2
+CTM,HEAVY_EMBfinal2_K20,20,1426.04,23.77,CTM,Base,Heavy,,20,Run2
+CTM,LIGHT_EMBfinal3_K20,20,1505.69,25.09,CTM,Base,Light,,20,Run3
+CTM,HEAVY_EMBfinal3_K20,20,1547.94,25.8,CTM,Base,Heavy,,20,Run3
+CTM,LIGHT_EMBfinal2_K30,30,1582.98,26.38,CTM,Base,Light,,30,Run2
+CTM,HEAVY_EMBfinal2_K30,30,1448.56,24.14,CTM,Base,Heavy,,30,Run2
+CTM,LIGHT_EMBfinal3_K30,30,1437.83,23.96,CTM,Base,Light,,30,Run3
+CTM,HEAVY_EMBfinal3_K30,30,1437.1,23.95,CTM,Base,Heavy,,30,Run3
+CTM,LIGHT_EMBfinal2_K40,40,1431.72,23.86,CTM,Base,Light,,40,Run2
+CTM,HEAVY_EMBfinal2_K40,40,1433.91,23.9,CTM,Base,Heavy,,40,Run2
+CTM,LIGHT_EMBfinal3_K40,40,1444.47,24.07,CTM,Base,Light,,40,Run3
+CTM,HEAVY_EMBfinal3_K40,40,1510.82,25.18,CTM,Base,Heavy,,40,Run3
+CTM,LIGHT_EMBfinal2_K50,50,1565.35,26.09,CTM,Base,Light,,50,Run2
+CTM,HEAVY_EMBfinal2_K50,50,1476.89,24.61,CTM,Base,Heavy,,50,Run2
+CTM,LIGHT_EMBfinal3_K50,50,1503.69,25.06,CTM,Base,Light,,50,Run3
+CTM,HEAVY_EMBfinal3_K50,50,1500.36,25.01,CTM,Base,Heavy,,50,Run3
+CTM,LIGHT_EMBfinal2_K60,60,1457.67,24.29,CTM,Base,Light,,60,Run2
+CTM,HEAVY_EMBfinal2_K60,60,1492.03,24.87,CTM,Base,Heavy,,60,Run2
+CTM,LIGHT_EMBfinal3_K60,60,1455.55,24.26,CTM,Base,Light,,60,Run3
+CTM,HEAVY_EMBfinal3_K60,60,1446.11,24.1,CTM,Base,Heavy,,60,Run3
+BERTopic,LIGHT_EMBfinal_reassignment_fullK10,10,214.17,3.57,BERTopic,Reassignment fullK,Light,,10,Run1
+BERTopic,HEAVY_EMBfinal_reassignment_fullK10,10,153.89,2.56,BERTopic,Reassignment fullK,Heavy,,10,Run1
+BERTopic,LIGHT_EMBfinal_reassignment_fullK20,20,207.61,3.46,BERTopic,Reassignment fullK,Light,,20,Run1
+BERTopic,HEAVY_EMBfinal_reassignment_fullK20,20,157.5,2.62,BERTopic,Reassignment fullK,Heavy,,20,Run1
+BERTopic,LIGHT_EMBfinal_reassignment_fullK30,30,210.19,3.5,BERTopic,Reassignment fullK,Light,,30,Run1
+BERTopic,HEAVY_EMBfinal_reassignment_fullK30,30,157.98,2.63,BERTopic,Reassignment fullK,Heavy,,30,Run1
+BERTopic,LIGHT_EMBfinal_reassignment_fullK40,40,207.03,3.45,BERTopic,Reassignment fullK,Light,,40,Run1
+BERTopic,HEAVY_EMBfinal_reassignment_fullK40,40,160.72,2.68,BERTopic,Reassignment fullK,Heavy,,40,Run1
+BERTopic,LIGHT_EMBfinal_reassignment_fullK50,50,211.58,3.53,BERTopic,Reassignment fullK,Light,,50,Run1
+BERTopic,HEAVY_EMBfinal_reassignment_fullK50,50,169.14,2.82,BERTopic,Reassignment fullK,Heavy,,50,Run1
+BERTopic,LIGHT_EMBfinal_reassignment_fullK60,60,211.62,3.53,BERTopic,Reassignment fullK,Light,,60,Run1
+BERTopic,HEAVY_EMBfinal_reassignment_fullK60,60,172.3,2.87,BERTopic,Reassignment fullK,Heavy,,60,Run1
+BERTopic,LIGHT_EMBfinal2_noiseparams_fullK10,10,299.77,5.0,BERTopic,NoiseParams fullK,Light,,10,Run2
+BERTopic,HEAVY_EMBfinal2_noiseparams_fullK10,10,231.89,3.86,BERTopic,NoiseParams fullK,Heavy,,10,Run2
+BERTopic,LIGHT_EMBfinal2_noiseparams_fullK20,20,241.85,4.03,BERTopic,NoiseParams fullK,Light,,20,Run2
+BERTopic,HEAVY_EMBfinal2_noiseparams_fullK20,20,163.62,2.73,BERTopic,NoiseParams fullK,Heavy,,20,Run2
+BERTopic,LIGHT_EMBfinal2_noiseparams_fullK30,30,206.3,3.44,BERTopic,NoiseParams fullK,Light,,30,Run2
+BERTopic,HEAVY_EMBfinal2_noiseparams_fullK30,30,170.1,2.83,BERTopic,NoiseParams fullK,Heavy,,30,Run2
+BERTopic,LIGHT_EMBfinal2_noiseparams_fullK40,40,286.46,4.77,BERTopic,NoiseParams fullK,Light,,40,Run2
+BERTopic,HEAVY_EMBfinal2_noiseparams_fullK40,40,188.67,3.14,BERTopic,NoiseParams fullK,Heavy,,40,Run2
+BERTopic,LIGHT_EMBfinal2_noiseparams_fullK50,50,212.31,3.54,BERTopic,NoiseParams fullK,Light,,50,Run2
+BERTopic,HEAVY_EMBfinal2_noiseparams_fullK50,50,167.64,2.79,BERTopic,NoiseParams fullK,Heavy,,50,Run2
+BERTopic,LIGHT_EMBfinal2_noiseparams_fullK60,60,203.47,3.39,BERTopic,NoiseParams fullK,Light,,60,Run2
+BERTopic,HEAVY_EMBfinal2_noiseparams_fullK60,60,205.12,3.42,BERTopic,NoiseParams fullK,Heavy,,60,Run2
+BERTopic,LIGHT_EMBfinal2_fullK10,10,185.68,3.09,BERTopic,Base fullK,Light,,10,Run2
+BERTopic,HEAVY_EMBfinal2_fullK10,10,141.03,2.35,BERTopic,Base fullK,Heavy,,10,Run2
+BERTopic,LIGHT_EMBfinal2_fullK20,20,173.58,2.89,BERTopic,Base fullK,Light,,20,Run2
+BERTopic,HEAVY_EMBfinal2_fullK20,20,141.26,2.35,BERTopic,Base fullK,Heavy,,20,Run2
+BERTopic,LIGHT_EMBfinal2_fullK30,30,175.26,2.92,BERTopic,Base fullK,Light,,30,Run2
+BERTopic,HEAVY_EMBfinal2_fullK30,30,140.05,2.33,BERTopic,Base fullK,Heavy,,30,Run2
+BERTopic,LIGHT_EMBfinal2_fullK40,40,175.62,2.93,BERTopic,Base fullK,Light,,40,Run2
+BERTopic,HEAVY_EMBfinal2_fullK40,40,144.16,2.4,BERTopic,Base fullK,Heavy,,40,Run2
+BERTopic,LIGHT_EMBfinal2_fullK50,50,188.49,3.14,BERTopic,Base fullK,Light,,50,Run2
+BERTopic,HEAVY_EMBfinal2_fullK50,50,140.43,2.34,BERTopic,Base fullK,Heavy,,50,Run2
+BERTopic,LIGHT_EMBfinal2_fullK60,60,183.41,3.06,BERTopic,Base fullK,Light,,60,Run2
+BERTopic,HEAVY_EMBfinal2_fullK60,60,142.09,2.37,BERTopic,Base fullK,Heavy,,60,Run2
+CTM,LIGHT_EMBfinal_K10,10,1513.49,25.22,CTM,Base,Light,,10,Run1
+CTM,HEAVY_EMBfinal_K10,10,1505.03,25.08,CTM,Base,Heavy,,10,Run1
+CTM,LIGHT_EMBfinal_K20,20,1503.52,25.06,CTM,Base,Light,,20,Run1
+CTM,HEAVY_EMBfinal_K20,20,1518.04,25.3,CTM,Base,Heavy,,20,Run1
+CTM,LIGHT_EMBfinal_K30,30,1520.47,25.34,CTM,Base,Light,,30,Run1
+CTM,HEAVY_EMBfinal_K30,30,1524.57,25.41,CTM,Base,Heavy,,30,Run1
+CTM,LIGHT_EMBfinal_K40,40,1516.4,25.27,CTM,Base,Light,,40,Run1
+CTM,HEAVY_EMBfinal_K40,40,1520.43,25.34,CTM,Base,Heavy,,40,Run1
+CTM,LIGHT_EMBfinal_K50,50,1517.75,25.3,CTM,Base,Light,,50,Run1
+CTM,HEAVY_EMBfinal_K50,50,1530.86,25.51,CTM,Base,Heavy,,50,Run1
+CTM,LIGHT_EMBfinal_K60,60,1538.0,25.63,CTM,Base,Light,,60,Run1
+CTM,HEAVY_EMBfinal_K60,60,1530.65,25.51,CTM,Base,Heavy,,60,Run1
+ETM,HEAVY_final_VOCAB2000_K10,10,399.83,6.66,ETM,Base,Heavy,Vocab2000,10,Run1
+ETM,HEAVY_final_VOCAB2000_K20,20,405.84,6.76,ETM,Base,Heavy,Vocab2000,20,Run1
+ETM,HEAVY_final_VOCAB2000_K30,30,418.31,6.97,ETM,Base,Heavy,Vocab2000,30,Run1
+ETM,HEAVY_final_VOCAB2000_K40,40,431.13,7.19,ETM,Base,Heavy,Vocab2000,40,Run1
+ETM,HEAVY_final_VOCAB2000_K50,50,424.8,7.08,ETM,Base,Heavy,Vocab2000,50,Run1
+ETM,HEAVY_final_VOCAB2000_K60,60,420.46,7.01,ETM,Base,Heavy,Vocab2000,60,Run1
+ETM,HEAVY_final_VOCAB6000_K10,10,738.54,12.31,ETM,Base,Heavy,Vocab6000,10,Run1
+ETM,HEAVY_final_VOCAB6000_K20,20,560.34,9.34,ETM,Base,Heavy,Vocab6000,20,Run1
+ETM,HEAVY_final_VOCAB6000_K30,30,592.96,9.88,ETM,Base,Heavy,Vocab6000,30,Run1
+ETM,HEAVY_final_VOCAB6000_K40,40,581.3,9.69,ETM,Base,Heavy,Vocab6000,40,Run1
+ETM,HEAVY_final_VOCAB6000_K50,50,755.61,12.59,ETM,Base,Heavy,Vocab6000,50,Run1
+ETM,HEAVY_final_VOCAB6000_K60,60,750.3,12.51,ETM,Base,Heavy,Vocab6000,60,Run1
+LDA,HEAVY_final_VOCAB2000_K10,10,230.53,3.84,LDA,Base,Heavy,Vocab2000,10,Run1
+LDA,HEAVY_final_VOCAB2000_K20,20,229.85,3.83,LDA,Base,Heavy,Vocab2000,20,Run1
+LDA,HEAVY_final_VOCAB2000_K30,30,243.36,4.06,LDA,Base,Heavy,Vocab2000,30,Run1
+LDA,HEAVY_final_VOCAB2000_K40,40,444.95,7.42,LDA,Base,Heavy,Vocab2000,40,Run1
+LDA,HEAVY_final_VOCAB2000_K50,50,292.8,4.88,LDA,Base,Heavy,Vocab2000,50,Run1
+LDA,HEAVY_final_VOCAB2000_K60,60,293.56,4.89,LDA,Base,Heavy,Vocab2000,60,Run1

@@ -1,0 +1,1470 @@
+=== 1. Checking topic files ===
+Expected topic files: 198
+Found topic files:    198
+Missing topic files:  0
+
+=== 2. Reconstructing the Reference Corpus ===
+Constructed reference corpus with 150000 documents.
+
+=== 3. Initializing OCTIS Metrics ===
+
+=== 4. Running Evaluations ===
+
+Evaluating BERTopic Base fullK =========
+
+--- Evaluating BERTopic | Base fullK | Light | K10 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_fullK10.json
+  -> Topic Coherence (NPMI): 0.0830
+  -> Topic Diversity:        0.9600
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K10 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_fullK10.json
+  -> Topic Coherence (NPMI): 0.0985
+  -> Topic Diversity:        0.9500
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K20 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_fullK20.json
+  -> Topic Coherence (NPMI): 0.1473
+  -> Topic Diversity:        0.9368
+  -> Successfully evaluated 19 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K20 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_fullK20.json
+  -> Topic Coherence (NPMI): 0.1169
+  -> Topic Diversity:        0.9150
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K30 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_fullK30.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1182
+  -> Topic Diversity:        0.8690
+  -> Successfully evaluated 29 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K30 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_fullK30.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1737
+  -> Topic Diversity:        0.8889
+  -> Successfully evaluated 27 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K40 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_fullK40.json
+  -> Topic Coherence (NPMI): 0.1269
+  -> Topic Diversity:        0.8475
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K40 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_fullK40.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1779
+  -> Topic Diversity:        0.8263
+  -> Successfully evaluated 38 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K50 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_fullK50.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1315
+  -> Topic Diversity:        0.8408
+  -> Successfully evaluated 49 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K50 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_fullK50.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.2011
+  -> Topic Diversity:        0.8938
+  -> Successfully evaluated 32 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K60 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_fullK60.json
+  -> Topic Coherence (NPMI): 0.1384
+  -> Topic Diversity:        0.8136
+  -> Successfully evaluated 59 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K60 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_fullK60.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1443
+  -> Topic Diversity:        0.8345
+  -> Successfully evaluated 58 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K10 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_fullK10.json
+  -> Topic Coherence (NPMI): 0.1088
+  -> Topic Diversity:        0.9800
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K10 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_fullK10.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1590
+  -> Topic Diversity:        0.9444
+  -> Successfully evaluated 9 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K20 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_fullK20.json
+  -> Topic Coherence (NPMI): 0.1248
+  -> Topic Diversity:        0.9316
+  -> Successfully evaluated 19 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K20 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_fullK20.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1622
+  -> Topic Diversity:        0.9474
+  -> Successfully evaluated 19 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K30 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_fullK30.json
+  -> Topic Coherence (NPMI): 0.1492
+  -> Topic Diversity:        0.8448
+  -> Successfully evaluated 29 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K30 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_fullK30.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1550
+  -> Topic Diversity:        0.8724
+  -> Successfully evaluated 29 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K40 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_fullK40.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1368
+  -> Topic Diversity:        0.8447
+  -> Successfully evaluated 38 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K40 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_fullK40.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1879
+  -> Topic Diversity:        0.8622
+  -> Successfully evaluated 37 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K50 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_fullK50.json
+  -> Topic Coherence (NPMI): 0.1369
+  -> Topic Diversity:        0.8224
+  -> Successfully evaluated 49 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K50 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_fullK50.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1144
+  -> Topic Diversity:        0.8729
+  -> Successfully evaluated 48 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K60 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_fullK60.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1399
+  -> Topic Diversity:        0.8052
+  -> Successfully evaluated 58 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K60 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_fullK60.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1689
+  -> Topic Diversity:        0.8414
+  -> Successfully evaluated 58 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K10 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_fullK10.json
+  -> Topic Coherence (NPMI): 0.1676
+  -> Topic Diversity:        0.9778
+  -> Successfully evaluated 9 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K10 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_fullK10.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1838
+  -> Topic Diversity:        0.9778
+  -> Successfully evaluated 9 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K20 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_fullK20.json
+  -> Topic Coherence (NPMI): 0.1261
+  -> Topic Diversity:        0.9250
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K20 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_fullK20.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1600
+  -> Topic Diversity:        0.9211
+  -> Successfully evaluated 19 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K30 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_fullK30.json
+  -> Topic Coherence (NPMI): 0.1288
+  -> Topic Diversity:        0.8533
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K30 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_fullK30.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1925
+  -> Topic Diversity:        0.8929
+  -> Successfully evaluated 28 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K40 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_fullK40.json
+  -> Topic Coherence (NPMI): 0.1316
+  -> Topic Diversity:        0.8641
+  -> Successfully evaluated 39 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K40 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_fullK40.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1322
+  -> Topic Diversity:        0.8811
+  -> Successfully evaluated 37 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K50 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_fullK50.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1369
+  -> Topic Diversity:        0.8277
+  -> Successfully evaluated 47 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K50 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_fullK50.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1726
+  -> Topic Diversity:        0.8354
+  -> Successfully evaluated 48 valid topics
+
+--- Evaluating BERTopic | Base fullK | Light | K60 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_fullK60.json
+  -> Topic Coherence (NPMI): 0.1383
+  -> Topic Diversity:        0.7983
+  -> Successfully evaluated 59 valid topics
+
+--- Evaluating BERTopic | Base fullK | Heavy | K60 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_fullK60.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1780
+  -> Topic Diversity:        0.8293
+  -> Successfully evaluated 58 valid topics
+
+Evaluating BERTopic NoiseParams fullK =========
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K10 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK10.json
+  -> Topic Coherence (NPMI): 0.1154
+  -> Topic Diversity:        0.9556
+  -> Successfully evaluated 9 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K10 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK10.json
+  -> Topic Coherence (NPMI): 0.1181
+  -> Topic Diversity:        0.9200
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K20 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK20.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1593
+  -> Topic Diversity:        0.9500
+  -> Successfully evaluated 18 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K20 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK20.json
+  -> Topic Coherence (NPMI): 0.1105
+  -> Topic Diversity:        0.8700
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K30 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK30.json
+  -> Topic Coherence (NPMI): 0.1249
+  -> Topic Diversity:        0.8931
+  -> Successfully evaluated 29 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K30 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK30.json
+  -> Topic Coherence (NPMI): 0.0961
+  -> Topic Diversity:        0.9103
+  -> Successfully evaluated 29 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K40 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK40.json
+  -> Topic Coherence (NPMI): 0.1355
+  -> Topic Diversity:        0.8500
+  -> Successfully evaluated 38 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K40 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK40.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1057
+  -> Topic Diversity:        0.8579
+  -> Successfully evaluated 38 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K50 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK50.json
+  -> Topic Coherence (NPMI): 0.1251
+  -> Topic Diversity:        0.8396
+  -> Successfully evaluated 48 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K50 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK50.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.0623
+  -> Topic Diversity:        0.8283
+  -> Successfully evaluated 46 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K60 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK60.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1144
+  -> Topic Diversity:        0.8426
+  -> Successfully evaluated 54 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K60 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK60.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.0839
+  -> Topic Diversity:        0.8574
+  -> Successfully evaluated 54 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K10 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK10.json
+  -> Topic Coherence (NPMI): 0.0686
+  -> Topic Diversity:        0.9300
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K10 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK10.json
+  -> Topic Coherence (NPMI): 0.0897
+  -> Topic Diversity:        0.9000
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K20 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK20.json
+  -> Topic Coherence (NPMI): 0.1405
+  -> Topic Diversity:        0.8900
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K20 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK20.json
+  -> Topic Coherence (NPMI): 0.1091
+  -> Topic Diversity:        0.8895
+  -> Successfully evaluated 19 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K30 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK30.json
+  -> Topic Coherence (NPMI): 0.1392
+  -> Topic Diversity:        0.8692
+  -> Successfully evaluated 26 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K30 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK30.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1154
+  -> Topic Diversity:        0.8828
+  -> Successfully evaluated 29 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K40 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK40.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1292
+  -> Topic Diversity:        0.8649
+  -> Successfully evaluated 37 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K40 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK40.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1132
+  -> Topic Diversity:        0.8895
+  -> Successfully evaluated 38 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K50 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK50.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1497
+  -> Topic Diversity:        0.8511
+  -> Successfully evaluated 47 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K50 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK50.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.0686
+  -> Topic Diversity:        0.8660
+  -> Successfully evaluated 47 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K60 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK60.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1380
+  -> Topic Diversity:        0.7879
+  -> Successfully evaluated 58 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K60 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK60.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1027
+  -> Topic Diversity:        0.8554
+  -> Successfully evaluated 56 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K10 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK10.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1523
+  -> Topic Diversity:        0.9556
+  -> Successfully evaluated 9 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K10 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK10.json
+  -> Topic Coherence (NPMI): 0.1682
+  -> Topic Diversity:        0.9333
+  -> Successfully evaluated 9 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K20 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK20.json
+  -> Topic Coherence (NPMI): 0.0986
+  -> Topic Diversity:        0.8850
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K20 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK20.json
+  -> Topic Coherence (NPMI): 0.1151
+  -> Topic Diversity:        0.8889
+  -> Successfully evaluated 18 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K30 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK30.json
+  -> Topic Coherence (NPMI): 0.1115
+  -> Topic Diversity:        0.8556
+  -> Successfully evaluated 27 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K30 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK30.json
+  -> Topic Coherence (NPMI): 0.1237
+  -> Topic Diversity:        0.8500
+  -> Successfully evaluated 28 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K40 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK40.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1068
+  -> Topic Diversity:        0.8553
+  -> Successfully evaluated 38 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K40 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK40.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1153
+  -> Topic Diversity:        0.8838
+  -> Successfully evaluated 37 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K50 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK50.json
+  -> Topic Coherence (NPMI): 0.1366
+  -> Topic Diversity:        0.8348
+  -> Successfully evaluated 46 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K50 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK50.json
+  -> Topic Coherence (NPMI): 0.1099
+  -> Topic Diversity:        0.8787
+  -> Successfully evaluated 47 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Light | K60 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK60.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1290
+  -> Topic Diversity:        0.7789
+  -> Successfully evaluated 57 valid topics
+
+--- Evaluating BERTopic | NoiseParams fullK | Heavy | K60 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK60.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.0967
+  -> Topic Diversity:        0.8491
+  -> Successfully evaluated 57 valid topics
+
+Evaluating BERTopic Reassignment fullK =========
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K10 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_reassignment_fullK10.json
+  -> Topic Coherence (NPMI): 0.1231
+  -> Topic Diversity:        0.9500
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K10 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_reassignment_fullK10.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1597
+  -> Topic Diversity:        0.9667
+  -> Successfully evaluated 9 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K20 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_reassignment_fullK20.json
+  -> Topic Coherence (NPMI): 0.1522
+  -> Topic Diversity:        0.8789
+  -> Successfully evaluated 19 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K20 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_reassignment_fullK20.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1890
+  -> Topic Diversity:        0.9158
+  -> Successfully evaluated 19 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K30 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_reassignment_fullK30.json
+  -> Topic Coherence (NPMI): 0.1532
+  -> Topic Diversity:        0.8310
+  -> Successfully evaluated 29 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K30 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_reassignment_fullK30.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1590
+  -> Topic Diversity:        0.8655
+  -> Successfully evaluated 29 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K40 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_reassignment_fullK40.json
+  -> Topic Coherence (NPMI): 0.1436
+  -> Topic Diversity:        0.8026
+  -> Successfully evaluated 39 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K40 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_reassignment_fullK40.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1273
+  -> Topic Diversity:        0.8282
+  -> Successfully evaluated 39 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K50 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_reassignment_fullK50.json
+  -> Topic Coherence (NPMI): 0.1502
+  -> Topic Diversity:        0.8060
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K50 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_reassignment_fullK50.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1150
+  -> Topic Diversity:        0.7816
+  -> Successfully evaluated 49 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K60 | Run1 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal_reassignment_fullK60.json
+  -> Topic Coherence (NPMI): 0.1400
+  -> Topic Diversity:        0.7259
+  -> Successfully evaluated 58 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K60 | Run1 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal_reassignment_fullK60.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1814
+  -> Topic Diversity:        0.7586
+  -> Successfully evaluated 58 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K10 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK10.json
+  -> Topic Coherence (NPMI): 0.0997
+  -> Topic Diversity:        0.9200
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K10 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK10.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1526
+  -> Topic Diversity:        0.9556
+  -> Successfully evaluated 9 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K20 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK20.json
+  -> Topic Coherence (NPMI): 0.1463
+  -> Topic Diversity:        0.8600
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K20 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK20.json
+  -> Topic Coherence (NPMI): 0.1244
+  -> Topic Diversity:        0.9050
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K30 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK30.json
+  -> Topic Coherence (NPMI): 0.1484
+  -> Topic Diversity:        0.8633
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K30 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK30.json
+  -> Topic Coherence (NPMI): 0.1044
+  -> Topic Diversity:        0.8367
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K40 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK40.json
+  -> Topic Coherence (NPMI): 0.1420
+  -> Topic Diversity:        0.8075
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K40 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK40.json
+  -> Topic Coherence (NPMI): 0.1341
+  -> Topic Diversity:        0.8300
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K50 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK50.json
+  -> Topic Coherence (NPMI): 0.1515
+  -> Topic Diversity:        0.7816
+  -> Successfully evaluated 49 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K50 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK50.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1127
+  -> Topic Diversity:        0.8187
+  -> Successfully evaluated 48 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K60 | Run2 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK60.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1357
+  -> Topic Diversity:        0.7712
+  -> Successfully evaluated 59 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K60 | Run2 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK60.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1429
+  -> Topic Diversity:        0.7638
+  -> Successfully evaluated 58 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K10 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK10.json
+  -> Topic Coherence (NPMI): 0.1342
+  -> Topic Diversity:        0.9400
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K10 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK10.json
+  -> Topic Coherence (NPMI): 0.1254
+  -> Topic Diversity:        0.9300
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K20 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK20.json
+  -> Topic Coherence (NPMI): 0.1706
+  -> Topic Diversity:        0.9100
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K20 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK20.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1617
+  -> Topic Diversity:        0.9053
+  -> Successfully evaluated 19 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K30 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK30.json
+  -> Topic Coherence (NPMI): 0.1410
+  -> Topic Diversity:        0.8267
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K30 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK30.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1741
+  -> Topic Diversity:        0.8429
+  -> Successfully evaluated 28 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K40 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK40.json
+  -> Topic Coherence (NPMI): 0.1537
+  -> Topic Diversity:        0.7974
+  -> Successfully evaluated 39 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K40 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK40.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1746
+  -> Topic Diversity:        0.8237
+  -> Successfully evaluated 38 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K50 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK50.json
+  -> Topic Coherence (NPMI): 0.1406
+  -> Topic Diversity:        0.7612
+  -> Successfully evaluated 49 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K50 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK50.json
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1100
+  -> Topic Diversity:        0.8625
+  -> Successfully evaluated 48 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Light | K60 | Run3 ---
+  -> File: bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK60.json
+  -> Topic Coherence (NPMI): 0.1468
+  -> Topic Diversity:        0.7542
+  -> Successfully evaluated 59 valid topics
+
+--- Evaluating BERTopic | Reassignment fullK | Heavy | K60 | Run3 ---
+  -> File: bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK60.json
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1787
+  -> Topic Diversity:        0.7448
+  -> Successfully evaluated 58 valid topics
+
+Evaluating CTM Base =========
+
+--- Evaluating CTM | Base | Light | K10 | Run1 ---
+  -> File: ctm_topics_LIGHT_EMBfinal_K10.json
+  -> Topic Coherence (NPMI): 0.0991
+  -> Topic Diversity:        0.9900
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating CTM | Base | Heavy | K10 | Run1 ---
+  -> File: ctm_topics_HEAVY_EMBfinal_K10.json
+  -> Topic Coherence (NPMI): 0.1135
+  -> Topic Diversity:        0.9900
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating CTM | Base | Light | K20 | Run1 ---
+  -> File: ctm_topics_LIGHT_EMBfinal_K20.json
+  -> Topic Coherence (NPMI): 0.1476
+  -> Topic Diversity:        0.9600
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating CTM | Base | Heavy | K20 | Run1 ---
+  -> File: ctm_topics_HEAVY_EMBfinal_K20.json
+  -> Topic Coherence (NPMI): 0.1457
+  -> Topic Diversity:        0.9700
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating CTM | Base | Light | K30 | Run1 ---
+  -> File: ctm_topics_LIGHT_EMBfinal_K30.json
+  -> Topic Coherence (NPMI): 0.1312
+  -> Topic Diversity:        0.9200
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating CTM | Base | Heavy | K30 | Run1 ---
+  -> File: ctm_topics_HEAVY_EMBfinal_K30.json
+  -> Topic Coherence (NPMI): 0.1309
+  -> Topic Diversity:        0.9300
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating CTM | Base | Light | K40 | Run1 ---
+  -> File: ctm_topics_LIGHT_EMBfinal_K40.json
+  -> Topic Coherence (NPMI): 0.1167
+  -> Topic Diversity:        0.8975
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating CTM | Base | Heavy | K40 | Run1 ---
+  -> File: ctm_topics_HEAVY_EMBfinal_K40.json
+  -> Topic Coherence (NPMI): 0.1305
+  -> Topic Diversity:        0.9225
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating CTM | Base | Light | K50 | Run1 ---
+  -> File: ctm_topics_LIGHT_EMBfinal_K50.json
+  -> Topic Coherence (NPMI): 0.1059
+  -> Topic Diversity:        0.8640
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating CTM | Base | Heavy | K50 | Run1 ---
+  -> File: ctm_topics_HEAVY_EMBfinal_K50.json
+  -> Topic Coherence (NPMI): 0.1206
+  -> Topic Diversity:        0.8880
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating CTM | Base | Light | K60 | Run1 ---
+  -> File: ctm_topics_LIGHT_EMBfinal_K60.json
+  -> Topic Coherence (NPMI): 0.1082
+  -> Topic Diversity:        0.8500
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating CTM | Base | Heavy | K60 | Run1 ---
+  -> File: ctm_topics_HEAVY_EMBfinal_K60.json
+  -> Topic Coherence (NPMI): 0.1136
+  -> Topic Diversity:        0.8650
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating CTM | Base | Light | K10 | Run2 ---
+  -> File: ctm_topics_LIGHT_EMBfinal2_K10.json
+  -> Topic Coherence (NPMI): 0.1155
+  -> Topic Diversity:        0.9900
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating CTM | Base | Heavy | K10 | Run2 ---
+  -> File: ctm_topics_HEAVY_EMBfinal2_K10.json
+  -> Topic Coherence (NPMI): 0.1221
+  -> Topic Diversity:        0.9900
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating CTM | Base | Light | K20 | Run2 ---
+  -> File: ctm_topics_LIGHT_EMBfinal2_K20.json
+  -> Topic Coherence (NPMI): 0.1325
+  -> Topic Diversity:        0.9650
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating CTM | Base | Heavy | K20 | Run2 ---
+  -> File: ctm_topics_HEAVY_EMBfinal2_K20.json
+  -> Topic Coherence (NPMI): 0.1327
+  -> Topic Diversity:        0.9650
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating CTM | Base | Light | K30 | Run2 ---
+  -> File: ctm_topics_LIGHT_EMBfinal2_K30.json
+  -> Topic Coherence (NPMI): 0.1300
+  -> Topic Diversity:        0.9400
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating CTM | Base | Heavy | K30 | Run2 ---
+  -> File: ctm_topics_HEAVY_EMBfinal2_K30.json
+  -> Topic Coherence (NPMI): 0.1295
+  -> Topic Diversity:        0.9300
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating CTM | Base | Light | K40 | Run2 ---
+  -> File: ctm_topics_LIGHT_EMBfinal2_K40.json
+  -> Topic Coherence (NPMI): 0.1338
+  -> Topic Diversity:        0.8925
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating CTM | Base | Heavy | K40 | Run2 ---
+  -> File: ctm_topics_HEAVY_EMBfinal2_K40.json
+  -> Topic Coherence (NPMI): 0.1211
+  -> Topic Diversity:        0.8950
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating CTM | Base | Light | K50 | Run2 ---
+  -> File: ctm_topics_LIGHT_EMBfinal2_K50.json
+  -> Topic Coherence (NPMI): 0.1183
+  -> Topic Diversity:        0.9040
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating CTM | Base | Heavy | K50 | Run2 ---
+  -> File: ctm_topics_HEAVY_EMBfinal2_K50.json
+  -> Topic Coherence (NPMI): 0.1173
+  -> Topic Diversity:        0.8980
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating CTM | Base | Light | K60 | Run2 ---
+  -> File: ctm_topics_LIGHT_EMBfinal2_K60.json
+  -> Topic Coherence (NPMI): 0.1121
+  -> Topic Diversity:        0.8667
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating CTM | Base | Heavy | K60 | Run2 ---
+  -> File: ctm_topics_HEAVY_EMBfinal2_K60.json
+  -> Topic Coherence (NPMI): 0.1197
+  -> Topic Diversity:        0.8567
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating CTM | Base | Light | K10 | Run3 ---
+  -> File: ctm_topics_LIGHT_EMBfinal3_K10.json
+  -> Topic Coherence (NPMI): 0.1129
+  -> Topic Diversity:        1.0000
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating CTM | Base | Heavy | K10 | Run3 ---
+  -> File: ctm_topics_HEAVY_EMBfinal3_K10.json
+  -> Topic Coherence (NPMI): 0.0966
+  -> Topic Diversity:        0.9900
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating CTM | Base | Light | K20 | Run3 ---
+  -> File: ctm_topics_LIGHT_EMBfinal3_K20.json
+  -> Topic Coherence (NPMI): 0.1374
+  -> Topic Diversity:        0.9550
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating CTM | Base | Heavy | K20 | Run3 ---
+  -> File: ctm_topics_HEAVY_EMBfinal3_K20.json
+  -> Topic Coherence (NPMI): 0.1365
+  -> Topic Diversity:        0.9750
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating CTM | Base | Light | K30 | Run3 ---
+  -> File: ctm_topics_LIGHT_EMBfinal3_K30.json
+  -> Topic Coherence (NPMI): 0.1401
+  -> Topic Diversity:        0.9367
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating CTM | Base | Heavy | K30 | Run3 ---
+  -> File: ctm_topics_HEAVY_EMBfinal3_K30.json
+  -> Topic Coherence (NPMI): 0.1266
+  -> Topic Diversity:        0.9333
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating CTM | Base | Light | K40 | Run3 ---
+  -> File: ctm_topics_LIGHT_EMBfinal3_K40.json
+  -> Topic Coherence (NPMI): 0.1272
+  -> Topic Diversity:        0.9150
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating CTM | Base | Heavy | K40 | Run3 ---
+  -> File: ctm_topics_HEAVY_EMBfinal3_K40.json
+  -> Topic Coherence (NPMI): 0.1298
+  -> Topic Diversity:        0.9150
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating CTM | Base | Light | K50 | Run3 ---
+  -> File: ctm_topics_LIGHT_EMBfinal3_K50.json
+  -> Topic Coherence (NPMI): 0.1171
+  -> Topic Diversity:        0.9080
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating CTM | Base | Heavy | K50 | Run3 ---
+  -> File: ctm_topics_HEAVY_EMBfinal3_K50.json
+  -> Topic Coherence (NPMI): 0.1170
+  -> Topic Diversity:        0.8860
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating CTM | Base | Light | K60 | Run3 ---
+  -> File: ctm_topics_LIGHT_EMBfinal3_K60.json
+  -> Topic Coherence (NPMI): 0.1182
+  -> Topic Diversity:        0.8767
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating CTM | Base | Heavy | K60 | Run3 ---
+  -> File: ctm_topics_HEAVY_EMBfinal3_K60.json
+  -> Topic Coherence (NPMI): 0.1102
+  -> Topic Diversity:        0.8650
+  -> Successfully evaluated 60 valid topics
+
+Evaluating ETM Base =========
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K10 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB2000_K10.json
+  -> Topic Coherence (NPMI): 0.0826
+  -> Topic Diversity:        0.8900
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K10 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB6000_K10.json
+  -> Topic Coherence (NPMI): 0.0619
+  -> Topic Diversity:        0.8500
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K20 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB2000_K20.json
+  -> Topic Coherence (NPMI): 0.0781
+  -> Topic Diversity:        0.6450
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K20 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB6000_K20.json
+  -> Topic Coherence (NPMI): 0.0765
+  -> Topic Diversity:        0.7550
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K30 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB2000_K30.json
+  -> Topic Coherence (NPMI): 0.0679
+  -> Topic Diversity:        0.5200
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K30 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB6000_K30.json
+  -> Topic Coherence (NPMI): 0.0569
+  -> Topic Diversity:        0.5400
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K40 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB2000_K40.json
+  -> Topic Coherence (NPMI): 0.0663
+  -> Topic Diversity:        0.4000
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K40 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB6000_K40.json
+  -> Topic Coherence (NPMI): 0.0607
+  -> Topic Diversity:        0.4850
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K50 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB2000_K50.json
+  -> Topic Coherence (NPMI): 0.0672
+  -> Topic Diversity:        0.3980
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K50 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB6000_K50.json
+  -> Topic Coherence (NPMI): 0.0579
+  -> Topic Diversity:        0.4220
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K60 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB2000_K60.json
+  -> Topic Coherence (NPMI): 0.0596
+  -> Topic Diversity:        0.3000
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K60 | Run1 ---
+  -> File: etm_topics_HEAVY_final_VOCAB6000_K60.json
+  -> Topic Coherence (NPMI): 0.0500
+  -> Topic Diversity:        0.3367
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K10 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB2000_K10.json
+  -> Topic Coherence (NPMI): 0.0859
+  -> Topic Diversity:        0.8900
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K10 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB6000_K10.json
+  -> Topic Coherence (NPMI): 0.0647
+  -> Topic Diversity:        0.8600
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K20 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB2000_K20.json
+  -> Topic Coherence (NPMI): 0.0922
+  -> Topic Diversity:        0.7250
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K20 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB6000_K20.json
+  -> Topic Coherence (NPMI): 0.0694
+  -> Topic Diversity:        0.7250
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K30 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB2000_K30.json
+  -> Topic Coherence (NPMI): 0.0725
+  -> Topic Diversity:        0.5333
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K30 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB6000_K30.json
+  -> Topic Coherence (NPMI): 0.0637
+  -> Topic Diversity:        0.5800
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K40 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB2000_K40.json
+  -> Topic Coherence (NPMI): 0.0808
+  -> Topic Diversity:        0.4825
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K40 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB6000_K40.json
+  -> Topic Coherence (NPMI): 0.0549
+  -> Topic Diversity:        0.4425
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K50 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB2000_K50.json
+  -> Topic Coherence (NPMI): 0.0682
+  -> Topic Diversity:        0.3540
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K50 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB6000_K50.json
+  -> Topic Coherence (NPMI): 0.0599
+  -> Topic Diversity:        0.4280
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K60 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB2000_K60.json
+  -> Topic Coherence (NPMI): 0.0650
+  -> Topic Diversity:        0.3183
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K60 | Run2 ---
+  -> File: etm_topics_HEAVY_final2_VOCAB6000_K60.json
+  -> Topic Coherence (NPMI): 0.0564
+  -> Topic Diversity:        0.3667
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K10 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB2000_K10.json
+  -> Topic Coherence (NPMI): 0.0726
+  -> Topic Diversity:        0.9200
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K10 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB6000_K10.json
+  -> Topic Coherence (NPMI): 0.0629
+  -> Topic Diversity:        0.8500
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K20 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB2000_K20.json
+  -> Topic Coherence (NPMI): 0.0784
+  -> Topic Diversity:        0.6850
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K20 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB6000_K20.json
+  -> Topic Coherence (NPMI): 0.0715
+  -> Topic Diversity:        0.6850
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K30 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB2000_K30.json
+  -> Topic Coherence (NPMI): 0.0727
+  -> Topic Diversity:        0.5467
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K30 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB6000_K30.json
+  -> Topic Coherence (NPMI): 0.0533
+  -> Topic Diversity:        0.5167
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K40 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB2000_K40.json
+  -> Topic Coherence (NPMI): 0.0603
+  -> Topic Diversity:        0.4400
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K40 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB6000_K40.json
+  -> Topic Coherence (NPMI): 0.0470
+  -> Topic Diversity:        0.4275
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K50 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB2000_K50.json
+  -> Topic Coherence (NPMI): 0.0647
+  -> Topic Diversity:        0.3500
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K50 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB6000_K50.json
+  -> Topic Coherence (NPMI): 0.0649
+  -> Topic Diversity:        0.4300
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab2000 | K60 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB2000_K60.json
+  -> Topic Coherence (NPMI): 0.0668
+  -> Topic Diversity:        0.3183
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating ETM | Base | Heavy | Vocab6000 | K60 | Run3 ---
+  -> File: etm_topics_HEAVY_final3_VOCAB6000_K60.json
+  -> Topic Coherence (NPMI): 0.0563
+  -> Topic Diversity:        0.3733
+  -> Successfully evaluated 60 valid topics
+
+Evaluating LDA Base =========
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K10 | Run1 ---
+  -> File: lda_topics_HEAVY_final_VOCAB2000_K10.json
+  -> Topic Coherence (NPMI): 0.0829
+  -> Topic Diversity:        0.8800
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K20 | Run1 ---
+  -> File: lda_topics_HEAVY_final_VOCAB2000_K20.json
+  -> Topic Coherence (NPMI): 0.1075
+  -> Topic Diversity:        0.9000
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K30 | Run1 ---
+  -> File: lda_topics_HEAVY_final_VOCAB2000_K30.json
+  -> Topic Coherence (NPMI): 0.1351
+  -> Topic Diversity:        0.8867
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K40 | Run1 ---
+  -> File: lda_topics_HEAVY_final_VOCAB2000_K40.json
+  -> Topic Coherence (NPMI): 0.1173
+  -> Topic Diversity:        0.8750
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K50 | Run1 ---
+  -> File: lda_topics_HEAVY_final_VOCAB2000_K50.json
+  -> Topic Coherence (NPMI): 0.1273
+  -> Topic Diversity:        0.8960
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K60 | Run1 ---
+  -> File: lda_topics_HEAVY_final_VOCAB2000_K60.json
+  -> Topic Coherence (NPMI): 0.1108
+  -> Topic Diversity:        0.9133
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K10 | Run2 ---
+  -> File: lda_topics_HEAVY_final2_VOCAB2000_K10.json
+  -> Topic Coherence (NPMI): 0.0829
+  -> Topic Diversity:        0.8800
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K20 | Run2 ---
+  -> File: lda_topics_HEAVY_final2_VOCAB2000_K20.json
+  -> Topic Coherence (NPMI): 0.1075
+  -> Topic Diversity:        0.9000
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K30 | Run2 ---
+  -> File: lda_topics_HEAVY_final2_VOCAB2000_K30.json
+  -> Topic Coherence (NPMI): 0.1351
+  -> Topic Diversity:        0.8867
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K40 | Run2 ---
+  -> File: lda_topics_HEAVY_final2_VOCAB2000_K40.json
+  -> Topic Coherence (NPMI): 0.1173
+  -> Topic Diversity:        0.8750
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K50 | Run2 ---
+  -> File: lda_topics_HEAVY_final2_VOCAB2000_K50.json
+  -> Topic Coherence (NPMI): 0.1273
+  -> Topic Diversity:        0.8960
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K60 | Run2 ---
+  -> File: lda_topics_HEAVY_final2_VOCAB2000_K60.json
+  -> Topic Coherence (NPMI): 0.1108
+  -> Topic Diversity:        0.9133
+  -> Successfully evaluated 60 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K10 | Run3 ---
+  -> File: lda_topics_HEAVY_final3_VOCAB2000_K10.json
+  -> Topic Coherence (NPMI): 0.0829
+  -> Topic Diversity:        0.8800
+  -> Successfully evaluated 10 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K20 | Run3 ---
+  -> File: lda_topics_HEAVY_final3_VOCAB2000_K20.json
+  -> Topic Coherence (NPMI): 0.1075
+  -> Topic Diversity:        0.9000
+  -> Successfully evaluated 20 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K30 | Run3 ---
+  -> File: lda_topics_HEAVY_final3_VOCAB2000_K30.json
+  -> Topic Coherence (NPMI): 0.1351
+  -> Topic Diversity:        0.8867
+  -> Successfully evaluated 30 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K40 | Run3 ---
+  -> File: lda_topics_HEAVY_final3_VOCAB2000_K40.json
+  -> Topic Coherence (NPMI): 0.1173
+  -> Topic Diversity:        0.8750
+  -> Successfully evaluated 40 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K50 | Run3 ---
+  -> File: lda_topics_HEAVY_final3_VOCAB2000_K50.json
+  -> Topic Coherence (NPMI): 0.1273
+  -> Topic Diversity:        0.8960
+  -> Successfully evaluated 50 valid topics
+
+--- Evaluating LDA | Base | Heavy | Vocab2000 | K60 | Run3 ---
+  -> File: lda_topics_HEAVY_final3_VOCAB2000_K60.json
+  -> Topic Coherence (NPMI): 0.1108
+  -> Topic Diversity:        0.9133
+  -> Successfully evaluated 60 valid topics
+
+=== Final Summary Table ===
+   Model            Variant Embedding     Vocab  K Repeat                                         Experiment                                               Source_File                  Timing_Run_Name     NPMI  Diversity  Valid_Topics  Dropped_Topics
+BERTopic         Base fullK     Light           10   Run1         BERTopic | Base fullK | Light | K10 | Run1               bertopic_topics_LIGHT_EMBfinal_fullK10.json               LIGHT_EMBfinal_K10 0.083050   0.960000            10               0
+BERTopic         Base fullK     Heavy           10   Run1         BERTopic | Base fullK | Heavy | K10 | Run1               bertopic_topics_HEAVY_EMBfinal_fullK10.json               HEAVY_EMBfinal_K10 0.098509   0.950000            10               0
+BERTopic         Base fullK     Light           20   Run1         BERTopic | Base fullK | Light | K20 | Run1               bertopic_topics_LIGHT_EMBfinal_fullK20.json               LIGHT_EMBfinal_K20 0.147280   0.936842            19               0
+BERTopic         Base fullK     Heavy           20   Run1         BERTopic | Base fullK | Heavy | K20 | Run1               bertopic_topics_HEAVY_EMBfinal_fullK20.json               HEAVY_EMBfinal_K20 0.116861   0.915000            20               0
+BERTopic         Base fullK     Light           30   Run1         BERTopic | Base fullK | Light | K30 | Run1               bertopic_topics_LIGHT_EMBfinal_fullK30.json               LIGHT_EMBfinal_K30 0.118245   0.868966            29               1
+BERTopic         Base fullK     Heavy           30   Run1         BERTopic | Base fullK | Heavy | K30 | Run1               bertopic_topics_HEAVY_EMBfinal_fullK30.json               HEAVY_EMBfinal_K30 0.173731   0.888889            27               2
+BERTopic         Base fullK     Light           40   Run1         BERTopic | Base fullK | Light | K40 | Run1               bertopic_topics_LIGHT_EMBfinal_fullK40.json               LIGHT_EMBfinal_K40 0.126893   0.847500            40               0
+BERTopic         Base fullK     Heavy           40   Run1         BERTopic | Base fullK | Heavy | K40 | Run1               bertopic_topics_HEAVY_EMBfinal_fullK40.json               HEAVY_EMBfinal_K40 0.177949   0.826316            38               1
+BERTopic         Base fullK     Light           50   Run1         BERTopic | Base fullK | Light | K50 | Run1               bertopic_topics_LIGHT_EMBfinal_fullK50.json               LIGHT_EMBfinal_K50 0.131462   0.840816            49               1
+BERTopic         Base fullK     Heavy           50   Run1         BERTopic | Base fullK | Heavy | K50 | Run1               bertopic_topics_HEAVY_EMBfinal_fullK50.json               HEAVY_EMBfinal_K50 0.201075   0.893750            32               1
+BERTopic         Base fullK     Light           60   Run1         BERTopic | Base fullK | Light | K60 | Run1               bertopic_topics_LIGHT_EMBfinal_fullK60.json               LIGHT_EMBfinal_K60 0.138403   0.813559            59               0
+BERTopic         Base fullK     Heavy           60   Run1         BERTopic | Base fullK | Heavy | K60 | Run1               bertopic_topics_HEAVY_EMBfinal_fullK60.json               HEAVY_EMBfinal_K60 0.144305   0.834483            58               1
+BERTopic         Base fullK     Light           10   Run2         BERTopic | Base fullK | Light | K10 | Run2              bertopic_topics_LIGHT_EMBfinal2_fullK10.json              LIGHT_EMBfinal2_K10 0.108802   0.980000            10               0
+BERTopic         Base fullK     Heavy           10   Run2         BERTopic | Base fullK | Heavy | K10 | Run2              bertopic_topics_HEAVY_EMBfinal2_fullK10.json              HEAVY_EMBfinal2_K10 0.159018   0.944444             9               1
+BERTopic         Base fullK     Light           20   Run2         BERTopic | Base fullK | Light | K20 | Run2              bertopic_topics_LIGHT_EMBfinal2_fullK20.json              LIGHT_EMBfinal2_K20 0.124786   0.931579            19               0
+BERTopic         Base fullK     Heavy           20   Run2         BERTopic | Base fullK | Heavy | K20 | Run2              bertopic_topics_HEAVY_EMBfinal2_fullK20.json              HEAVY_EMBfinal2_K20 0.162196   0.947368            19               1
+BERTopic         Base fullK     Light           30   Run2         BERTopic | Base fullK | Light | K30 | Run2              bertopic_topics_LIGHT_EMBfinal2_fullK30.json              LIGHT_EMBfinal2_K30 0.149185   0.844828            29               0
+BERTopic         Base fullK     Heavy           30   Run2         BERTopic | Base fullK | Heavy | K30 | Run2              bertopic_topics_HEAVY_EMBfinal2_fullK30.json              HEAVY_EMBfinal2_K30 0.155034   0.872414            29               1
+BERTopic         Base fullK     Light           40   Run2         BERTopic | Base fullK | Light | K40 | Run2              bertopic_topics_LIGHT_EMBfinal2_fullK40.json              LIGHT_EMBfinal2_K40 0.136811   0.844737            38               1
+BERTopic         Base fullK     Heavy           40   Run2         BERTopic | Base fullK | Heavy | K40 | Run2              bertopic_topics_HEAVY_EMBfinal2_fullK40.json              HEAVY_EMBfinal2_K40 0.187885   0.862162            37               2
+BERTopic         Base fullK     Light           50   Run2         BERTopic | Base fullK | Light | K50 | Run2              bertopic_topics_LIGHT_EMBfinal2_fullK50.json              LIGHT_EMBfinal2_K50 0.136907   0.822449            49               0
+BERTopic         Base fullK     Heavy           50   Run2         BERTopic | Base fullK | Heavy | K50 | Run2              bertopic_topics_HEAVY_EMBfinal2_fullK50.json              HEAVY_EMBfinal2_K50 0.114399   0.872917            48               1
+BERTopic         Base fullK     Light           60   Run2         BERTopic | Base fullK | Light | K60 | Run2              bertopic_topics_LIGHT_EMBfinal2_fullK60.json              LIGHT_EMBfinal2_K60 0.139851   0.805172            58               1
+BERTopic         Base fullK     Heavy           60   Run2         BERTopic | Base fullK | Heavy | K60 | Run2              bertopic_topics_HEAVY_EMBfinal2_fullK60.json              HEAVY_EMBfinal2_K60 0.168897   0.841379            58               1
+BERTopic         Base fullK     Light           10   Run3         BERTopic | Base fullK | Light | K10 | Run3              bertopic_topics_LIGHT_EMBfinal3_fullK10.json              LIGHT_EMBfinal3_K10 0.167618   0.977778             9               0
+BERTopic         Base fullK     Heavy           10   Run3         BERTopic | Base fullK | Heavy | K10 | Run3              bertopic_topics_HEAVY_EMBfinal3_fullK10.json              HEAVY_EMBfinal3_K10 0.183759   0.977778             9               1
+BERTopic         Base fullK     Light           20   Run3         BERTopic | Base fullK | Light | K20 | Run3              bertopic_topics_LIGHT_EMBfinal3_fullK20.json              LIGHT_EMBfinal3_K20 0.126126   0.925000            20               0
+BERTopic         Base fullK     Heavy           20   Run3         BERTopic | Base fullK | Heavy | K20 | Run3              bertopic_topics_HEAVY_EMBfinal3_fullK20.json              HEAVY_EMBfinal3_K20 0.159999   0.921053            19               1
+BERTopic         Base fullK     Light           30   Run3         BERTopic | Base fullK | Light | K30 | Run3              bertopic_topics_LIGHT_EMBfinal3_fullK30.json              LIGHT_EMBfinal3_K30 0.128786   0.853333            30               0
+BERTopic         Base fullK     Heavy           30   Run3         BERTopic | Base fullK | Heavy | K30 | Run3              bertopic_topics_HEAVY_EMBfinal3_fullK30.json              HEAVY_EMBfinal3_K30 0.192517   0.892857            28               1
+BERTopic         Base fullK     Light           40   Run3         BERTopic | Base fullK | Light | K40 | Run3              bertopic_topics_LIGHT_EMBfinal3_fullK40.json              LIGHT_EMBfinal3_K40 0.131597   0.864103            39               0
+BERTopic         Base fullK     Heavy           40   Run3         BERTopic | Base fullK | Heavy | K40 | Run3              bertopic_topics_HEAVY_EMBfinal3_fullK40.json              HEAVY_EMBfinal3_K40 0.132172   0.881081            37               2
+BERTopic         Base fullK     Light           50   Run3         BERTopic | Base fullK | Light | K50 | Run3              bertopic_topics_LIGHT_EMBfinal3_fullK50.json              LIGHT_EMBfinal3_K50 0.136856   0.827660            47               2
+BERTopic         Base fullK     Heavy           50   Run3         BERTopic | Base fullK | Heavy | K50 | Run3              bertopic_topics_HEAVY_EMBfinal3_fullK50.json              HEAVY_EMBfinal3_K50 0.172553   0.835417            48               1
+BERTopic         Base fullK     Light           60   Run3         BERTopic | Base fullK | Light | K60 | Run3              bertopic_topics_LIGHT_EMBfinal3_fullK60.json              LIGHT_EMBfinal3_K60 0.138293   0.798305            59               0
+BERTopic         Base fullK     Heavy           60   Run3         BERTopic | Base fullK | Heavy | K60 | Run3              bertopic_topics_HEAVY_EMBfinal3_fullK60.json              HEAVY_EMBfinal3_K60 0.178006   0.829310            58               1
+BERTopic  NoiseParams fullK     Light           10   Run1  BERTopic | NoiseParams fullK | Light | K10 | Run1   bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK10.json   LIGHT_EMBfinal_noiseparams_K10 0.115382   0.955556             9               0
+BERTopic  NoiseParams fullK     Heavy           10   Run1  BERTopic | NoiseParams fullK | Heavy | K10 | Run1   bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK10.json   HEAVY_EMBfinal_noiseparams_K10 0.118093   0.920000            10               0
+BERTopic  NoiseParams fullK     Light           20   Run1  BERTopic | NoiseParams fullK | Light | K20 | Run1   bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK20.json   LIGHT_EMBfinal_noiseparams_K20 0.159327   0.950000            18               2
+BERTopic  NoiseParams fullK     Heavy           20   Run1  BERTopic | NoiseParams fullK | Heavy | K20 | Run1   bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK20.json   HEAVY_EMBfinal_noiseparams_K20 0.110454   0.870000            20               0
+BERTopic  NoiseParams fullK     Light           30   Run1  BERTopic | NoiseParams fullK | Light | K30 | Run1   bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK30.json   LIGHT_EMBfinal_noiseparams_K30 0.124921   0.893103            29               0
+BERTopic  NoiseParams fullK     Heavy           30   Run1  BERTopic | NoiseParams fullK | Heavy | K30 | Run1   bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK30.json   HEAVY_EMBfinal_noiseparams_K30 0.096124   0.910345            29               0
+BERTopic  NoiseParams fullK     Light           40   Run1  BERTopic | NoiseParams fullK | Light | K40 | Run1   bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK40.json   LIGHT_EMBfinal_noiseparams_K40 0.135505   0.850000            38               0
+BERTopic  NoiseParams fullK     Heavy           40   Run1  BERTopic | NoiseParams fullK | Heavy | K40 | Run1   bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK40.json   HEAVY_EMBfinal_noiseparams_K40 0.105677   0.857895            38               1
+BERTopic  NoiseParams fullK     Light           50   Run1  BERTopic | NoiseParams fullK | Light | K50 | Run1   bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK50.json   LIGHT_EMBfinal_noiseparams_K50 0.125088   0.839583            48               0
+BERTopic  NoiseParams fullK     Heavy           50   Run1  BERTopic | NoiseParams fullK | Heavy | K50 | Run1   bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK50.json   HEAVY_EMBfinal_noiseparams_K50 0.062258   0.828261            46               1
+BERTopic  NoiseParams fullK     Light           60   Run1  BERTopic | NoiseParams fullK | Light | K60 | Run1   bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK60.json   LIGHT_EMBfinal_noiseparams_K60 0.114354   0.842593            54               1
+BERTopic  NoiseParams fullK     Heavy           60   Run1  BERTopic | NoiseParams fullK | Heavy | K60 | Run1   bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK60.json   HEAVY_EMBfinal_noiseparams_K60 0.083871   0.857407            54               2
+BERTopic  NoiseParams fullK     Light           10   Run2  BERTopic | NoiseParams fullK | Light | K10 | Run2  bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK10.json  LIGHT_EMBfinal2_noiseparams_K10 0.068558   0.930000            10               0
+BERTopic  NoiseParams fullK     Heavy           10   Run2  BERTopic | NoiseParams fullK | Heavy | K10 | Run2  bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK10.json  HEAVY_EMBfinal2_noiseparams_K10 0.089750   0.900000            10               0
+BERTopic  NoiseParams fullK     Light           20   Run2  BERTopic | NoiseParams fullK | Light | K20 | Run2  bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK20.json  LIGHT_EMBfinal2_noiseparams_K20 0.140516   0.890000            20               0
+BERTopic  NoiseParams fullK     Heavy           20   Run2  BERTopic | NoiseParams fullK | Heavy | K20 | Run2  bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK20.json  HEAVY_EMBfinal2_noiseparams_K20 0.109131   0.889474            19               0
+BERTopic  NoiseParams fullK     Light           30   Run2  BERTopic | NoiseParams fullK | Light | K30 | Run2  bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK30.json  LIGHT_EMBfinal2_noiseparams_K30 0.139186   0.869231            26               0
+BERTopic  NoiseParams fullK     Heavy           30   Run2  BERTopic | NoiseParams fullK | Heavy | K30 | Run2  bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK30.json  HEAVY_EMBfinal2_noiseparams_K30 0.115369   0.882759            29               1
+BERTopic  NoiseParams fullK     Light           40   Run2  BERTopic | NoiseParams fullK | Light | K40 | Run2  bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK40.json  LIGHT_EMBfinal2_noiseparams_K40 0.129210   0.864865            37               2
+BERTopic  NoiseParams fullK     Heavy           40   Run2  BERTopic | NoiseParams fullK | Heavy | K40 | Run2  bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK40.json  HEAVY_EMBfinal2_noiseparams_K40 0.113229   0.889474            38               1
+BERTopic  NoiseParams fullK     Light           50   Run2  BERTopic | NoiseParams fullK | Light | K50 | Run2  bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK50.json  LIGHT_EMBfinal2_noiseparams_K50 0.149701   0.851064            47               1
+BERTopic  NoiseParams fullK     Heavy           50   Run2  BERTopic | NoiseParams fullK | Heavy | K50 | Run2  bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK50.json  HEAVY_EMBfinal2_noiseparams_K50 0.068576   0.865957            47               2
+BERTopic  NoiseParams fullK     Light           60   Run2  BERTopic | NoiseParams fullK | Light | K60 | Run2  bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK60.json  LIGHT_EMBfinal2_noiseparams_K60 0.138048   0.787931            58               1
+BERTopic  NoiseParams fullK     Heavy           60   Run2  BERTopic | NoiseParams fullK | Heavy | K60 | Run2  bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK60.json  HEAVY_EMBfinal2_noiseparams_K60 0.102724   0.855357            56               2
+BERTopic  NoiseParams fullK     Light           10   Run3  BERTopic | NoiseParams fullK | Light | K10 | Run3  bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK10.json  LIGHT_EMBfinal3_noiseparams_K10 0.152328   0.955556             9               1
+BERTopic  NoiseParams fullK     Heavy           10   Run3  BERTopic | NoiseParams fullK | Heavy | K10 | Run3  bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK10.json  HEAVY_EMBfinal3_noiseparams_K10 0.168229   0.933333             9               0
+BERTopic  NoiseParams fullK     Light           20   Run3  BERTopic | NoiseParams fullK | Light | K20 | Run3  bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK20.json  LIGHT_EMBfinal3_noiseparams_K20 0.098638   0.885000            20               0
+BERTopic  NoiseParams fullK     Heavy           20   Run3  BERTopic | NoiseParams fullK | Heavy | K20 | Run3  bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK20.json  HEAVY_EMBfinal3_noiseparams_K20 0.115141   0.888889            18               0
+BERTopic  NoiseParams fullK     Light           30   Run3  BERTopic | NoiseParams fullK | Light | K30 | Run3  bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK30.json  LIGHT_EMBfinal3_noiseparams_K30 0.111503   0.855556            27               0
+BERTopic  NoiseParams fullK     Heavy           30   Run3  BERTopic | NoiseParams fullK | Heavy | K30 | Run3  bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK30.json  HEAVY_EMBfinal3_noiseparams_K30 0.123684   0.850000            28               0
+BERTopic  NoiseParams fullK     Light           40   Run3  BERTopic | NoiseParams fullK | Light | K40 | Run3  bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK40.json  LIGHT_EMBfinal3_noiseparams_K40 0.106766   0.855263            38               1
+BERTopic  NoiseParams fullK     Heavy           40   Run3  BERTopic | NoiseParams fullK | Heavy | K40 | Run3  bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK40.json  HEAVY_EMBfinal3_noiseparams_K40 0.115340   0.883784            37               1
+BERTopic  NoiseParams fullK     Light           50   Run3  BERTopic | NoiseParams fullK | Light | K50 | Run3  bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK50.json  LIGHT_EMBfinal3_noiseparams_K50 0.136582   0.834783            46               0
+BERTopic  NoiseParams fullK     Heavy           50   Run3  BERTopic | NoiseParams fullK | Heavy | K50 | Run3  bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK50.json  HEAVY_EMBfinal3_noiseparams_K50 0.109856   0.878723            47               0
+BERTopic  NoiseParams fullK     Light           60   Run3  BERTopic | NoiseParams fullK | Light | K60 | Run3  bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK60.json  LIGHT_EMBfinal3_noiseparams_K60 0.128997   0.778947            57               2
+BERTopic  NoiseParams fullK     Heavy           60   Run3  BERTopic | NoiseParams fullK | Heavy | K60 | Run3  bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK60.json  HEAVY_EMBfinal3_noiseparams_K60 0.096743   0.849123            57               1
+BERTopic Reassignment fullK     Light           10   Run1 BERTopic | Reassignment fullK | Light | K10 | Run1  bertopic_topics_LIGHT_EMBfinal_reassignment_fullK10.json  LIGHT_EMBfinal_reassignment_K10 0.123067   0.950000            10               0
+BERTopic Reassignment fullK     Heavy           10   Run1 BERTopic | Reassignment fullK | Heavy | K10 | Run1  bertopic_topics_HEAVY_EMBfinal_reassignment_fullK10.json  HEAVY_EMBfinal_reassignment_K10 0.159693   0.966667             9               1
+BERTopic Reassignment fullK     Light           20   Run1 BERTopic | Reassignment fullK | Light | K20 | Run1  bertopic_topics_LIGHT_EMBfinal_reassignment_fullK20.json  LIGHT_EMBfinal_reassignment_K20 0.152207   0.878947            19               0
+BERTopic Reassignment fullK     Heavy           20   Run1 BERTopic | Reassignment fullK | Heavy | K20 | Run1  bertopic_topics_HEAVY_EMBfinal_reassignment_fullK20.json  HEAVY_EMBfinal_reassignment_K20 0.189027   0.915789            19               1
+BERTopic Reassignment fullK     Light           30   Run1 BERTopic | Reassignment fullK | Light | K30 | Run1  bertopic_topics_LIGHT_EMBfinal_reassignment_fullK30.json  LIGHT_EMBfinal_reassignment_K30 0.153155   0.831034            29               0
+BERTopic Reassignment fullK     Heavy           30   Run1 BERTopic | Reassignment fullK | Heavy | K30 | Run1  bertopic_topics_HEAVY_EMBfinal_reassignment_fullK30.json  HEAVY_EMBfinal_reassignment_K30 0.158975   0.865517            29               1
+BERTopic Reassignment fullK     Light           40   Run1 BERTopic | Reassignment fullK | Light | K40 | Run1  bertopic_topics_LIGHT_EMBfinal_reassignment_fullK40.json  LIGHT_EMBfinal_reassignment_K40 0.143574   0.802564            39               0
+BERTopic Reassignment fullK     Heavy           40   Run1 BERTopic | Reassignment fullK | Heavy | K40 | Run1  bertopic_topics_HEAVY_EMBfinal_reassignment_fullK40.json  HEAVY_EMBfinal_reassignment_K40 0.127263   0.828205            39               1
+BERTopic Reassignment fullK     Light           50   Run1 BERTopic | Reassignment fullK | Light | K50 | Run1  bertopic_topics_LIGHT_EMBfinal_reassignment_fullK50.json  LIGHT_EMBfinal_reassignment_K50 0.150228   0.806000            50               0
+BERTopic Reassignment fullK     Heavy           50   Run1 BERTopic | Reassignment fullK | Heavy | K50 | Run1  bertopic_topics_HEAVY_EMBfinal_reassignment_fullK50.json  HEAVY_EMBfinal_reassignment_K50 0.114963   0.781633            49               1
+BERTopic Reassignment fullK     Light           60   Run1 BERTopic | Reassignment fullK | Light | K60 | Run1  bertopic_topics_LIGHT_EMBfinal_reassignment_fullK60.json  LIGHT_EMBfinal_reassignment_K60 0.140028   0.725862            58               0
+BERTopic Reassignment fullK     Heavy           60   Run1 BERTopic | Reassignment fullK | Heavy | K60 | Run1  bertopic_topics_HEAVY_EMBfinal_reassignment_fullK60.json  HEAVY_EMBfinal_reassignment_K60 0.181408   0.758621            58               2
+BERTopic Reassignment fullK     Light           10   Run2 BERTopic | Reassignment fullK | Light | K10 | Run2 bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK10.json LIGHT_EMBfinal2_reassignment_K10 0.099657   0.920000            10               0
+BERTopic Reassignment fullK     Heavy           10   Run2 BERTopic | Reassignment fullK | Heavy | K10 | Run2 bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK10.json HEAVY_EMBfinal2_reassignment_K10 0.152649   0.955556             9               1
+BERTopic Reassignment fullK     Light           20   Run2 BERTopic | Reassignment fullK | Light | K20 | Run2 bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK20.json LIGHT_EMBfinal2_reassignment_K20 0.146290   0.860000            20               0
+BERTopic Reassignment fullK     Heavy           20   Run2 BERTopic | Reassignment fullK | Heavy | K20 | Run2 bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK20.json HEAVY_EMBfinal2_reassignment_K20 0.124369   0.905000            20               0
+BERTopic Reassignment fullK     Light           30   Run2 BERTopic | Reassignment fullK | Light | K30 | Run2 bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK30.json LIGHT_EMBfinal2_reassignment_K30 0.148421   0.863333            30               0
+BERTopic Reassignment fullK     Heavy           30   Run2 BERTopic | Reassignment fullK | Heavy | K30 | Run2 bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK30.json HEAVY_EMBfinal2_reassignment_K30 0.104365   0.836667            30               0
+BERTopic Reassignment fullK     Light           40   Run2 BERTopic | Reassignment fullK | Light | K40 | Run2 bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK40.json LIGHT_EMBfinal2_reassignment_K40 0.141992   0.807500            40               0
+BERTopic Reassignment fullK     Heavy           40   Run2 BERTopic | Reassignment fullK | Heavy | K40 | Run2 bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK40.json HEAVY_EMBfinal2_reassignment_K40 0.134146   0.830000            40               0
+BERTopic Reassignment fullK     Light           50   Run2 BERTopic | Reassignment fullK | Light | K50 | Run2 bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK50.json LIGHT_EMBfinal2_reassignment_K50 0.151521   0.781633            49               0
+BERTopic Reassignment fullK     Heavy           50   Run2 BERTopic | Reassignment fullK | Heavy | K50 | Run2 bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK50.json HEAVY_EMBfinal2_reassignment_K50 0.112707   0.818750            48               2
+BERTopic Reassignment fullK     Light           60   Run2 BERTopic | Reassignment fullK | Light | K60 | Run2 bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK60.json LIGHT_EMBfinal2_reassignment_K60 0.135734   0.771186            59               1
+BERTopic Reassignment fullK     Heavy           60   Run2 BERTopic | Reassignment fullK | Heavy | K60 | Run2 bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK60.json HEAVY_EMBfinal2_reassignment_K60 0.142874   0.763793            58               2
+BERTopic Reassignment fullK     Light           10   Run3 BERTopic | Reassignment fullK | Light | K10 | Run3 bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK10.json LIGHT_EMBfinal3_reassignment_K10 0.134206   0.940000            10               0
+BERTopic Reassignment fullK     Heavy           10   Run3 BERTopic | Reassignment fullK | Heavy | K10 | Run3 bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK10.json HEAVY_EMBfinal3_reassignment_K10 0.125430   0.930000            10               0
+BERTopic Reassignment fullK     Light           20   Run3 BERTopic | Reassignment fullK | Light | K20 | Run3 bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK20.json LIGHT_EMBfinal3_reassignment_K20 0.170594   0.910000            20               0
+BERTopic Reassignment fullK     Heavy           20   Run3 BERTopic | Reassignment fullK | Heavy | K20 | Run3 bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK20.json HEAVY_EMBfinal3_reassignment_K20 0.161709   0.905263            19               1
+BERTopic Reassignment fullK     Light           30   Run3 BERTopic | Reassignment fullK | Light | K30 | Run3 bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK30.json LIGHT_EMBfinal3_reassignment_K30 0.141033   0.826667            30               0
+BERTopic Reassignment fullK     Heavy           30   Run3 BERTopic | Reassignment fullK | Heavy | K30 | Run3 bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK30.json HEAVY_EMBfinal3_reassignment_K30 0.174088   0.842857            28               2
+BERTopic Reassignment fullK     Light           40   Run3 BERTopic | Reassignment fullK | Light | K40 | Run3 bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK40.json LIGHT_EMBfinal3_reassignment_K40 0.153710   0.797436            39               0
+BERTopic Reassignment fullK     Heavy           40   Run3 BERTopic | Reassignment fullK | Heavy | K40 | Run3 bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK40.json HEAVY_EMBfinal3_reassignment_K40 0.174586   0.823684            38               2
+BERTopic Reassignment fullK     Light           50   Run3 BERTopic | Reassignment fullK | Light | K50 | Run3 bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK50.json LIGHT_EMBfinal3_reassignment_K50 0.140583   0.761224            49               0
+BERTopic Reassignment fullK     Heavy           50   Run3 BERTopic | Reassignment fullK | Heavy | K50 | Run3 bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK50.json HEAVY_EMBfinal3_reassignment_K50 0.110023   0.862500            48               1
+BERTopic Reassignment fullK     Light           60   Run3 BERTopic | Reassignment fullK | Light | K60 | Run3 bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK60.json LIGHT_EMBfinal3_reassignment_K60 0.146805   0.754237            59               0
+BERTopic Reassignment fullK     Heavy           60   Run3 BERTopic | Reassignment fullK | Heavy | K60 | Run3 bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK60.json HEAVY_EMBfinal3_reassignment_K60 0.178673   0.744828            58               2
+     CTM               Base     Light           10   Run1                    CTM | Base | Light | K10 | Run1                        ctm_topics_LIGHT_EMBfinal_K10.json               LIGHT_EMBfinal_K10 0.099117   0.990000            10               0
+     CTM               Base     Heavy           10   Run1                    CTM | Base | Heavy | K10 | Run1                        ctm_topics_HEAVY_EMBfinal_K10.json               HEAVY_EMBfinal_K10 0.113489   0.990000            10               0
+     CTM               Base     Light           20   Run1                    CTM | Base | Light | K20 | Run1                        ctm_topics_LIGHT_EMBfinal_K20.json               LIGHT_EMBfinal_K20 0.147613   0.960000            20               0
+     CTM               Base     Heavy           20   Run1                    CTM | Base | Heavy | K20 | Run1                        ctm_topics_HEAVY_EMBfinal_K20.json               HEAVY_EMBfinal_K20 0.145698   0.970000            20               0
+     CTM               Base     Light           30   Run1                    CTM | Base | Light | K30 | Run1                        ctm_topics_LIGHT_EMBfinal_K30.json               LIGHT_EMBfinal_K30 0.131227   0.920000            30               0
+     CTM               Base     Heavy           30   Run1                    CTM | Base | Heavy | K30 | Run1                        ctm_topics_HEAVY_EMBfinal_K30.json               HEAVY_EMBfinal_K30 0.130862   0.930000            30               0
+     CTM               Base     Light           40   Run1                    CTM | Base | Light | K40 | Run1                        ctm_topics_LIGHT_EMBfinal_K40.json               LIGHT_EMBfinal_K40 0.116693   0.897500            40               0
+     CTM               Base     Heavy           40   Run1                    CTM | Base | Heavy | K40 | Run1                        ctm_topics_HEAVY_EMBfinal_K40.json               HEAVY_EMBfinal_K40 0.130512   0.922500            40               0
+     CTM               Base     Light           50   Run1                    CTM | Base | Light | K50 | Run1                        ctm_topics_LIGHT_EMBfinal_K50.json               LIGHT_EMBfinal_K50 0.105911   0.864000            50               0
+     CTM               Base     Heavy           50   Run1                    CTM | Base | Heavy | K50 | Run1                        ctm_topics_HEAVY_EMBfinal_K50.json               HEAVY_EMBfinal_K50 0.120601   0.888000            50               0
+     CTM               Base     Light           60   Run1                    CTM | Base | Light | K60 | Run1                        ctm_topics_LIGHT_EMBfinal_K60.json               LIGHT_EMBfinal_K60 0.108208   0.850000            60               0
+     CTM               Base     Heavy           60   Run1                    CTM | Base | Heavy | K60 | Run1                        ctm_topics_HEAVY_EMBfinal_K60.json               HEAVY_EMBfinal_K60 0.113598   0.865000            60               0
+     CTM               Base     Light           10   Run2                    CTM | Base | Light | K10 | Run2                       ctm_topics_LIGHT_EMBfinal2_K10.json              LIGHT_EMBfinal2_K10 0.115507   0.990000            10               0
+     CTM               Base     Heavy           10   Run2                    CTM | Base | Heavy | K10 | Run2                       ctm_topics_HEAVY_EMBfinal2_K10.json              HEAVY_EMBfinal2_K10 0.122135   0.990000            10               0
+     CTM               Base     Light           20   Run2                    CTM | Base | Light | K20 | Run2                       ctm_topics_LIGHT_EMBfinal2_K20.json              LIGHT_EMBfinal2_K20 0.132539   0.965000            20               0
+     CTM               Base     Heavy           20   Run2                    CTM | Base | Heavy | K20 | Run2                       ctm_topics_HEAVY_EMBfinal2_K20.json              HEAVY_EMBfinal2_K20 0.132667   0.965000            20               0
+     CTM               Base     Light           30   Run2                    CTM | Base | Light | K30 | Run2                       ctm_topics_LIGHT_EMBfinal2_K30.json              LIGHT_EMBfinal2_K30 0.129975   0.940000            30               0
+     CTM               Base     Heavy           30   Run2                    CTM | Base | Heavy | K30 | Run2                       ctm_topics_HEAVY_EMBfinal2_K30.json              HEAVY_EMBfinal2_K30 0.129534   0.930000            30               0
+     CTM               Base     Light           40   Run2                    CTM | Base | Light | K40 | Run2                       ctm_topics_LIGHT_EMBfinal2_K40.json              LIGHT_EMBfinal2_K40 0.133762   0.892500            40               0
+     CTM               Base     Heavy           40   Run2                    CTM | Base | Heavy | K40 | Run2                       ctm_topics_HEAVY_EMBfinal2_K40.json              HEAVY_EMBfinal2_K40 0.121109   0.895000            40               0
+     CTM               Base     Light           50   Run2                    CTM | Base | Light | K50 | Run2                       ctm_topics_LIGHT_EMBfinal2_K50.json              LIGHT_EMBfinal2_K50 0.118277   0.904000            50               0
+     CTM               Base     Heavy           50   Run2                    CTM | Base | Heavy | K50 | Run2                       ctm_topics_HEAVY_EMBfinal2_K50.json              HEAVY_EMBfinal2_K50 0.117326   0.898000            50               0
+     CTM               Base     Light           60   Run2                    CTM | Base | Light | K60 | Run2                       ctm_topics_LIGHT_EMBfinal2_K60.json              LIGHT_EMBfinal2_K60 0.112146   0.866667            60               0
+     CTM               Base     Heavy           60   Run2                    CTM | Base | Heavy | K60 | Run2                       ctm_topics_HEAVY_EMBfinal2_K60.json              HEAVY_EMBfinal2_K60 0.119739   0.856667            60               0
+     CTM               Base     Light           10   Run3                    CTM | Base | Light | K10 | Run3                       ctm_topics_LIGHT_EMBfinal3_K10.json              LIGHT_EMBfinal3_K10 0.112919   1.000000            10               0
+     CTM               Base     Heavy           10   Run3                    CTM | Base | Heavy | K10 | Run3                       ctm_topics_HEAVY_EMBfinal3_K10.json              HEAVY_EMBfinal3_K10 0.096643   0.990000            10               0
+     CTM               Base     Light           20   Run3                    CTM | Base | Light | K20 | Run3                       ctm_topics_LIGHT_EMBfinal3_K20.json              LIGHT_EMBfinal3_K20 0.137390   0.955000            20               0
+     CTM               Base     Heavy           20   Run3                    CTM | Base | Heavy | K20 | Run3                       ctm_topics_HEAVY_EMBfinal3_K20.json              HEAVY_EMBfinal3_K20 0.136509   0.975000            20               0
+     CTM               Base     Light           30   Run3                    CTM | Base | Light | K30 | Run3                       ctm_topics_LIGHT_EMBfinal3_K30.json              LIGHT_EMBfinal3_K30 0.140127   0.936667            30               0
+     CTM               Base     Heavy           30   Run3                    CTM | Base | Heavy | K30 | Run3                       ctm_topics_HEAVY_EMBfinal3_K30.json              HEAVY_EMBfinal3_K30 0.126630   0.933333            30               0
+     CTM               Base     Light           40   Run3                    CTM | Base | Light | K40 | Run3                       ctm_topics_LIGHT_EMBfinal3_K40.json              LIGHT_EMBfinal3_K40 0.127238   0.915000            40               0
+     CTM               Base     Heavy           40   Run3                    CTM | Base | Heavy | K40 | Run3                       ctm_topics_HEAVY_EMBfinal3_K40.json              HEAVY_EMBfinal3_K40 0.129800   0.915000            40               0
+     CTM               Base     Light           50   Run3                    CTM | Base | Light | K50 | Run3                       ctm_topics_LIGHT_EMBfinal3_K50.json              LIGHT_EMBfinal3_K50 0.117085   0.908000            50               0
+     CTM               Base     Heavy           50   Run3                    CTM | Base | Heavy | K50 | Run3                       ctm_topics_HEAVY_EMBfinal3_K50.json              HEAVY_EMBfinal3_K50 0.116950   0.886000            50               0
+     CTM               Base     Light           60   Run3                    CTM | Base | Light | K60 | Run3                       ctm_topics_LIGHT_EMBfinal3_K60.json              LIGHT_EMBfinal3_K60 0.118200   0.876667            60               0
+     CTM               Base     Heavy           60   Run3                    CTM | Base | Heavy | K60 | Run3                       ctm_topics_HEAVY_EMBfinal3_K60.json              HEAVY_EMBfinal3_K60 0.110156   0.865000            60               0
+     ETM               Base     Heavy Vocab2000 10   Run1        ETM | Base | Heavy | Vocab2000 | K10 | Run1                 etm_topics_HEAVY_final_VOCAB2000_K10.json        HEAVY_final_VOCAB2000_K10 0.082559   0.890000            10               0
+     ETM               Base     Heavy Vocab6000 10   Run1        ETM | Base | Heavy | Vocab6000 | K10 | Run1                 etm_topics_HEAVY_final_VOCAB6000_K10.json        HEAVY_final_VOCAB6000_K10 0.061886   0.850000            10               0
+     ETM               Base     Heavy Vocab2000 20   Run1        ETM | Base | Heavy | Vocab2000 | K20 | Run1                 etm_topics_HEAVY_final_VOCAB2000_K20.json        HEAVY_final_VOCAB2000_K20 0.078086   0.645000            20               0
+     ETM               Base     Heavy Vocab6000 20   Run1        ETM | Base | Heavy | Vocab6000 | K20 | Run1                 etm_topics_HEAVY_final_VOCAB6000_K20.json        HEAVY_final_VOCAB6000_K20 0.076497   0.755000            20               0
+     ETM               Base     Heavy Vocab2000 30   Run1        ETM | Base | Heavy | Vocab2000 | K30 | Run1                 etm_topics_HEAVY_final_VOCAB2000_K30.json        HEAVY_final_VOCAB2000_K30 0.067880   0.520000            30               0
+     ETM               Base     Heavy Vocab6000 30   Run1        ETM | Base | Heavy | Vocab6000 | K30 | Run1                 etm_topics_HEAVY_final_VOCAB6000_K30.json        HEAVY_final_VOCAB6000_K30 0.056869   0.540000            30               0
+     ETM               Base     Heavy Vocab2000 40   Run1        ETM | Base | Heavy | Vocab2000 | K40 | Run1                 etm_topics_HEAVY_final_VOCAB2000_K40.json        HEAVY_final_VOCAB2000_K40 0.066272   0.400000            40               0
+     ETM               Base     Heavy Vocab6000 40   Run1        ETM | Base | Heavy | Vocab6000 | K40 | Run1                 etm_topics_HEAVY_final_VOCAB6000_K40.json        HEAVY_final_VOCAB6000_K40 0.060746   0.485000            40               0
+     ETM               Base     Heavy Vocab2000 50   Run1        ETM | Base | Heavy | Vocab2000 | K50 | Run1                 etm_topics_HEAVY_final_VOCAB2000_K50.json        HEAVY_final_VOCAB2000_K50 0.067171   0.398000            50               0
+     ETM               Base     Heavy Vocab6000 50   Run1        ETM | Base | Heavy | Vocab6000 | K50 | Run1                 etm_topics_HEAVY_final_VOCAB6000_K50.json        HEAVY_final_VOCAB6000_K50 0.057921   0.422000            50               0
+     ETM               Base     Heavy Vocab2000 60   Run1        ETM | Base | Heavy | Vocab2000 | K60 | Run1                 etm_topics_HEAVY_final_VOCAB2000_K60.json        HEAVY_final_VOCAB2000_K60 0.059574   0.300000            60               0
+     ETM               Base     Heavy Vocab6000 60   Run1        ETM | Base | Heavy | Vocab6000 | K60 | Run1                 etm_topics_HEAVY_final_VOCAB6000_K60.json        HEAVY_final_VOCAB6000_K60 0.050026   0.336667            60               0
+     ETM               Base     Heavy Vocab2000 10   Run2        ETM | Base | Heavy | Vocab2000 | K10 | Run2                etm_topics_HEAVY_final2_VOCAB2000_K10.json       HEAVY_final2_VOCAB2000_K10 0.085927   0.890000            10               0
+     ETM               Base     Heavy Vocab6000 10   Run2        ETM | Base | Heavy | Vocab6000 | K10 | Run2                etm_topics_HEAVY_final2_VOCAB6000_K10.json       HEAVY_final2_VOCAB6000_K10 0.064713   0.860000            10               0
+     ETM               Base     Heavy Vocab2000 20   Run2        ETM | Base | Heavy | Vocab2000 | K20 | Run2                etm_topics_HEAVY_final2_VOCAB2000_K20.json       HEAVY_final2_VOCAB2000_K20 0.092213   0.725000            20               0
+     ETM               Base     Heavy Vocab6000 20   Run2        ETM | Base | Heavy | Vocab6000 | K20 | Run2                etm_topics_HEAVY_final2_VOCAB6000_K20.json       HEAVY_final2_VOCAB6000_K20 0.069415   0.725000            20               0
+     ETM               Base     Heavy Vocab2000 30   Run2        ETM | Base | Heavy | Vocab2000 | K30 | Run2                etm_topics_HEAVY_final2_VOCAB2000_K30.json       HEAVY_final2_VOCAB2000_K30 0.072501   0.533333            30               0
+     ETM               Base     Heavy Vocab6000 30   Run2        ETM | Base | Heavy | Vocab6000 | K30 | Run2                etm_topics_HEAVY_final2_VOCAB6000_K30.json       HEAVY_final2_VOCAB6000_K30 0.063671   0.580000            30               0
+     ETM               Base     Heavy Vocab2000 40   Run2        ETM | Base | Heavy | Vocab2000 | K40 | Run2                etm_topics_HEAVY_final2_VOCAB2000_K40.json       HEAVY_final2_VOCAB2000_K40 0.080788   0.482500            40               0
+     ETM               Base     Heavy Vocab6000 40   Run2        ETM | Base | Heavy | Vocab6000 | K40 | Run2                etm_topics_HEAVY_final2_VOCAB6000_K40.json       HEAVY_final2_VOCAB6000_K40 0.054939   0.442500            40               0
+     ETM               Base     Heavy Vocab2000 50   Run2        ETM | Base | Heavy | Vocab2000 | K50 | Run2                etm_topics_HEAVY_final2_VOCAB2000_K50.json       HEAVY_final2_VOCAB2000_K50 0.068238   0.354000            50               0
+     ETM               Base     Heavy Vocab6000 50   Run2        ETM | Base | Heavy | Vocab6000 | K50 | Run2                etm_topics_HEAVY_final2_VOCAB6000_K50.json       HEAVY_final2_VOCAB6000_K50 0.059883   0.428000            50               0
+     ETM               Base     Heavy Vocab2000 60   Run2        ETM | Base | Heavy | Vocab2000 | K60 | Run2                etm_topics_HEAVY_final2_VOCAB2000_K60.json       HEAVY_final2_VOCAB2000_K60 0.065031   0.318333            60               0
+     ETM               Base     Heavy Vocab6000 60   Run2        ETM | Base | Heavy | Vocab6000 | K60 | Run2                etm_topics_HEAVY_final2_VOCAB6000_K60.json       HEAVY_final2_VOCAB6000_K60 0.056356   0.366667            60               0
+     ETM               Base     Heavy Vocab2000 10   Run3        ETM | Base | Heavy | Vocab2000 | K10 | Run3                etm_topics_HEAVY_final3_VOCAB2000_K10.json       HEAVY_final3_VOCAB2000_K10 0.072564   0.920000            10               0
+     ETM               Base     Heavy Vocab6000 10   Run3        ETM | Base | Heavy | Vocab6000 | K10 | Run3                etm_topics_HEAVY_final3_VOCAB6000_K10.json       HEAVY_final3_VOCAB6000_K10 0.062941   0.850000            10               0
+     ETM               Base     Heavy Vocab2000 20   Run3        ETM | Base | Heavy | Vocab2000 | K20 | Run3                etm_topics_HEAVY_final3_VOCAB2000_K20.json       HEAVY_final3_VOCAB2000_K20 0.078351   0.685000            20               0
+     ETM               Base     Heavy Vocab6000 20   Run3        ETM | Base | Heavy | Vocab6000 | K20 | Run3                etm_topics_HEAVY_final3_VOCAB6000_K20.json       HEAVY_final3_VOCAB6000_K20 0.071544   0.685000            20               0
+     ETM               Base     Heavy Vocab2000 30   Run3        ETM | Base | Heavy | Vocab2000 | K30 | Run3                etm_topics_HEAVY_final3_VOCAB2000_K30.json       HEAVY_final3_VOCAB2000_K30 0.072738   0.546667            30               0
+     ETM               Base     Heavy Vocab6000 30   Run3        ETM | Base | Heavy | Vocab6000 | K30 | Run3                etm_topics_HEAVY_final3_VOCAB6000_K30.json       HEAVY_final3_VOCAB6000_K30 0.053280   0.516667            30               0
+     ETM               Base     Heavy Vocab2000 40   Run3        ETM | Base | Heavy | Vocab2000 | K40 | Run3                etm_topics_HEAVY_final3_VOCAB2000_K40.json       HEAVY_final3_VOCAB2000_K40 0.060268   0.440000            40               0
+     ETM               Base     Heavy Vocab6000 40   Run3        ETM | Base | Heavy | Vocab6000 | K40 | Run3                etm_topics_HEAVY_final3_VOCAB6000_K40.json       HEAVY_final3_VOCAB6000_K40 0.047044   0.427500            40               0
+     ETM               Base     Heavy Vocab2000 50   Run3        ETM | Base | Heavy | Vocab2000 | K50 | Run3                etm_topics_HEAVY_final3_VOCAB2000_K50.json       HEAVY_final3_VOCAB2000_K50 0.064717   0.350000            50               0
+     ETM               Base     Heavy Vocab6000 50   Run3        ETM | Base | Heavy | Vocab6000 | K50 | Run3                etm_topics_HEAVY_final3_VOCAB6000_K50.json       HEAVY_final3_VOCAB6000_K50 0.064859   0.430000            50               0
+     ETM               Base     Heavy Vocab2000 60   Run3        ETM | Base | Heavy | Vocab2000 | K60 | Run3                etm_topics_HEAVY_final3_VOCAB2000_K60.json       HEAVY_final3_VOCAB2000_K60 0.066789   0.318333            60               0
+     ETM               Base     Heavy Vocab6000 60   Run3        ETM | Base | Heavy | Vocab6000 | K60 | Run3                etm_topics_HEAVY_final3_VOCAB6000_K60.json       HEAVY_final3_VOCAB6000_K60 0.056275   0.373333            60               0
+     LDA               Base     Heavy Vocab2000 10   Run1        LDA | Base | Heavy | Vocab2000 | K10 | Run1                 lda_topics_HEAVY_final_VOCAB2000_K10.json        HEAVY_final_VOCAB2000_K10 0.082861   0.880000            10               0
+     LDA               Base     Heavy Vocab2000 20   Run1        LDA | Base | Heavy | Vocab2000 | K20 | Run1                 lda_topics_HEAVY_final_VOCAB2000_K20.json        HEAVY_final_VOCAB2000_K20 0.107452   0.900000            20               0
+     LDA               Base     Heavy Vocab2000 30   Run1        LDA | Base | Heavy | Vocab2000 | K30 | Run1                 lda_topics_HEAVY_final_VOCAB2000_K30.json        HEAVY_final_VOCAB2000_K30 0.135141   0.886667            30               0
+     LDA               Base     Heavy Vocab2000 40   Run1        LDA | Base | Heavy | Vocab2000 | K40 | Run1                 lda_topics_HEAVY_final_VOCAB2000_K40.json        HEAVY_final_VOCAB2000_K40 0.117280   0.875000            40               0
+     LDA               Base     Heavy Vocab2000 50   Run1        LDA | Base | Heavy | Vocab2000 | K50 | Run1                 lda_topics_HEAVY_final_VOCAB2000_K50.json        HEAVY_final_VOCAB2000_K50 0.127326   0.896000            50               0
+     LDA               Base     Heavy Vocab2000 60   Run1        LDA | Base | Heavy | Vocab2000 | K60 | Run1                 lda_topics_HEAVY_final_VOCAB2000_K60.json        HEAVY_final_VOCAB2000_K60 0.110773   0.913333            60               0
+     LDA               Base     Heavy Vocab2000 10   Run2        LDA | Base | Heavy | Vocab2000 | K10 | Run2                lda_topics_HEAVY_final2_VOCAB2000_K10.json       HEAVY_final2_VOCAB2000_K10 0.082861   0.880000            10               0
+     LDA               Base     Heavy Vocab2000 20   Run2        LDA | Base | Heavy | Vocab2000 | K20 | Run2                lda_topics_HEAVY_final2_VOCAB2000_K20.json       HEAVY_final2_VOCAB2000_K20 0.107452   0.900000            20               0
+     LDA               Base     Heavy Vocab2000 30   Run2        LDA | Base | Heavy | Vocab2000 | K30 | Run2                lda_topics_HEAVY_final2_VOCAB2000_K30.json       HEAVY_final2_VOCAB2000_K30 0.135141   0.886667            30               0
+     LDA               Base     Heavy Vocab2000 40   Run2        LDA | Base | Heavy | Vocab2000 | K40 | Run2                lda_topics_HEAVY_final2_VOCAB2000_K40.json       HEAVY_final2_VOCAB2000_K40 0.117280   0.875000            40               0
+     LDA               Base     Heavy Vocab2000 50   Run2        LDA | Base | Heavy | Vocab2000 | K50 | Run2                lda_topics_HEAVY_final2_VOCAB2000_K50.json       HEAVY_final2_VOCAB2000_K50 0.127326   0.896000            50               0
+     LDA               Base     Heavy Vocab2000 60   Run2        LDA | Base | Heavy | Vocab2000 | K60 | Run2                lda_topics_HEAVY_final2_VOCAB2000_K60.json       HEAVY_final2_VOCAB2000_K60 0.110773   0.913333            60               0
+     LDA               Base     Heavy Vocab2000 10   Run3        LDA | Base | Heavy | Vocab2000 | K10 | Run3                lda_topics_HEAVY_final3_VOCAB2000_K10.json       HEAVY_final3_VOCAB2000_K10 0.082861   0.880000            10               0
+     LDA               Base     Heavy Vocab2000 20   Run3        LDA | Base | Heavy | Vocab2000 | K20 | Run3                lda_topics_HEAVY_final3_VOCAB2000_K20.json       HEAVY_final3_VOCAB2000_K20 0.107452   0.900000            20               0
+     LDA               Base     Heavy Vocab2000 30   Run3        LDA | Base | Heavy | Vocab2000 | K30 | Run3                lda_topics_HEAVY_final3_VOCAB2000_K30.json       HEAVY_final3_VOCAB2000_K30 0.135141   0.886667            30               0
+     LDA               Base     Heavy Vocab2000 40   Run3        LDA | Base | Heavy | Vocab2000 | K40 | Run3                lda_topics_HEAVY_final3_VOCAB2000_K40.json       HEAVY_final3_VOCAB2000_K40 0.117280   0.875000            40               0
+     LDA               Base     Heavy Vocab2000 50   Run3        LDA | Base | Heavy | Vocab2000 | K50 | Run3                lda_topics_HEAVY_final3_VOCAB2000_K50.json       HEAVY_final3_VOCAB2000_K50 0.127326   0.896000            50               0
+     LDA               Base     Heavy Vocab2000 60   Run3        LDA | Base | Heavy | Vocab2000 | K60 | Run3                lda_topics_HEAVY_final3_VOCAB2000_K60.json       HEAVY_final3_VOCAB2000_K60 0.110773   0.913333            60               0
+
+Saved structured evaluation data to evaluation_metrics_all_runs.csv
+Saved log to evaluation_results_log_all_runs.txt
+
+Evaluation Complete!

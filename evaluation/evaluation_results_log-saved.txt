@@ -1,0 +1,433 @@
+=== 1. Reconstructing the Reference Corpus ===
+Constructed reference corpus with 150000 documents.
+
+=== 2. Initializing OCTIS Metrics ===
+Evaluating BERTopic Base =========
+
+--- Evaluating Experiment 1 (BERTopic Light Embeddings Base K=10) ---
+  -> Topic Coherence (NPMI): 0.0974
+  -> Topic Diversity:        0.9444
+  -> (Successfully evaluated 9 valid topics)
+
+--- Evaluating Experiment 2 (BERTopic Heavy Embeddings Base K=10) ---
+  -> Topic Coherence (NPMI): 0.1418
+  -> Topic Diversity:        0.9556
+  -> (Successfully evaluated 9 valid topics)
+
+--- Evaluating Experiment 3 (BERTopic Light Embeddings Base K=20) ---
+  -> Topic Coherence (NPMI): 0.1335
+  -> Topic Diversity:        0.9053
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Experiment 4 (BERTopic Heavy Embeddings Base K=20) ---
+  -> Topic Coherence (NPMI): 0.1307
+  -> Topic Diversity:        0.9333
+  -> (Successfully evaluated 18 valid topics)
+
+--- Evaluating Experiment 5 (BERTopic Light Embeddings Base K=30) ---
+  -> Topic Coherence (NPMI): 0.1277
+  -> Topic Diversity:        0.8621
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Experiment 6 (BERTopic Heavy Embeddings Base K=30) ---
+  -> Topic Coherence (NPMI): 0.1446
+  -> Topic Diversity:        0.8793
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Experiment 7 (BERTopic Light Embeddings Base K=40) ---
+  -> Topic Coherence (NPMI): 0.1253
+  -> Topic Diversity:        0.8605
+  -> (Successfully evaluated 38 valid topics)
+
+--- Evaluating Experiment 8 (BERTopic Heavy Embeddings Base K=40) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1800
+  -> Topic Diversity:        0.8514
+  -> (Successfully evaluated 37 valid topics)
+
+--- Evaluating Experiment 9 (BERTopic Light Embeddings Base K=50) ---
+  -> Topic Coherence (NPMI): 0.1461
+  -> Topic Diversity:        0.8187
+  -> (Successfully evaluated 48 valid topics)
+
+--- Evaluating Experiment 10 (BERTopic Heavy Embeddings Base K=50) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1338
+  -> Topic Diversity:        0.8667
+  -> (Successfully evaluated 48 valid topics)
+
+--- Evaluating Experiment 11 (BERTopic Light Embeddings Base K=60) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1293
+  -> Topic Diversity:        0.8138
+  -> (Successfully evaluated 58 valid topics)
+
+--- Evaluating Experiment 12 (BERTopic Heavy Embeddings Base K=60) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1904
+  -> Topic Diversity:        0.8211
+  -> (Successfully evaluated 57 valid topics)
+
+Evaluating BERTopic UMAP noise parameters =========
+
+--- Evaluating Exp 13: BERTopic NoiseParams Light K10 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1513
+  -> Topic Diversity:        0.9750
+  -> (Successfully evaluated 8 valid topics)
+
+--- Evaluating Exp 14: BERTopic NoiseParams Heavy K10 ---
+  -> Topic Coherence (NPMI): 0.1619
+  -> Topic Diversity:        0.9222
+  -> (Successfully evaluated 9 valid topics)
+
+--- Evaluating Exp 15: BERTopic NoiseParams Light K20 ---
+  -> Topic Coherence (NPMI): 0.1236
+  -> Topic Diversity:        0.9368
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Exp 16: BERTopic NoiseParams Heavy K20 ---
+  -> Topic Coherence (NPMI): 0.1327
+  -> Topic Diversity:        0.9211
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Exp 17: BERTopic NoiseParams Light K30 ---
+  -> Topic Coherence (NPMI): 0.1475
+  -> Topic Diversity:        0.8714
+  -> (Successfully evaluated 28 valid topics)
+
+--- Evaluating Exp 18: BERTopic NoiseParams Heavy K30 ---
+  -> Topic Coherence (NPMI): 0.1350
+  -> Topic Diversity:        0.8643
+  -> (Successfully evaluated 28 valid topics)
+
+--- Evaluating Exp 19: BERTopic NoiseParams Light K40 ---
+  -> Topic Coherence (NPMI): 0.1546
+  -> Topic Diversity:        0.8500
+  -> (Successfully evaluated 38 valid topics)
+
+--- Evaluating Exp 20: BERTopic NoiseParams Heavy K40 ---
+  -> Topic Coherence (NPMI): 0.1143
+  -> Topic Diversity:        0.8605
+  -> (Successfully evaluated 38 valid topics)
+
+--- Evaluating Exp 21: BERTopic NoiseParams Light K50 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1240
+  -> Topic Diversity:        0.8340
+  -> (Successfully evaluated 47 valid topics)
+
+--- Evaluating Exp 22: BERTopic NoiseParams Heavy K50 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1052
+  -> Topic Diversity:        0.8511
+  -> (Successfully evaluated 47 valid topics)
+
+--- Evaluating Exp 23: BERTopic NoiseParams Light K60 ---
+  -> Topic Coherence (NPMI): 0.1331
+  -> Topic Diversity:        0.8068
+  -> (Successfully evaluated 59 valid topics)
+
+--- Evaluating Exp 24: BERTopic NoiseParams Heavy K60 ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1285
+  -> Topic Diversity:        0.8491
+  -> (Successfully evaluated 57 valid topics)
+
+Evaluating BERTopic Reassignment =========
+
+--- Evaluating Exp 25: BERTopic Reassign Light K10 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1847
+  -> Topic Diversity:        0.9875
+  -> (Successfully evaluated 8 valid topics)
+
+--- Evaluating Exp 26: BERTopic Reassign Heavy K10 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1344
+  -> Topic Diversity:        0.9375
+  -> (Successfully evaluated 8 valid topics)
+
+--- Evaluating Exp 27: BERTopic Reassign Light K20 ---
+  -> Topic Coherence (NPMI): 0.1567
+  -> Topic Diversity:        0.9053
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Exp 28: BERTopic Reassign Heavy K20 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1885
+  -> Topic Diversity:        0.9000
+  -> (Successfully evaluated 18 valid topics)
+
+--- Evaluating Exp 29: BERTopic Reassign Light K30 ---
+  -> Topic Coherence (NPMI): 0.1353
+  -> Topic Diversity:        0.8310
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Exp 30: BERTopic Reassign Heavy K30 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1414
+  -> Topic Diversity:        0.8821
+  -> (Successfully evaluated 28 valid topics)
+
+--- Evaluating Exp 31: BERTopic Reassign Light K40 ---
+  -> Topic Coherence (NPMI): 0.1282
+  -> Topic Diversity:        0.8179
+  -> (Successfully evaluated 39 valid topics)
+
+--- Evaluating Exp 32: BERTopic Reassign Heavy K40 ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1083
+  -> Topic Diversity:        0.8189
+  -> (Successfully evaluated 37 valid topics)
+
+--- Evaluating Exp 33: BERTopic Reassign Light K50 ---
+  -> Topic Coherence (NPMI): 0.1429
+  -> Topic Diversity:        0.7796
+  -> (Successfully evaluated 49 valid topics)
+
+--- Evaluating Exp 34: BERTopic Reassign Heavy K50 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1797
+  -> Topic Diversity:        0.7596
+  -> (Successfully evaluated 47 valid topics)
+
+--- Evaluating Exp 35: BERTopic Reassign Light K60 ---
+  -> Topic Coherence (NPMI): 0.1283
+  -> Topic Diversity:        0.7508
+  -> (Successfully evaluated 59 valid topics)
+
+--- Evaluating Exp 36: BERTopic Reassign Heavy K60 ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1736
+  -> Topic Diversity:        0.7614
+  -> (Successfully evaluated 57 valid topics)
+
+Evaluating CTM =========
+
+--- Evaluating Exp 37: CTM Light K10 ---
+  -> Topic Coherence (NPMI): 0.0991
+  -> Topic Diversity:        0.9900
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 38: CTM Heavy K10 ---
+  -> Topic Coherence (NPMI): 0.1135
+  -> Topic Diversity:        0.9900
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 39: CTM Light K20 ---
+  -> Topic Coherence (NPMI): 0.1476
+  -> Topic Diversity:        0.9600
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Exp 40: CTM Heavy K20 ---
+  -> Topic Coherence (NPMI): 0.1457
+  -> Topic Diversity:        0.9700
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Exp 41: CTM Light K30 ---
+  -> Topic Coherence (NPMI): 0.1312
+  -> Topic Diversity:        0.9200
+  -> (Successfully evaluated 30 valid topics)
+
+--- Evaluating Exp 42: CTM Heavy K30 ---
+  -> Topic Coherence (NPMI): 0.1309
+  -> Topic Diversity:        0.9300
+  -> (Successfully evaluated 30 valid topics)
+
+--- Evaluating Exp 43: CTM Light K40 ---
+  -> Topic Coherence (NPMI): 0.1167
+  -> Topic Diversity:        0.8975
+  -> (Successfully evaluated 40 valid topics)
+
+--- Evaluating Exp 44: CTM Heavy K40 ---
+  -> Topic Coherence (NPMI): 0.1305
+  -> Topic Diversity:        0.9225
+  -> (Successfully evaluated 40 valid topics)
+
+--- Evaluating Exp 45: CTM Light K50 ---
+  -> Topic Coherence (NPMI): 0.1059
+  -> Topic Diversity:        0.8640
+  -> (Successfully evaluated 50 valid topics)
+
+--- Evaluating Exp 46: CTM Heavy K50 ---
+  -> Topic Coherence (NPMI): 0.1206
+  -> Topic Diversity:        0.8880
+  -> (Successfully evaluated 50 valid topics)
+
+--- Evaluating Exp 47: CTM Light K60 ---
+  -> Topic Coherence (NPMI): 0.1082
+  -> Topic Diversity:        0.8500
+  -> (Successfully evaluated 60 valid topics)
+
+--- Evaluating Exp 48: CTM Heavy K60 ---
+  -> Topic Coherence (NPMI): 0.1136
+  -> Topic Diversity:        0.8650
+  -> (Successfully evaluated 60 valid topics)
+
+Evaluating ETM (2000 vs 6000 Vocab) =========
+
+--- Evaluating Exp 49: ETM V2000 K10 ---
+  -> Topic Coherence (NPMI): 0.0826
+  -> Topic Diversity:        0.8900
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 50: ETM V6000 K10 ---
+  -> Topic Coherence (NPMI): 0.0619
+  -> Topic Diversity:        0.8500
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 51: ETM V2000 K20 ---
+  -> Topic Coherence (NPMI): 0.0781
+  -> Topic Diversity:        0.6450
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Exp 52: ETM V6000 K20 ---
+  -> Topic Coherence (NPMI): 0.0765
+  -> Topic Diversity:        0.7550
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Exp 53: ETM V2000 K30 ---
+  -> Topic Coherence (NPMI): 0.0679
+  -> Topic Diversity:        0.5200
+  -> (Successfully evaluated 30 valid topics)
+
+--- Evaluating Exp 54: ETM V6000 K30 ---
+  -> Topic Coherence (NPMI): 0.0569
+  -> Topic Diversity:        0.5400
+  -> (Successfully evaluated 30 valid topics)
+
+--- Evaluating Exp 55: ETM V2000 K40 ---
+  -> Topic Coherence (NPMI): 0.0663
+  -> Topic Diversity:        0.4000
+  -> (Successfully evaluated 40 valid topics)
+
+--- Evaluating Exp 56: ETM V6000 K40 ---
+  -> Topic Coherence (NPMI): 0.0607
+  -> Topic Diversity:        0.4850
+  -> (Successfully evaluated 40 valid topics)
+
+--- Evaluating Exp 57: ETM V2000 K50 ---
+  -> Topic Coherence (NPMI): 0.0672
+  -> Topic Diversity:        0.3980
+  -> (Successfully evaluated 50 valid topics)
+
+--- Evaluating Exp 58: ETM V6000 K50 ---
+  -> Topic Coherence (NPMI): 0.0579
+  -> Topic Diversity:        0.4220
+  -> (Successfully evaluated 50 valid topics)
+
+--- Evaluating Exp 59: ETM V2000 K60 ---
+  -> Topic Coherence (NPMI): 0.0596
+  -> Topic Diversity:        0.3000
+  -> (Successfully evaluated 60 valid topics)
+
+--- Evaluating Exp 60: ETM V6000 K60 ---
+  -> Topic Coherence (NPMI): 0.0500
+  -> Topic Diversity:        0.3367
+  -> (Successfully evaluated 60 valid topics)
+
+Evaluating LDA Baseline =========
+
+--- Evaluating Exp 61: LDA V2000 K10 ---
+  -> Topic Coherence (NPMI): 0.0829
+  -> Topic Diversity:        0.8800
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 62: LDA V2000 K20 ---
+  -> Topic Coherence (NPMI): 0.1075
+  -> Topic Diversity:        0.9000
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Exp 63: LDA V2000 K30 ---
+  -> Topic Coherence (NPMI): 0.1351
+  -> Topic Diversity:        0.8867
+  -> (Successfully evaluated 30 valid topics)
+
+--- Evaluating Exp 64: LDA V2000 K40 ---
+  -> Topic Coherence (NPMI): 0.1173
+  -> Topic Diversity:        0.8750
+  -> (Successfully evaluated 40 valid topics)
+
+--- Evaluating Exp 65: LDA V2000 K50 ---
+  -> Topic Coherence (NPMI): 0.1273
+  -> Topic Diversity:        0.8960
+  -> (Successfully evaluated 50 valid topics)
+
+--- Evaluating Exp 66: LDA V2000 K60 ---
+  -> Topic Coherence (NPMI): 0.1108
+  -> Topic Diversity:        0.9133
+  -> (Successfully evaluated 60 valid topics)
+  
+=== Final Summary Table ===
+                                         Experiment     NPMI  Diversity  Valid_Topics
+ Experiment 1 (BERTopic Light Embeddings Base K=10) 0.097412   0.944444             9
+ Experiment 2 (BERTopic Heavy Embeddings Base K=10) 0.141762   0.955556             9
+ Experiment 3 (BERTopic Light Embeddings Base K=20) 0.133493   0.905263            19
+ Experiment 4 (BERTopic Heavy Embeddings Base K=20) 0.130714   0.933333            18
+ Experiment 5 (BERTopic Light Embeddings Base K=30) 0.127661   0.862069            29
+ Experiment 6 (BERTopic Heavy Embeddings Base K=30) 0.144621   0.879310            29
+ Experiment 7 (BERTopic Light Embeddings Base K=40) 0.125315   0.860526            38
+ Experiment 8 (BERTopic Heavy Embeddings Base K=40) 0.180006   0.851351            37
+ Experiment 9 (BERTopic Light Embeddings Base K=50) 0.146097   0.818750            48
+Experiment 10 (BERTopic Heavy Embeddings Base K=50) 0.133779   0.866667            48
+Experiment 11 (BERTopic Light Embeddings Base K=60) 0.129327   0.813793            58
+Experiment 12 (BERTopic Heavy Embeddings Base K=60) 0.190365   0.821053            57
+             Exp 13: BERTopic NoiseParams Light K10 0.151304   0.975000             8
+             Exp 14: BERTopic NoiseParams Heavy K10 0.161874   0.922222             9
+             Exp 15: BERTopic NoiseParams Light K20 0.123568   0.936842            19
+             Exp 16: BERTopic NoiseParams Heavy K20 0.132664   0.921053            19
+             Exp 17: BERTopic NoiseParams Light K30 0.147509   0.871429            28
+             Exp 18: BERTopic NoiseParams Heavy K30 0.135042   0.864286            28
+             Exp 19: BERTopic NoiseParams Light K40 0.154640   0.850000            38
+             Exp 20: BERTopic NoiseParams Heavy K40 0.114258   0.860526            38
+             Exp 21: BERTopic NoiseParams Light K50 0.123984   0.834043            47
+             Exp 22: BERTopic NoiseParams Heavy K50 0.105166   0.851064            47
+             Exp 23: BERTopic NoiseParams Light K60 0.133148   0.806780            59
+             Exp 24: BERTopic NoiseParams Heavy K60 0.128550   0.849123            57
+                Exp 25: BERTopic Reassign Light K10 0.184668   0.987500             8
+                Exp 26: BERTopic Reassign Heavy K10 0.134369   0.937500             8
+                Exp 27: BERTopic Reassign Light K20 0.156673   0.905263            19
+                Exp 28: BERTopic Reassign Heavy K20 0.188515   0.900000            18
+                Exp 29: BERTopic Reassign Light K30 0.135281   0.831034            29
+                Exp 30: BERTopic Reassign Heavy K30 0.141421   0.882143            28
+                Exp 31: BERTopic Reassign Light K40 0.128212   0.817949            39
+                Exp 32: BERTopic Reassign Heavy K40 0.108272   0.818919            37
+                Exp 33: BERTopic Reassign Light K50 0.142884   0.779592            49
+                Exp 34: BERTopic Reassign Heavy K50 0.179653   0.759574            47
+                Exp 35: BERTopic Reassign Light K60 0.128283   0.750847            59
+                Exp 36: BERTopic Reassign Heavy K60 0.173609   0.761404            57
+                              Exp 37: CTM Light K10 0.099117   0.990000            10
+                              Exp 38: CTM Heavy K10 0.113489   0.990000            10
+                              Exp 39: CTM Light K20 0.147613   0.960000            20
+                              Exp 40: CTM Heavy K20 0.145698   0.970000            20
+                              Exp 41: CTM Light K30 0.131227   0.920000            30
+                              Exp 42: CTM Heavy K30 0.130862   0.930000            30
+                              Exp 43: CTM Light K40 0.116693   0.897500            40
+                              Exp 44: CTM Heavy K40 0.130512   0.922500            40
+                              Exp 45: CTM Light K50 0.105911   0.864000            50
+                              Exp 46: CTM Heavy K50 0.120601   0.888000            50
+                              Exp 47: CTM Light K60 0.108208   0.850000            60
+                              Exp 48: CTM Heavy K60 0.113598   0.865000            60
+                              Exp 49: ETM V2000 K10 0.082559   0.890000            10
+                              Exp 50: ETM V6000 K10 0.061886   0.850000            10
+                              Exp 51: ETM V2000 K20 0.078086   0.645000            20
+                              Exp 52: ETM V6000 K20 0.076497   0.755000            20
+                              Exp 53: ETM V2000 K30 0.067880   0.520000            30
+                              Exp 54: ETM V6000 K30 0.056869   0.540000            30
+                              Exp 55: ETM V2000 K40 0.066272   0.400000            40
+                              Exp 56: ETM V6000 K40 0.060746   0.485000            40
+                              Exp 57: ETM V2000 K50 0.067171   0.398000            50
+                              Exp 58: ETM V6000 K50 0.057921   0.422000            50
+                              Exp 59: ETM V2000 K60 0.059574   0.300000            60
+                              Exp 60: ETM V6000 K60 0.050026   0.336667            60
+                              Exp 61: LDA V2000 K10 0.082861   0.880000            10
+                              Exp 62: LDA V2000 K20 0.107452   0.900000            20
+                              Exp 63: LDA V2000 K30 0.135141   0.886667            30
+                              Exp 64: LDA V2000 K40 0.117280   0.875000            40
+                              Exp 65: LDA V2000 K50 0.127326   0.896000            50
+                              Exp 66: LDA V2000 K60 0.110773   0.913333            60
+
+Evaluation Complete!
+
+Evaluation Complete!

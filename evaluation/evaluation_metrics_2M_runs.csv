@@ -1,0 +1,11 @@
+Model,Variant,K,Experiment,Topic_File,NPMI,Diversity,Valid_Topics,Dropped_Topics,Status
+BERTopic,Best2 D2 fit150k transform all,30,BERTopic Best2 D2 K30 fit150k transform all,bertopic_topics_Best2_2M_K30_fit150k_transform_all.json,0.18728505319344269,0.9071428571428571,28,1,ok
+CTM,Light fit150k transform all,20,CTM Light K20 fit150k transform all,ctm_topics_CTM_LIGHT_2M_K20_fit150k_transform_all.json,0.13127248858511822,1.0,20,0.0,ok
+CTM,Heavy fit150k transform all,20,CTM Heavy K20 fit150k transform all,ctm_topics_CTM_HEAVY_2M_K20_fit150k_transform_all.json,,,0,,missing_file
+LDA,Vocab2000 full corpus,10,LDA Vocab2000 K10 full corpus,lda_topics_LDA_2M_VOCAB2000_K10_fullcorpus.json,0.09341649806642642,0.91,10,0.0,ok
+LDA,Vocab2000 full corpus,20,LDA Vocab2000 K20 full corpus,lda_topics_LDA_2M_VOCAB2000_K20_fullcorpus.json,0.09670225046693509,0.93,20,0.0,ok
+LDA,Vocab2000 full corpus,30,LDA Vocab2000 K30 full corpus,lda_topics_LDA_2M_VOCAB2000_K30_fullcorpus.json,0.09988739019595759,0.9133333333333333,30,0.0,ok
+LDA,Vocab2000 full corpus,40,LDA Vocab2000 K40 full corpus,lda_topics_LDA_2M_VOCAB2000_K40_fullcorpus.json,0.09838600368004954,0.9275,40,0.0,ok
+LDA,Vocab2000 full corpus,50,LDA Vocab2000 K50 full corpus,lda_topics_LDA_2M_VOCAB2000_K50_fullcorpus.json,0.0870727130156598,0.924,50,0.0,ok
+LDA,Vocab2000 full corpus,60,LDA Vocab2000 K60 full corpus,lda_topics_LDA_2M_VOCAB2000_K60_fullcorpus.json,0.07546775818932056,0.9316666666666666,60,0.0,ok
+ETM,Vocab2000 full corpus,20,ETM Vocab2000 K20 full corpus,etm_topics_ETM_2M_VOCAB2000_K20.json,,,0,,missing_file

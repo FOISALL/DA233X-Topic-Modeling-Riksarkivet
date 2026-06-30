@@ -1,0 +1,92 @@
+=== 1. Reconstructing the Reference Corpus ===
+Constructed reference corpus with 150000 documents.
+
+=== 2. Initializing OCTIS Metrics ===
+
+Evaluating BERTopic UMAP noise parameters =========
+
+--- Evaluating Exp 13: BERTopic NoiseParams Light fullK10 ---
+  -> Topic Coherence (NPMI): 0.0686
+  -> Topic Diversity:        0.9300
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 14: BERTopic NoiseParams Heavy fullK10 ---
+  -> Topic Coherence (NPMI): 0.0897
+  -> Topic Diversity:        0.9000
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 15: BERTopic NoiseParams Light fullK20 ---
+  -> Topic Coherence (NPMI): 0.1405
+  -> Topic Diversity:        0.8900
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Exp 16: BERTopic NoiseParams Heavy fullK20 ---
+  -> Topic Coherence (NPMI): 0.1091
+  -> Topic Diversity:        0.8895
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Exp 17: BERTopic NoiseParams Light fullK30 ---
+  -> Topic Coherence (NPMI): 0.1392
+  -> Topic Diversity:        0.8692
+  -> (Successfully evaluated 26 valid topics)
+
+--- Evaluating Exp 18: BERTopic NoiseParams Heavy fullK30 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1154
+  -> Topic Diversity:        0.8828
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Exp 19: BERTopic NoiseParams Light fullK40 ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1292
+  -> Topic Diversity:        0.8649
+  -> (Successfully evaluated 37 valid topics)
+
+--- Evaluating Exp 20: BERTopic NoiseParams Heavy fullK40 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1132
+  -> Topic Diversity:        0.8895
+  -> (Successfully evaluated 38 valid topics)
+
+--- Evaluating Exp 21: BERTopic NoiseParams Light fullK50 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1497
+  -> Topic Diversity:        0.8511
+  -> (Successfully evaluated 47 valid topics)
+
+--- Evaluating Exp 22: BERTopic NoiseParams Heavy fullK50 ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.0686
+  -> Topic Diversity:        0.8660
+  -> (Successfully evaluated 47 valid topics)
+
+--- Evaluating Exp 23: BERTopic NoiseParams Light fullK60 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1380
+  -> Topic Diversity:        0.7879
+  -> (Successfully evaluated 58 valid topics)
+
+--- Evaluating Exp 24: BERTopic NoiseParams Heavy fullK60 ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1027
+  -> Topic Diversity:        0.8554
+  -> (Successfully evaluated 56 valid topics)
+
+=== Final Summary Table ===
+                                Experiment     NPMI  Diversity  Valid_Topics
+Exp 13: BERTopic NoiseParams Light fullK10 0.068558   0.930000            10
+Exp 14: BERTopic NoiseParams Heavy fullK10 0.089750   0.900000            10
+Exp 15: BERTopic NoiseParams Light fullK20 0.140516   0.890000            20
+Exp 16: BERTopic NoiseParams Heavy fullK20 0.109131   0.889474            19
+Exp 17: BERTopic NoiseParams Light fullK30 0.139186   0.869231            26
+Exp 18: BERTopic NoiseParams Heavy fullK30 0.115369   0.882759            29
+Exp 19: BERTopic NoiseParams Light fullK40 0.129210   0.864865            37
+Exp 20: BERTopic NoiseParams Heavy fullK40 0.113229   0.889474            38
+Exp 21: BERTopic NoiseParams Light fullK50 0.149701   0.851064            47
+Exp 22: BERTopic NoiseParams Heavy fullK50 0.068576   0.865957            47
+Exp 23: BERTopic NoiseParams Light fullK60 0.138048   0.787931            58
+Exp 24: BERTopic NoiseParams Heavy fullK60 0.102724   0.855357            56
+
+Evaluation Complete!
+
+Evaluation Complete!

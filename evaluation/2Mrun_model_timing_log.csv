@@ -1,0 +1,15 @@
+model,run_name,K,time_seconds,time_minutes
+BERTopic,Best1_2M_K30,30,3927.79,65.46
+BERTopic,Best1_2M_K30_fit150k_transform_all,30,1112.23,18.54
+CTM,CTM_LIGHT_2M_K20_fit150k_transform_all_fit150k,20,2099.72,35.0
+CTM,CTM_LIGHT_2M_K20_fit150k_transform_all_infer_all,20,327.54,5.46
+CTM,CTM_LIGHT_2M_K20_fit150k_transform_all_total,20,2427.37,40.46
+BERTopic,Best2_2M_K30_fit150k_transform_all,30,1240.78,20.68
+LDA,LDA_2M_VOCAB2000_K10_fullcorpus,10,2373.39,39.56
+LDA,LDA_2M_VOCAB2000_K20_fullcorpus,20,2472.36,41.21
+LDA,LDA_2M_VOCAB2000_K30_fullcorpus,30,2614.28,43.57
+LDA,LDA_2M_VOCAB2000_K40_fullcorpus,40,4782.25,79.7
+LDA,LDA_2M_VOCAB2000_K50_fullcorpus,50,3000.26,50.0
+LDA,LDA_2M_VOCAB2000_K60_fullcorpus,60,3127.08,52.12
+BERTopic,Best2_2M_K30_fit150k_transform_all,30,1050.43,17.51
+

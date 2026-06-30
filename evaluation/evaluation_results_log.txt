@@ -1,0 +1,92 @@
+=== 1. Reconstructing the Reference Corpus ===
+Constructed reference corpus with 150000 documents.
+
+=== 2. Initializing OCTIS Metrics ===
+Evaluating BERTopic Base with full topics =========
+
+--- Evaluating Experiment 1 (BERTopic Light Embeddings Base fullK=10) ---
+  -> Topic Coherence (NPMI): 0.1088
+  -> Topic Diversity:        0.9800
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Experiment 2 (BERTopic Heavy Embeddings Base fullK=10) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1590
+  -> Topic Diversity:        0.9444
+  -> (Successfully evaluated 9 valid topics)
+
+--- Evaluating Experiment 3 (BERTopic Light Embeddings Base fullK=20) ---
+  -> Topic Coherence (NPMI): 0.1248
+  -> Topic Diversity:        0.9316
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Experiment 4 (BERTopic Heavy Embeddings Base fullK=20) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1622
+  -> Topic Diversity:        0.9474
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Experiment 5 (BERTopic Light Embeddings Base fullK=30) ---
+  -> Topic Coherence (NPMI): 0.1492
+  -> Topic Diversity:        0.8448
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Experiment 6 (BERTopic Heavy Embeddings Base fullK=30) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1550
+  -> Topic Diversity:        0.8724
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Experiment 7 (BERTopic Light Embeddings Base fullK=40) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1368
+  -> Topic Diversity:        0.8447
+  -> (Successfully evaluated 38 valid topics)
+
+--- Evaluating Experiment 8 (BERTopic Heavy Embeddings Base fullK=40) ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1879
+  -> Topic Diversity:        0.8622
+  -> (Successfully evaluated 37 valid topics)
+
+--- Evaluating Experiment 9 (BERTopic Light Embeddings Base fullK=50) ---
+  -> Topic Coherence (NPMI): 0.1369
+  -> Topic Diversity:        0.8224
+  -> (Successfully evaluated 49 valid topics)
+
+--- Evaluating Experiment 10 (BERTopic Heavy Embeddings Base fullK=50) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1144
+  -> Topic Diversity:        0.8729
+  -> (Successfully evaluated 48 valid topics)
+
+--- Evaluating Experiment 11 (BERTopic Light Embeddings Base fullK=60) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1399
+  -> Topic Diversity:        0.8052
+  -> (Successfully evaluated 58 valid topics)
+
+--- Evaluating Experiment 12 (BERTopic Heavy Embeddings Base fullK=60) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1689
+  -> Topic Diversity:        0.8414
+  -> (Successfully evaluated 58 valid topics)
+
+=== Final Summary Table ===
+                                             Experiment     NPMI  Diversity  Valid_Topics
+ Experiment 1 (BERTopic Light Embeddings Base fullK=10) 0.108802   0.980000            10
+ Experiment 2 (BERTopic Heavy Embeddings Base fullK=10) 0.159018   0.944444             9
+ Experiment 3 (BERTopic Light Embeddings Base fullK=20) 0.124786   0.931579            19
+ Experiment 4 (BERTopic Heavy Embeddings Base fullK=20) 0.162196   0.947368            19
+ Experiment 5 (BERTopic Light Embeddings Base fullK=30) 0.149185   0.844828            29
+ Experiment 6 (BERTopic Heavy Embeddings Base fullK=30) 0.155034   0.872414            29
+ Experiment 7 (BERTopic Light Embeddings Base fullK=40) 0.136811   0.844737            38
+ Experiment 8 (BERTopic Heavy Embeddings Base fullK=40) 0.187885   0.862162            37
+ Experiment 9 (BERTopic Light Embeddings Base fullK=50) 0.136907   0.822449            49
+Experiment 10 (BERTopic Heavy Embeddings Base fullK=50) 0.114399   0.872917            48
+Experiment 11 (BERTopic Light Embeddings Base fullK=60) 0.139851   0.805172            58
+Experiment 12 (BERTopic Heavy Embeddings Base fullK=60) 0.168897   0.841379            58
+
+Evaluation Complete!
+
+Evaluation Complete!

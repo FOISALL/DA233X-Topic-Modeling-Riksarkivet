@@ -1,0 +1,90 @@
+=== 1. Reconstructing the Reference Corpus ===
+Constructed reference corpus with 150000 documents.
+
+=== 2. Initializing OCTIS Metrics ===
+Evaluating BERTopic Base with full topics =========
+
+--- Evaluating Experiment 1 (BERTopic Light Embeddings Base fullK=10) ---
+  -> Topic Coherence (NPMI): 0.1569
+  -> Topic Diversity:        0.9800
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Experiment 2 (BERTopic Heavy Embeddings Base fullK=10) ---
+  -> Topic Coherence (NPMI): 0.1821
+  -> Topic Diversity:        0.9300
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Experiment 3 (BERTopic Light Embeddings Base fullK=20) ---
+  -> Topic Coherence (NPMI): 0.1197
+  -> Topic Diversity:        0.8950
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Experiment 4 (BERTopic Heavy Embeddings Base fullK=20) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1441
+  -> Topic Diversity:        0.9211
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Experiment 5 (BERTopic Light Embeddings Base fullK=30) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1455
+  -> Topic Diversity:        0.8379
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Experiment 6 (BERTopic Heavy Embeddings Base fullK=30) ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1723
+  -> Topic Diversity:        0.8778
+  -> (Successfully evaluated 27 valid topics)
+
+--- Evaluating Experiment 7 (BERTopic Light Embeddings Base fullK=40) ---
+  -> Topic Coherence (NPMI): 0.1203
+  -> Topic Diversity:        0.8350
+  -> (Successfully evaluated 40 valid topics)
+
+--- Evaluating Experiment 8 (BERTopic Heavy Embeddings Base fullK=40) ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.0922
+  -> Topic Diversity:        0.9111
+  -> (Successfully evaluated 36 valid topics)
+
+--- Evaluating Experiment 9 (BERTopic Light Embeddings Base fullK=50) ---
+  -> Topic Coherence (NPMI): 0.1419
+  -> Topic Diversity:        0.8388
+  -> (Successfully evaluated 49 valid topics)
+
+--- Evaluating Experiment 10 (BERTopic Heavy Embeddings Base fullK=50) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1271
+  -> Topic Diversity:        0.8673
+  -> (Successfully evaluated 49 valid topics)
+
+--- Evaluating Experiment 11 (BERTopic Light Embeddings Base fullK=60) ---
+  -> Topic Coherence (NPMI): 0.1431
+  -> Topic Diversity:        0.8136
+  -> (Successfully evaluated 59 valid topics)
+
+--- Evaluating Experiment 12 (BERTopic Heavy Embeddings Base fullK=60) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1276
+  -> Topic Diversity:        0.8172
+  -> (Successfully evaluated 58 valid topics)
+
+=== Final Summary Table ===
+                                             Experiment     NPMI  Diversity  Valid_Topics
+ Experiment 1 (BERTopic Light Embeddings Base fullK=10) 0.156914   0.980000            10
+ Experiment 2 (BERTopic Heavy Embeddings Base fullK=10) 0.182108   0.930000            10
+ Experiment 3 (BERTopic Light Embeddings Base fullK=20) 0.119743   0.895000            20
+ Experiment 4 (BERTopic Heavy Embeddings Base fullK=20) 0.144129   0.921053            19
+ Experiment 5 (BERTopic Light Embeddings Base fullK=30) 0.145458   0.837931            29
+ Experiment 6 (BERTopic Heavy Embeddings Base fullK=30) 0.172258   0.877778            27
+ Experiment 7 (BERTopic Light Embeddings Base fullK=40) 0.120256   0.835000            40
+ Experiment 8 (BERTopic Heavy Embeddings Base fullK=40) 0.092167   0.911111            36
+ Experiment 9 (BERTopic Light Embeddings Base fullK=50) 0.141873   0.838776            49
+Experiment 10 (BERTopic Heavy Embeddings Base fullK=50) 0.127087   0.867347            49
+Experiment 11 (BERTopic Light Embeddings Base fullK=60) 0.143142   0.813559            59
+Experiment 12 (BERTopic Heavy Embeddings Base fullK=60) 0.127596   0.817241            58
+
+Evaluation Complete!
+
+Evaluation Complete!

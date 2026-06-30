@@ -1,0 +1,27 @@
+=== 1. Reconstructing the 2M Reference Corpus ===
+Constructed reference corpus with 1774919 documents.
+Dictionary size: 100000
+
+=== 2. Initializing OCTIS Metrics ===
+
+=== 3. Evaluating BERTopic 2M runs only ===
+
+--- Evaluating BERTopic Best1 D2 K30 fit150k transform all ---
+  -> Topic Coherence (NPMI): 0.1847
+  -> Topic Diversity:        0.8862
+  -> Valid topics:           29
+
+--- Evaluating BERTopic Best2 D2 K30 fit150k transform all ---
+  -> Topic Coherence (NPMI): 0.1873
+  -> Topic Diversity:        0.9071
+  -> Valid topics:           28
+
+=== BERTopic-only 2M Evaluation Summary ===
+   Model                        Variant  K                                  Experiment                                              Topic_File     NPMI  Diversity  Valid_Topics  Dropped_Topics Status
+BERTopic Best1 D2 fit150k transform all 30 BERTopic Best1 D2 K30 fit150k transform all bertopic_topics_Best1_2M_K30_fit150k_transform_all.json 0.184743   0.886207            29               1     ok
+BERTopic Best2 D2 fit150k transform all 30 BERTopic Best2 D2 K30 fit150k transform all bertopic_topics_Best2_2M_K30_fit150k_transform_all.json 0.187285   0.907143            28               1     ok
+
+Saved BERTopic-only 2M evaluation summary to: evaluation_metrics_2M_bertopic_only.csv
+Saved BERTopic-only evaluation log to: evaluation_results_log_2M_bertopic_only.txt
+
+Evaluation complete!

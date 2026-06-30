@@ -1,0 +1,199 @@
+Model,Variant,Embedding,Vocab,K,Repeat,Experiment,Source_File,Timing_Run_Name,NPMI,Diversity,Valid_Topics,Dropped_Topics
+BERTopic,Base fullK,Light,,10,Run1,BERTopic | Base fullK | Light | K10 | Run1,bertopic_topics_LIGHT_EMBfinal_fullK10.json,LIGHT_EMBfinal_K10,0.08304958373563123,0.96,10,0
+BERTopic,Base fullK,Heavy,,10,Run1,BERTopic | Base fullK | Heavy | K10 | Run1,bertopic_topics_HEAVY_EMBfinal_fullK10.json,HEAVY_EMBfinal_K10,0.09850892943721301,0.95,10,0
+BERTopic,Base fullK,Light,,20,Run1,BERTopic | Base fullK | Light | K20 | Run1,bertopic_topics_LIGHT_EMBfinal_fullK20.json,LIGHT_EMBfinal_K20,0.14727966053191816,0.9368421052631579,19,0
+BERTopic,Base fullK,Heavy,,20,Run1,BERTopic | Base fullK | Heavy | K20 | Run1,bertopic_topics_HEAVY_EMBfinal_fullK20.json,HEAVY_EMBfinal_K20,0.11686105200859671,0.915,20,0
+BERTopic,Base fullK,Light,,30,Run1,BERTopic | Base fullK | Light | K30 | Run1,bertopic_topics_LIGHT_EMBfinal_fullK30.json,LIGHT_EMBfinal_K30,0.1182446190142674,0.8689655172413793,29,1
+BERTopic,Base fullK,Heavy,,30,Run1,BERTopic | Base fullK | Heavy | K30 | Run1,bertopic_topics_HEAVY_EMBfinal_fullK30.json,HEAVY_EMBfinal_K30,0.17373141581748325,0.8888888888888888,27,2
+BERTopic,Base fullK,Light,,40,Run1,BERTopic | Base fullK | Light | K40 | Run1,bertopic_topics_LIGHT_EMBfinal_fullK40.json,LIGHT_EMBfinal_K40,0.1268932501333353,0.8475,40,0
+BERTopic,Base fullK,Heavy,,40,Run1,BERTopic | Base fullK | Heavy | K40 | Run1,bertopic_topics_HEAVY_EMBfinal_fullK40.json,HEAVY_EMBfinal_K40,0.17794874066416658,0.8263157894736842,38,1
+BERTopic,Base fullK,Light,,50,Run1,BERTopic | Base fullK | Light | K50 | Run1,bertopic_topics_LIGHT_EMBfinal_fullK50.json,LIGHT_EMBfinal_K50,0.13146201586270434,0.8408163265306122,49,1
+BERTopic,Base fullK,Heavy,,50,Run1,BERTopic | Base fullK | Heavy | K50 | Run1,bertopic_topics_HEAVY_EMBfinal_fullK50.json,HEAVY_EMBfinal_K50,0.20107528077235026,0.89375,32,1
+BERTopic,Base fullK,Light,,60,Run1,BERTopic | Base fullK | Light | K60 | Run1,bertopic_topics_LIGHT_EMBfinal_fullK60.json,LIGHT_EMBfinal_K60,0.1384032106089249,0.8135593220338984,59,0
+BERTopic,Base fullK,Heavy,,60,Run1,BERTopic | Base fullK | Heavy | K60 | Run1,bertopic_topics_HEAVY_EMBfinal_fullK60.json,HEAVY_EMBfinal_K60,0.14430539344169996,0.8344827586206897,58,1
+BERTopic,Base fullK,Light,,10,Run2,BERTopic | Base fullK | Light | K10 | Run2,bertopic_topics_LIGHT_EMBfinal2_fullK10.json,LIGHT_EMBfinal2_K10,0.10880233811978912,0.98,10,0
+BERTopic,Base fullK,Heavy,,10,Run2,BERTopic | Base fullK | Heavy | K10 | Run2,bertopic_topics_HEAVY_EMBfinal2_fullK10.json,HEAVY_EMBfinal2_K10,0.15901808478920545,0.9444444444444444,9,1
+BERTopic,Base fullK,Light,,20,Run2,BERTopic | Base fullK | Light | K20 | Run2,bertopic_topics_LIGHT_EMBfinal2_fullK20.json,LIGHT_EMBfinal2_K20,0.12478582305406317,0.9315789473684211,19,0
+BERTopic,Base fullK,Heavy,,20,Run2,BERTopic | Base fullK | Heavy | K20 | Run2,bertopic_topics_HEAVY_EMBfinal2_fullK20.json,HEAVY_EMBfinal2_K20,0.16219568121676595,0.9473684210526315,19,1
+BERTopic,Base fullK,Light,,30,Run2,BERTopic | Base fullK | Light | K30 | Run2,bertopic_topics_LIGHT_EMBfinal2_fullK30.json,LIGHT_EMBfinal2_K30,0.14918529476208384,0.8448275862068966,29,0
+BERTopic,Base fullK,Heavy,,30,Run2,BERTopic | Base fullK | Heavy | K30 | Run2,bertopic_topics_HEAVY_EMBfinal2_fullK30.json,HEAVY_EMBfinal2_K30,0.1550342095387677,0.8724137931034482,29,1
+BERTopic,Base fullK,Light,,40,Run2,BERTopic | Base fullK | Light | K40 | Run2,bertopic_topics_LIGHT_EMBfinal2_fullK40.json,LIGHT_EMBfinal2_K40,0.13681123110663554,0.8447368421052631,38,1
+BERTopic,Base fullK,Heavy,,40,Run2,BERTopic | Base fullK | Heavy | K40 | Run2,bertopic_topics_HEAVY_EMBfinal2_fullK40.json,HEAVY_EMBfinal2_K40,0.18788451053369332,0.8621621621621621,37,2
+BERTopic,Base fullK,Light,,50,Run2,BERTopic | Base fullK | Light | K50 | Run2,bertopic_topics_LIGHT_EMBfinal2_fullK50.json,LIGHT_EMBfinal2_K50,0.1369067848936439,0.8224489795918367,49,0
+BERTopic,Base fullK,Heavy,,50,Run2,BERTopic | Base fullK | Heavy | K50 | Run2,bertopic_topics_HEAVY_EMBfinal2_fullK50.json,HEAVY_EMBfinal2_K50,0.1143988815553763,0.8729166666666667,48,1
+BERTopic,Base fullK,Light,,60,Run2,BERTopic | Base fullK | Light | K60 | Run2,bertopic_topics_LIGHT_EMBfinal2_fullK60.json,LIGHT_EMBfinal2_K60,0.13985098357850068,0.8051724137931034,58,1
+BERTopic,Base fullK,Heavy,,60,Run2,BERTopic | Base fullK | Heavy | K60 | Run2,bertopic_topics_HEAVY_EMBfinal2_fullK60.json,HEAVY_EMBfinal2_K60,0.1688973807443027,0.8413793103448276,58,1
+BERTopic,Base fullK,Light,,10,Run3,BERTopic | Base fullK | Light | K10 | Run3,bertopic_topics_LIGHT_EMBfinal3_fullK10.json,LIGHT_EMBfinal3_K10,0.16761841258549512,0.9777777777777777,9,0
+BERTopic,Base fullK,Heavy,,10,Run3,BERTopic | Base fullK | Heavy | K10 | Run3,bertopic_topics_HEAVY_EMBfinal3_fullK10.json,HEAVY_EMBfinal3_K10,0.18375898914361186,0.9777777777777777,9,1
+BERTopic,Base fullK,Light,,20,Run3,BERTopic | Base fullK | Light | K20 | Run3,bertopic_topics_LIGHT_EMBfinal3_fullK20.json,LIGHT_EMBfinal3_K20,0.12612603729640545,0.925,20,0
+BERTopic,Base fullK,Heavy,,20,Run3,BERTopic | Base fullK | Heavy | K20 | Run3,bertopic_topics_HEAVY_EMBfinal3_fullK20.json,HEAVY_EMBfinal3_K20,0.1599988413335651,0.9210526315789473,19,1
+BERTopic,Base fullK,Light,,30,Run3,BERTopic | Base fullK | Light | K30 | Run3,bertopic_topics_LIGHT_EMBfinal3_fullK30.json,LIGHT_EMBfinal3_K30,0.1287864364323267,0.8533333333333334,30,0
+BERTopic,Base fullK,Heavy,,30,Run3,BERTopic | Base fullK | Heavy | K30 | Run3,bertopic_topics_HEAVY_EMBfinal3_fullK30.json,HEAVY_EMBfinal3_K30,0.19251687801604275,0.8928571428571429,28,1
+BERTopic,Base fullK,Light,,40,Run3,BERTopic | Base fullK | Light | K40 | Run3,bertopic_topics_LIGHT_EMBfinal3_fullK40.json,LIGHT_EMBfinal3_K40,0.13159711350431622,0.8641025641025641,39,0
+BERTopic,Base fullK,Heavy,,40,Run3,BERTopic | Base fullK | Heavy | K40 | Run3,bertopic_topics_HEAVY_EMBfinal3_fullK40.json,HEAVY_EMBfinal3_K40,0.13217173678383076,0.8810810810810811,37,2
+BERTopic,Base fullK,Light,,50,Run3,BERTopic | Base fullK | Light | K50 | Run3,bertopic_topics_LIGHT_EMBfinal3_fullK50.json,LIGHT_EMBfinal3_K50,0.13685555790129833,0.8276595744680851,47,2
+BERTopic,Base fullK,Heavy,,50,Run3,BERTopic | Base fullK | Heavy | K50 | Run3,bertopic_topics_HEAVY_EMBfinal3_fullK50.json,HEAVY_EMBfinal3_K50,0.17255346296216997,0.8354166666666667,48,1
+BERTopic,Base fullK,Light,,60,Run3,BERTopic | Base fullK | Light | K60 | Run3,bertopic_topics_LIGHT_EMBfinal3_fullK60.json,LIGHT_EMBfinal3_K60,0.13829278144882787,0.7983050847457627,59,0
+BERTopic,Base fullK,Heavy,,60,Run3,BERTopic | Base fullK | Heavy | K60 | Run3,bertopic_topics_HEAVY_EMBfinal3_fullK60.json,HEAVY_EMBfinal3_K60,0.17800608272711252,0.8293103448275863,58,1
+BERTopic,NoiseParams fullK,Light,,10,Run1,BERTopic | NoiseParams fullK | Light | K10 | Run1,bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK10.json,LIGHT_EMBfinal_noiseparams_K10,0.11538161679330823,0.9555555555555556,9,0
+BERTopic,NoiseParams fullK,Heavy,,10,Run1,BERTopic | NoiseParams fullK | Heavy | K10 | Run1,bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK10.json,HEAVY_EMBfinal_noiseparams_K10,0.11809311005946295,0.92,10,0
+BERTopic,NoiseParams fullK,Light,,20,Run1,BERTopic | NoiseParams fullK | Light | K20 | Run1,bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK20.json,LIGHT_EMBfinal_noiseparams_K20,0.15932738870249463,0.95,18,2
+BERTopic,NoiseParams fullK,Heavy,,20,Run1,BERTopic | NoiseParams fullK | Heavy | K20 | Run1,bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK20.json,HEAVY_EMBfinal_noiseparams_K20,0.11045424593114106,0.87,20,0
+BERTopic,NoiseParams fullK,Light,,30,Run1,BERTopic | NoiseParams fullK | Light | K30 | Run1,bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK30.json,LIGHT_EMBfinal_noiseparams_K30,0.12492124669360344,0.8931034482758621,29,0
+BERTopic,NoiseParams fullK,Heavy,,30,Run1,BERTopic | NoiseParams fullK | Heavy | K30 | Run1,bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK30.json,HEAVY_EMBfinal_noiseparams_K30,0.09612403267186784,0.9103448275862069,29,0
+BERTopic,NoiseParams fullK,Light,,40,Run1,BERTopic | NoiseParams fullK | Light | K40 | Run1,bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK40.json,LIGHT_EMBfinal_noiseparams_K40,0.13550538935178055,0.85,38,0
+BERTopic,NoiseParams fullK,Heavy,,40,Run1,BERTopic | NoiseParams fullK | Heavy | K40 | Run1,bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK40.json,HEAVY_EMBfinal_noiseparams_K40,0.10567671662084958,0.8578947368421053,38,1
+BERTopic,NoiseParams fullK,Light,,50,Run1,BERTopic | NoiseParams fullK | Light | K50 | Run1,bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK50.json,LIGHT_EMBfinal_noiseparams_K50,0.12508812861148566,0.8395833333333333,48,0
+BERTopic,NoiseParams fullK,Heavy,,50,Run1,BERTopic | NoiseParams fullK | Heavy | K50 | Run1,bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK50.json,HEAVY_EMBfinal_noiseparams_K50,0.06225784906010981,0.8282608695652174,46,1
+BERTopic,NoiseParams fullK,Light,,60,Run1,BERTopic | NoiseParams fullK | Light | K60 | Run1,bertopic_topics_LIGHT_EMBfinal_noiseparams_fullK60.json,LIGHT_EMBfinal_noiseparams_K60,0.1143535893729059,0.8425925925925926,54,1
+BERTopic,NoiseParams fullK,Heavy,,60,Run1,BERTopic | NoiseParams fullK | Heavy | K60 | Run1,bertopic_topics_HEAVY_EMBfinal_noiseparams_fullK60.json,HEAVY_EMBfinal_noiseparams_K60,0.08387137766003244,0.8574074074074074,54,2
+BERTopic,NoiseParams fullK,Light,,10,Run2,BERTopic | NoiseParams fullK | Light | K10 | Run2,bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK10.json,LIGHT_EMBfinal2_noiseparams_K10,0.0685581621047564,0.93,10,0
+BERTopic,NoiseParams fullK,Heavy,,10,Run2,BERTopic | NoiseParams fullK | Heavy | K10 | Run2,bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK10.json,HEAVY_EMBfinal2_noiseparams_K10,0.08974960059797576,0.9,10,0
+BERTopic,NoiseParams fullK,Light,,20,Run2,BERTopic | NoiseParams fullK | Light | K20 | Run2,bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK20.json,LIGHT_EMBfinal2_noiseparams_K20,0.14051637462332264,0.89,20,0
+BERTopic,NoiseParams fullK,Heavy,,20,Run2,BERTopic | NoiseParams fullK | Heavy | K20 | Run2,bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK20.json,HEAVY_EMBfinal2_noiseparams_K20,0.10913102860101201,0.8894736842105263,19,0
+BERTopic,NoiseParams fullK,Light,,30,Run2,BERTopic | NoiseParams fullK | Light | K30 | Run2,bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK30.json,LIGHT_EMBfinal2_noiseparams_K30,0.1391858775188106,0.8692307692307693,26,0
+BERTopic,NoiseParams fullK,Heavy,,30,Run2,BERTopic | NoiseParams fullK | Heavy | K30 | Run2,bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK30.json,HEAVY_EMBfinal2_noiseparams_K30,0.11536890461195937,0.8827586206896552,29,1
+BERTopic,NoiseParams fullK,Light,,40,Run2,BERTopic | NoiseParams fullK | Light | K40 | Run2,bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK40.json,LIGHT_EMBfinal2_noiseparams_K40,0.12921030538704073,0.8648648648648649,37,2
+BERTopic,NoiseParams fullK,Heavy,,40,Run2,BERTopic | NoiseParams fullK | Heavy | K40 | Run2,bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK40.json,HEAVY_EMBfinal2_noiseparams_K40,0.11322888628540727,0.8894736842105263,38,1
+BERTopic,NoiseParams fullK,Light,,50,Run2,BERTopic | NoiseParams fullK | Light | K50 | Run2,bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK50.json,LIGHT_EMBfinal2_noiseparams_K50,0.1497011802044299,0.851063829787234,47,1
+BERTopic,NoiseParams fullK,Heavy,,50,Run2,BERTopic | NoiseParams fullK | Heavy | K50 | Run2,bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK50.json,HEAVY_EMBfinal2_noiseparams_K50,0.0685755553405841,0.8659574468085106,47,2
+BERTopic,NoiseParams fullK,Light,,60,Run2,BERTopic | NoiseParams fullK | Light | K60 | Run2,bertopic_topics_LIGHT_EMBfinal2_noiseparams_fullK60.json,LIGHT_EMBfinal2_noiseparams_K60,0.138048325522926,0.7879310344827586,58,1
+BERTopic,NoiseParams fullK,Heavy,,60,Run2,BERTopic | NoiseParams fullK | Heavy | K60 | Run2,bertopic_topics_HEAVY_EMBfinal2_noiseparams_fullK60.json,HEAVY_EMBfinal2_noiseparams_K60,0.10272355514412536,0.8553571428571428,56,2
+BERTopic,NoiseParams fullK,Light,,10,Run3,BERTopic | NoiseParams fullK | Light | K10 | Run3,bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK10.json,LIGHT_EMBfinal3_noiseparams_K10,0.152327991848077,0.9555555555555556,9,1
+BERTopic,NoiseParams fullK,Heavy,,10,Run3,BERTopic | NoiseParams fullK | Heavy | K10 | Run3,bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK10.json,HEAVY_EMBfinal3_noiseparams_K10,0.1682286877424679,0.9333333333333333,9,0
+BERTopic,NoiseParams fullK,Light,,20,Run3,BERTopic | NoiseParams fullK | Light | K20 | Run3,bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK20.json,LIGHT_EMBfinal3_noiseparams_K20,0.09863782162504046,0.885,20,0
+BERTopic,NoiseParams fullK,Heavy,,20,Run3,BERTopic | NoiseParams fullK | Heavy | K20 | Run3,bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK20.json,HEAVY_EMBfinal3_noiseparams_K20,0.11514097233574949,0.8888888888888888,18,0
+BERTopic,NoiseParams fullK,Light,,30,Run3,BERTopic | NoiseParams fullK | Light | K30 | Run3,bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK30.json,LIGHT_EMBfinal3_noiseparams_K30,0.1115033530117515,0.8555555555555555,27,0
+BERTopic,NoiseParams fullK,Heavy,,30,Run3,BERTopic | NoiseParams fullK | Heavy | K30 | Run3,bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK30.json,HEAVY_EMBfinal3_noiseparams_K30,0.12368411620042619,0.85,28,0
+BERTopic,NoiseParams fullK,Light,,40,Run3,BERTopic | NoiseParams fullK | Light | K40 | Run3,bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK40.json,LIGHT_EMBfinal3_noiseparams_K40,0.10676579529235979,0.8552631578947368,38,1
+BERTopic,NoiseParams fullK,Heavy,,40,Run3,BERTopic | NoiseParams fullK | Heavy | K40 | Run3,bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK40.json,HEAVY_EMBfinal3_noiseparams_K40,0.11534027743528381,0.8837837837837837,37,1
+BERTopic,NoiseParams fullK,Light,,50,Run3,BERTopic | NoiseParams fullK | Light | K50 | Run3,bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK50.json,LIGHT_EMBfinal3_noiseparams_K50,0.13658210423144046,0.8347826086956521,46,0
+BERTopic,NoiseParams fullK,Heavy,,50,Run3,BERTopic | NoiseParams fullK | Heavy | K50 | Run3,bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK50.json,HEAVY_EMBfinal3_noiseparams_K50,0.10985587458536575,0.8787234042553191,47,0
+BERTopic,NoiseParams fullK,Light,,60,Run3,BERTopic | NoiseParams fullK | Light | K60 | Run3,bertopic_topics_LIGHT_EMBfinal3_noiseparams_fullK60.json,LIGHT_EMBfinal3_noiseparams_K60,0.12899702610680713,0.7789473684210526,57,2
+BERTopic,NoiseParams fullK,Heavy,,60,Run3,BERTopic | NoiseParams fullK | Heavy | K60 | Run3,bertopic_topics_HEAVY_EMBfinal3_noiseparams_fullK60.json,HEAVY_EMBfinal3_noiseparams_K60,0.09674250402586668,0.8491228070175438,57,1
+BERTopic,Reassignment fullK,Light,,10,Run1,BERTopic | Reassignment fullK | Light | K10 | Run1,bertopic_topics_LIGHT_EMBfinal_reassignment_fullK10.json,LIGHT_EMBfinal_reassignment_K10,0.1230671233989296,0.95,10,0
+BERTopic,Reassignment fullK,Heavy,,10,Run1,BERTopic | Reassignment fullK | Heavy | K10 | Run1,bertopic_topics_HEAVY_EMBfinal_reassignment_fullK10.json,HEAVY_EMBfinal_reassignment_K10,0.1596932603945224,0.9666666666666667,9,1
+BERTopic,Reassignment fullK,Light,,20,Run1,BERTopic | Reassignment fullK | Light | K20 | Run1,bertopic_topics_LIGHT_EMBfinal_reassignment_fullK20.json,LIGHT_EMBfinal_reassignment_K20,0.15220667032913782,0.8789473684210526,19,0
+BERTopic,Reassignment fullK,Heavy,,20,Run1,BERTopic | Reassignment fullK | Heavy | K20 | Run1,bertopic_topics_HEAVY_EMBfinal_reassignment_fullK20.json,HEAVY_EMBfinal_reassignment_K20,0.18902746888576685,0.9157894736842105,19,1
+BERTopic,Reassignment fullK,Light,,30,Run1,BERTopic | Reassignment fullK | Light | K30 | Run1,bertopic_topics_LIGHT_EMBfinal_reassignment_fullK30.json,LIGHT_EMBfinal_reassignment_K30,0.15315452984386876,0.8310344827586207,29,0
+BERTopic,Reassignment fullK,Heavy,,30,Run1,BERTopic | Reassignment fullK | Heavy | K30 | Run1,bertopic_topics_HEAVY_EMBfinal_reassignment_fullK30.json,HEAVY_EMBfinal_reassignment_K30,0.1589748526315629,0.8655172413793103,29,1
+BERTopic,Reassignment fullK,Light,,40,Run1,BERTopic | Reassignment fullK | Light | K40 | Run1,bertopic_topics_LIGHT_EMBfinal_reassignment_fullK40.json,LIGHT_EMBfinal_reassignment_K40,0.1435738689171234,0.8025641025641026,39,0
+BERTopic,Reassignment fullK,Heavy,,40,Run1,BERTopic | Reassignment fullK | Heavy | K40 | Run1,bertopic_topics_HEAVY_EMBfinal_reassignment_fullK40.json,HEAVY_EMBfinal_reassignment_K40,0.1272631362587276,0.8282051282051283,39,1
+BERTopic,Reassignment fullK,Light,,50,Run1,BERTopic | Reassignment fullK | Light | K50 | Run1,bertopic_topics_LIGHT_EMBfinal_reassignment_fullK50.json,LIGHT_EMBfinal_reassignment_K50,0.15022775160443996,0.806,50,0
+BERTopic,Reassignment fullK,Heavy,,50,Run1,BERTopic | Reassignment fullK | Heavy | K50 | Run1,bertopic_topics_HEAVY_EMBfinal_reassignment_fullK50.json,HEAVY_EMBfinal_reassignment_K50,0.11496282125995312,0.7816326530612245,49,1
+BERTopic,Reassignment fullK,Light,,60,Run1,BERTopic | Reassignment fullK | Light | K60 | Run1,bertopic_topics_LIGHT_EMBfinal_reassignment_fullK60.json,LIGHT_EMBfinal_reassignment_K60,0.14002796331282916,0.7258620689655172,58,0
+BERTopic,Reassignment fullK,Heavy,,60,Run1,BERTopic | Reassignment fullK | Heavy | K60 | Run1,bertopic_topics_HEAVY_EMBfinal_reassignment_fullK60.json,HEAVY_EMBfinal_reassignment_K60,0.18140849197704795,0.7586206896551724,58,2
+BERTopic,Reassignment fullK,Light,,10,Run2,BERTopic | Reassignment fullK | Light | K10 | Run2,bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK10.json,LIGHT_EMBfinal2_reassignment_K10,0.09965719247011906,0.92,10,0
+BERTopic,Reassignment fullK,Heavy,,10,Run2,BERTopic | Reassignment fullK | Heavy | K10 | Run2,bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK10.json,HEAVY_EMBfinal2_reassignment_K10,0.15264850085179987,0.9555555555555556,9,1
+BERTopic,Reassignment fullK,Light,,20,Run2,BERTopic | Reassignment fullK | Light | K20 | Run2,bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK20.json,LIGHT_EMBfinal2_reassignment_K20,0.14629042029276287,0.86,20,0
+BERTopic,Reassignment fullK,Heavy,,20,Run2,BERTopic | Reassignment fullK | Heavy | K20 | Run2,bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK20.json,HEAVY_EMBfinal2_reassignment_K20,0.12436852473011491,0.905,20,0
+BERTopic,Reassignment fullK,Light,,30,Run2,BERTopic | Reassignment fullK | Light | K30 | Run2,bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK30.json,LIGHT_EMBfinal2_reassignment_K30,0.14842131347184248,0.8633333333333333,30,0
+BERTopic,Reassignment fullK,Heavy,,30,Run2,BERTopic | Reassignment fullK | Heavy | K30 | Run2,bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK30.json,HEAVY_EMBfinal2_reassignment_K30,0.10436548012641868,0.8366666666666667,30,0
+BERTopic,Reassignment fullK,Light,,40,Run2,BERTopic | Reassignment fullK | Light | K40 | Run2,bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK40.json,LIGHT_EMBfinal2_reassignment_K40,0.14199235532082358,0.8075,40,0
+BERTopic,Reassignment fullK,Heavy,,40,Run2,BERTopic | Reassignment fullK | Heavy | K40 | Run2,bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK40.json,HEAVY_EMBfinal2_reassignment_K40,0.13414556311217313,0.83,40,0
+BERTopic,Reassignment fullK,Light,,50,Run2,BERTopic | Reassignment fullK | Light | K50 | Run2,bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK50.json,LIGHT_EMBfinal2_reassignment_K50,0.15152121240809613,0.7816326530612245,49,0
+BERTopic,Reassignment fullK,Heavy,,50,Run2,BERTopic | Reassignment fullK | Heavy | K50 | Run2,bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK50.json,HEAVY_EMBfinal2_reassignment_K50,0.11270687930341099,0.81875,48,2
+BERTopic,Reassignment fullK,Light,,60,Run2,BERTopic | Reassignment fullK | Light | K60 | Run2,bertopic_topics_LIGHT_EMBfinal2_reassignment_fullK60.json,LIGHT_EMBfinal2_reassignment_K60,0.13573435124216512,0.7711864406779662,59,1
+BERTopic,Reassignment fullK,Heavy,,60,Run2,BERTopic | Reassignment fullK | Heavy | K60 | Run2,bertopic_topics_HEAVY_EMBfinal2_reassignment_fullK60.json,HEAVY_EMBfinal2_reassignment_K60,0.14287420882828208,0.7637931034482759,58,2
+BERTopic,Reassignment fullK,Light,,10,Run3,BERTopic | Reassignment fullK | Light | K10 | Run3,bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK10.json,LIGHT_EMBfinal3_reassignment_K10,0.1342055768637139,0.94,10,0
+BERTopic,Reassignment fullK,Heavy,,10,Run3,BERTopic | Reassignment fullK | Heavy | K10 | Run3,bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK10.json,HEAVY_EMBfinal3_reassignment_K10,0.1254304796260006,0.93,10,0
+BERTopic,Reassignment fullK,Light,,20,Run3,BERTopic | Reassignment fullK | Light | K20 | Run3,bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK20.json,LIGHT_EMBfinal3_reassignment_K20,0.17059436407914527,0.91,20,0
+BERTopic,Reassignment fullK,Heavy,,20,Run3,BERTopic | Reassignment fullK | Heavy | K20 | Run3,bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK20.json,HEAVY_EMBfinal3_reassignment_K20,0.16170927460248075,0.9052631578947369,19,1
+BERTopic,Reassignment fullK,Light,,30,Run3,BERTopic | Reassignment fullK | Light | K30 | Run3,bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK30.json,LIGHT_EMBfinal3_reassignment_K30,0.14103325405417627,0.8266666666666667,30,0
+BERTopic,Reassignment fullK,Heavy,,30,Run3,BERTopic | Reassignment fullK | Heavy | K30 | Run3,bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK30.json,HEAVY_EMBfinal3_reassignment_K30,0.1740883931904944,0.8428571428571429,28,2
+BERTopic,Reassignment fullK,Light,,40,Run3,BERTopic | Reassignment fullK | Light | K40 | Run3,bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK40.json,LIGHT_EMBfinal3_reassignment_K40,0.15371006966991446,0.7974358974358975,39,0
+BERTopic,Reassignment fullK,Heavy,,40,Run3,BERTopic | Reassignment fullK | Heavy | K40 | Run3,bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK40.json,HEAVY_EMBfinal3_reassignment_K40,0.17458648653277536,0.8236842105263158,38,2
+BERTopic,Reassignment fullK,Light,,50,Run3,BERTopic | Reassignment fullK | Light | K50 | Run3,bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK50.json,LIGHT_EMBfinal3_reassignment_K50,0.14058341219316103,0.7612244897959184,49,0
+BERTopic,Reassignment fullK,Heavy,,50,Run3,BERTopic | Reassignment fullK | Heavy | K50 | Run3,bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK50.json,HEAVY_EMBfinal3_reassignment_K50,0.1100232154727186,0.8625,48,1
+BERTopic,Reassignment fullK,Light,,60,Run3,BERTopic | Reassignment fullK | Light | K60 | Run3,bertopic_topics_LIGHT_EMBfinal3_reassignment_fullK60.json,LIGHT_EMBfinal3_reassignment_K60,0.14680497885513374,0.7542372881355932,59,0
+BERTopic,Reassignment fullK,Heavy,,60,Run3,BERTopic | Reassignment fullK | Heavy | K60 | Run3,bertopic_topics_HEAVY_EMBfinal3_reassignment_fullK60.json,HEAVY_EMBfinal3_reassignment_K60,0.1786733019220729,0.7448275862068966,58,2
+CTM,Base,Light,,10,Run1,CTM | Base | Light | K10 | Run1,ctm_topics_LIGHT_EMBfinal_K10.json,LIGHT_EMBfinal_K10,0.09911698076245627,0.99,10,0
+CTM,Base,Heavy,,10,Run1,CTM | Base | Heavy | K10 | Run1,ctm_topics_HEAVY_EMBfinal_K10.json,HEAVY_EMBfinal_K10,0.11348888368022678,0.99,10,0
+CTM,Base,Light,,20,Run1,CTM | Base | Light | K20 | Run1,ctm_topics_LIGHT_EMBfinal_K20.json,LIGHT_EMBfinal_K20,0.1476128445680633,0.96,20,0
+CTM,Base,Heavy,,20,Run1,CTM | Base | Heavy | K20 | Run1,ctm_topics_HEAVY_EMBfinal_K20.json,HEAVY_EMBfinal_K20,0.1456982592907335,0.97,20,0
+CTM,Base,Light,,30,Run1,CTM | Base | Light | K30 | Run1,ctm_topics_LIGHT_EMBfinal_K30.json,LIGHT_EMBfinal_K30,0.13122674993682565,0.92,30,0
+CTM,Base,Heavy,,30,Run1,CTM | Base | Heavy | K30 | Run1,ctm_topics_HEAVY_EMBfinal_K30.json,HEAVY_EMBfinal_K30,0.1308620687052488,0.93,30,0
+CTM,Base,Light,,40,Run1,CTM | Base | Light | K40 | Run1,ctm_topics_LIGHT_EMBfinal_K40.json,LIGHT_EMBfinal_K40,0.11669298090645777,0.8975,40,0
+CTM,Base,Heavy,,40,Run1,CTM | Base | Heavy | K40 | Run1,ctm_topics_HEAVY_EMBfinal_K40.json,HEAVY_EMBfinal_K40,0.13051183661257268,0.9225,40,0
+CTM,Base,Light,,50,Run1,CTM | Base | Light | K50 | Run1,ctm_topics_LIGHT_EMBfinal_K50.json,LIGHT_EMBfinal_K50,0.10591080475067159,0.864,50,0
+CTM,Base,Heavy,,50,Run1,CTM | Base | Heavy | K50 | Run1,ctm_topics_HEAVY_EMBfinal_K50.json,HEAVY_EMBfinal_K50,0.12060138161329663,0.888,50,0
+CTM,Base,Light,,60,Run1,CTM | Base | Light | K60 | Run1,ctm_topics_LIGHT_EMBfinal_K60.json,LIGHT_EMBfinal_K60,0.10820835641559799,0.85,60,0
+CTM,Base,Heavy,,60,Run1,CTM | Base | Heavy | K60 | Run1,ctm_topics_HEAVY_EMBfinal_K60.json,HEAVY_EMBfinal_K60,0.11359773975299273,0.865,60,0
+CTM,Base,Light,,10,Run2,CTM | Base | Light | K10 | Run2,ctm_topics_LIGHT_EMBfinal2_K10.json,LIGHT_EMBfinal2_K10,0.11550688913958654,0.99,10,0
+CTM,Base,Heavy,,10,Run2,CTM | Base | Heavy | K10 | Run2,ctm_topics_HEAVY_EMBfinal2_K10.json,HEAVY_EMBfinal2_K10,0.1221348643168136,0.99,10,0
+CTM,Base,Light,,20,Run2,CTM | Base | Light | K20 | Run2,ctm_topics_LIGHT_EMBfinal2_K20.json,LIGHT_EMBfinal2_K20,0.13253928963275957,0.965,20,0
+CTM,Base,Heavy,,20,Run2,CTM | Base | Heavy | K20 | Run2,ctm_topics_HEAVY_EMBfinal2_K20.json,HEAVY_EMBfinal2_K20,0.13266703915292494,0.965,20,0
+CTM,Base,Light,,30,Run2,CTM | Base | Light | K30 | Run2,ctm_topics_LIGHT_EMBfinal2_K30.json,LIGHT_EMBfinal2_K30,0.129975298300295,0.94,30,0
+CTM,Base,Heavy,,30,Run2,CTM | Base | Heavy | K30 | Run2,ctm_topics_HEAVY_EMBfinal2_K30.json,HEAVY_EMBfinal2_K30,0.1295342642931911,0.93,30,0
+CTM,Base,Light,,40,Run2,CTM | Base | Light | K40 | Run2,ctm_topics_LIGHT_EMBfinal2_K40.json,LIGHT_EMBfinal2_K40,0.1337616229050072,0.8925,40,0
+CTM,Base,Heavy,,40,Run2,CTM | Base | Heavy | K40 | Run2,ctm_topics_HEAVY_EMBfinal2_K40.json,HEAVY_EMBfinal2_K40,0.1211085527141961,0.895,40,0
+CTM,Base,Light,,50,Run2,CTM | Base | Light | K50 | Run2,ctm_topics_LIGHT_EMBfinal2_K50.json,LIGHT_EMBfinal2_K50,0.11827699123292991,0.904,50,0
+CTM,Base,Heavy,,50,Run2,CTM | Base | Heavy | K50 | Run2,ctm_topics_HEAVY_EMBfinal2_K50.json,HEAVY_EMBfinal2_K50,0.1173256138354875,0.898,50,0
+CTM,Base,Light,,60,Run2,CTM | Base | Light | K60 | Run2,ctm_topics_LIGHT_EMBfinal2_K60.json,LIGHT_EMBfinal2_K60,0.11214591988310013,0.8666666666666667,60,0
+CTM,Base,Heavy,,60,Run2,CTM | Base | Heavy | K60 | Run2,ctm_topics_HEAVY_EMBfinal2_K60.json,HEAVY_EMBfinal2_K60,0.11973854985220414,0.8566666666666667,60,0
+CTM,Base,Light,,10,Run3,CTM | Base | Light | K10 | Run3,ctm_topics_LIGHT_EMBfinal3_K10.json,LIGHT_EMBfinal3_K10,0.1129192123442884,1.0,10,0
+CTM,Base,Heavy,,10,Run3,CTM | Base | Heavy | K10 | Run3,ctm_topics_HEAVY_EMBfinal3_K10.json,HEAVY_EMBfinal3_K10,0.09664300209119361,0.99,10,0
+CTM,Base,Light,,20,Run3,CTM | Base | Light | K20 | Run3,ctm_topics_LIGHT_EMBfinal3_K20.json,LIGHT_EMBfinal3_K20,0.13739007404233328,0.955,20,0
+CTM,Base,Heavy,,20,Run3,CTM | Base | Heavy | K20 | Run3,ctm_topics_HEAVY_EMBfinal3_K20.json,HEAVY_EMBfinal3_K20,0.13650890019749765,0.975,20,0
+CTM,Base,Light,,30,Run3,CTM | Base | Light | K30 | Run3,ctm_topics_LIGHT_EMBfinal3_K30.json,LIGHT_EMBfinal3_K30,0.14012693866673145,0.9366666666666666,30,0
+CTM,Base,Heavy,,30,Run3,CTM | Base | Heavy | K30 | Run3,ctm_topics_HEAVY_EMBfinal3_K30.json,HEAVY_EMBfinal3_K30,0.12662976965628575,0.9333333333333333,30,0
+CTM,Base,Light,,40,Run3,CTM | Base | Light | K40 | Run3,ctm_topics_LIGHT_EMBfinal3_K40.json,LIGHT_EMBfinal3_K40,0.12723805804383065,0.915,40,0
+CTM,Base,Heavy,,40,Run3,CTM | Base | Heavy | K40 | Run3,ctm_topics_HEAVY_EMBfinal3_K40.json,HEAVY_EMBfinal3_K40,0.12979990413985806,0.915,40,0
+CTM,Base,Light,,50,Run3,CTM | Base | Light | K50 | Run3,ctm_topics_LIGHT_EMBfinal3_K50.json,LIGHT_EMBfinal3_K50,0.11708548161415906,0.908,50,0
+CTM,Base,Heavy,,50,Run3,CTM | Base | Heavy | K50 | Run3,ctm_topics_HEAVY_EMBfinal3_K50.json,HEAVY_EMBfinal3_K50,0.11695011986365983,0.886,50,0
+CTM,Base,Light,,60,Run3,CTM | Base | Light | K60 | Run3,ctm_topics_LIGHT_EMBfinal3_K60.json,LIGHT_EMBfinal3_K60,0.11820013635060042,0.8766666666666667,60,0
+CTM,Base,Heavy,,60,Run3,CTM | Base | Heavy | K60 | Run3,ctm_topics_HEAVY_EMBfinal3_K60.json,HEAVY_EMBfinal3_K60,0.11015606471660741,0.865,60,0
+ETM,Base,Heavy,Vocab2000,10,Run1,ETM | Base | Heavy | Vocab2000 | K10 | Run1,etm_topics_HEAVY_final_VOCAB2000_K10.json,HEAVY_final_VOCAB2000_K10,0.08255941521860118,0.89,10,0
+ETM,Base,Heavy,Vocab6000,10,Run1,ETM | Base | Heavy | Vocab6000 | K10 | Run1,etm_topics_HEAVY_final_VOCAB6000_K10.json,HEAVY_final_VOCAB6000_K10,0.061886487016934555,0.85,10,0
+ETM,Base,Heavy,Vocab2000,20,Run1,ETM | Base | Heavy | Vocab2000 | K20 | Run1,etm_topics_HEAVY_final_VOCAB2000_K20.json,HEAVY_final_VOCAB2000_K20,0.07808565809880132,0.645,20,0
+ETM,Base,Heavy,Vocab6000,20,Run1,ETM | Base | Heavy | Vocab6000 | K20 | Run1,etm_topics_HEAVY_final_VOCAB6000_K20.json,HEAVY_final_VOCAB6000_K20,0.07649676802668137,0.755,20,0
+ETM,Base,Heavy,Vocab2000,30,Run1,ETM | Base | Heavy | Vocab2000 | K30 | Run1,etm_topics_HEAVY_final_VOCAB2000_K30.json,HEAVY_final_VOCAB2000_K30,0.06787962646503358,0.52,30,0
+ETM,Base,Heavy,Vocab6000,30,Run1,ETM | Base | Heavy | Vocab6000 | K30 | Run1,etm_topics_HEAVY_final_VOCAB6000_K30.json,HEAVY_final_VOCAB6000_K30,0.05686904276943641,0.54,30,0
+ETM,Base,Heavy,Vocab2000,40,Run1,ETM | Base | Heavy | Vocab2000 | K40 | Run1,etm_topics_HEAVY_final_VOCAB2000_K40.json,HEAVY_final_VOCAB2000_K40,0.0662718397575129,0.4,40,0
+ETM,Base,Heavy,Vocab6000,40,Run1,ETM | Base | Heavy | Vocab6000 | K40 | Run1,etm_topics_HEAVY_final_VOCAB6000_K40.json,HEAVY_final_VOCAB6000_K40,0.060746454900785694,0.485,40,0
+ETM,Base,Heavy,Vocab2000,50,Run1,ETM | Base | Heavy | Vocab2000 | K50 | Run1,etm_topics_HEAVY_final_VOCAB2000_K50.json,HEAVY_final_VOCAB2000_K50,0.06717146191713917,0.398,50,0
+ETM,Base,Heavy,Vocab6000,50,Run1,ETM | Base | Heavy | Vocab6000 | K50 | Run1,etm_topics_HEAVY_final_VOCAB6000_K50.json,HEAVY_final_VOCAB6000_K50,0.05792135643026217,0.422,50,0
+ETM,Base,Heavy,Vocab2000,60,Run1,ETM | Base | Heavy | Vocab2000 | K60 | Run1,etm_topics_HEAVY_final_VOCAB2000_K60.json,HEAVY_final_VOCAB2000_K60,0.05957399493732444,0.3,60,0
+ETM,Base,Heavy,Vocab6000,60,Run1,ETM | Base | Heavy | Vocab6000 | K60 | Run1,etm_topics_HEAVY_final_VOCAB6000_K60.json,HEAVY_final_VOCAB6000_K60,0.050025728194802555,0.33666666666666667,60,0
+ETM,Base,Heavy,Vocab2000,10,Run2,ETM | Base | Heavy | Vocab2000 | K10 | Run2,etm_topics_HEAVY_final2_VOCAB2000_K10.json,HEAVY_final2_VOCAB2000_K10,0.08592718604421408,0.89,10,0
+ETM,Base,Heavy,Vocab6000,10,Run2,ETM | Base | Heavy | Vocab6000 | K10 | Run2,etm_topics_HEAVY_final2_VOCAB6000_K10.json,HEAVY_final2_VOCAB6000_K10,0.06471332308237907,0.86,10,0
+ETM,Base,Heavy,Vocab2000,20,Run2,ETM | Base | Heavy | Vocab2000 | K20 | Run2,etm_topics_HEAVY_final2_VOCAB2000_K20.json,HEAVY_final2_VOCAB2000_K20,0.09221349000003556,0.725,20,0
+ETM,Base,Heavy,Vocab6000,20,Run2,ETM | Base | Heavy | Vocab6000 | K20 | Run2,etm_topics_HEAVY_final2_VOCAB6000_K20.json,HEAVY_final2_VOCAB6000_K20,0.06941481694294774,0.725,20,0
+ETM,Base,Heavy,Vocab2000,30,Run2,ETM | Base | Heavy | Vocab2000 | K30 | Run2,etm_topics_HEAVY_final2_VOCAB2000_K30.json,HEAVY_final2_VOCAB2000_K30,0.07250085393533262,0.5333333333333333,30,0
+ETM,Base,Heavy,Vocab6000,30,Run2,ETM | Base | Heavy | Vocab6000 | K30 | Run2,etm_topics_HEAVY_final2_VOCAB6000_K30.json,HEAVY_final2_VOCAB6000_K30,0.06367131503767062,0.58,30,0
+ETM,Base,Heavy,Vocab2000,40,Run2,ETM | Base | Heavy | Vocab2000 | K40 | Run2,etm_topics_HEAVY_final2_VOCAB2000_K40.json,HEAVY_final2_VOCAB2000_K40,0.08078780829110647,0.4825,40,0
+ETM,Base,Heavy,Vocab6000,40,Run2,ETM | Base | Heavy | Vocab6000 | K40 | Run2,etm_topics_HEAVY_final2_VOCAB6000_K40.json,HEAVY_final2_VOCAB6000_K40,0.05493942741806316,0.4425,40,0
+ETM,Base,Heavy,Vocab2000,50,Run2,ETM | Base | Heavy | Vocab2000 | K50 | Run2,etm_topics_HEAVY_final2_VOCAB2000_K50.json,HEAVY_final2_VOCAB2000_K50,0.06823759112848717,0.354,50,0
+ETM,Base,Heavy,Vocab6000,50,Run2,ETM | Base | Heavy | Vocab6000 | K50 | Run2,etm_topics_HEAVY_final2_VOCAB6000_K50.json,HEAVY_final2_VOCAB6000_K50,0.05988337595272141,0.428,50,0
+ETM,Base,Heavy,Vocab2000,60,Run2,ETM | Base | Heavy | Vocab2000 | K60 | Run2,etm_topics_HEAVY_final2_VOCAB2000_K60.json,HEAVY_final2_VOCAB2000_K60,0.06503056059569243,0.31833333333333336,60,0
+ETM,Base,Heavy,Vocab6000,60,Run2,ETM | Base | Heavy | Vocab6000 | K60 | Run2,etm_topics_HEAVY_final2_VOCAB6000_K60.json,HEAVY_final2_VOCAB6000_K60,0.05635561334336128,0.36666666666666664,60,0
+ETM,Base,Heavy,Vocab2000,10,Run3,ETM | Base | Heavy | Vocab2000 | K10 | Run3,etm_topics_HEAVY_final3_VOCAB2000_K10.json,HEAVY_final3_VOCAB2000_K10,0.07256382923951268,0.92,10,0
+ETM,Base,Heavy,Vocab6000,10,Run3,ETM | Base | Heavy | Vocab6000 | K10 | Run3,etm_topics_HEAVY_final3_VOCAB6000_K10.json,HEAVY_final3_VOCAB6000_K10,0.0629407272641109,0.85,10,0
+ETM,Base,Heavy,Vocab2000,20,Run3,ETM | Base | Heavy | Vocab2000 | K20 | Run3,etm_topics_HEAVY_final3_VOCAB2000_K20.json,HEAVY_final3_VOCAB2000_K20,0.07835111377918563,0.685,20,0
+ETM,Base,Heavy,Vocab6000,20,Run3,ETM | Base | Heavy | Vocab6000 | K20 | Run3,etm_topics_HEAVY_final3_VOCAB6000_K20.json,HEAVY_final3_VOCAB6000_K20,0.07154431830162913,0.685,20,0
+ETM,Base,Heavy,Vocab2000,30,Run3,ETM | Base | Heavy | Vocab2000 | K30 | Run3,etm_topics_HEAVY_final3_VOCAB2000_K30.json,HEAVY_final3_VOCAB2000_K30,0.07273844180671654,0.5466666666666666,30,0
+ETM,Base,Heavy,Vocab6000,30,Run3,ETM | Base | Heavy | Vocab6000 | K30 | Run3,etm_topics_HEAVY_final3_VOCAB6000_K30.json,HEAVY_final3_VOCAB6000_K30,0.05328008199737897,0.5166666666666667,30,0
+ETM,Base,Heavy,Vocab2000,40,Run3,ETM | Base | Heavy | Vocab2000 | K40 | Run3,etm_topics_HEAVY_final3_VOCAB2000_K40.json,HEAVY_final3_VOCAB2000_K40,0.06026843322076074,0.44,40,0
+ETM,Base,Heavy,Vocab6000,40,Run3,ETM | Base | Heavy | Vocab6000 | K40 | Run3,etm_topics_HEAVY_final3_VOCAB6000_K40.json,HEAVY_final3_VOCAB6000_K40,0.04704398928954192,0.4275,40,0
+ETM,Base,Heavy,Vocab2000,50,Run3,ETM | Base | Heavy | Vocab2000 | K50 | Run3,etm_topics_HEAVY_final3_VOCAB2000_K50.json,HEAVY_final3_VOCAB2000_K50,0.06471691685582066,0.35,50,0
+ETM,Base,Heavy,Vocab6000,50,Run3,ETM | Base | Heavy | Vocab6000 | K50 | Run3,etm_topics_HEAVY_final3_VOCAB6000_K50.json,HEAVY_final3_VOCAB6000_K50,0.06485947391183884,0.43,50,0
+ETM,Base,Heavy,Vocab2000,60,Run3,ETM | Base | Heavy | Vocab2000 | K60 | Run3,etm_topics_HEAVY_final3_VOCAB2000_K60.json,HEAVY_final3_VOCAB2000_K60,0.06678875471051605,0.31833333333333336,60,0
+ETM,Base,Heavy,Vocab6000,60,Run3,ETM | Base | Heavy | Vocab6000 | K60 | Run3,etm_topics_HEAVY_final3_VOCAB6000_K60.json,HEAVY_final3_VOCAB6000_K60,0.056274884519503486,0.37333333333333335,60,0
+LDA,Base,Heavy,Vocab2000,10,Run1,LDA | Base | Heavy | Vocab2000 | K10 | Run1,lda_topics_HEAVY_final_VOCAB2000_K10.json,HEAVY_final_VOCAB2000_K10,0.08286082811647143,0.88,10,0
+LDA,Base,Heavy,Vocab2000,20,Run1,LDA | Base | Heavy | Vocab2000 | K20 | Run1,lda_topics_HEAVY_final_VOCAB2000_K20.json,HEAVY_final_VOCAB2000_K20,0.1074516890624175,0.9,20,0
+LDA,Base,Heavy,Vocab2000,30,Run1,LDA | Base | Heavy | Vocab2000 | K30 | Run1,lda_topics_HEAVY_final_VOCAB2000_K30.json,HEAVY_final_VOCAB2000_K30,0.13514129440417058,0.8866666666666667,30,0
+LDA,Base,Heavy,Vocab2000,40,Run1,LDA | Base | Heavy | Vocab2000 | K40 | Run1,lda_topics_HEAVY_final_VOCAB2000_K40.json,HEAVY_final_VOCAB2000_K40,0.11728036911314632,0.875,40,0
+LDA,Base,Heavy,Vocab2000,50,Run1,LDA | Base | Heavy | Vocab2000 | K50 | Run1,lda_topics_HEAVY_final_VOCAB2000_K50.json,HEAVY_final_VOCAB2000_K50,0.12732617690501205,0.896,50,0
+LDA,Base,Heavy,Vocab2000,60,Run1,LDA | Base | Heavy | Vocab2000 | K60 | Run1,lda_topics_HEAVY_final_VOCAB2000_K60.json,HEAVY_final_VOCAB2000_K60,0.11077340432998296,0.9133333333333333,60,0
+LDA,Base,Heavy,Vocab2000,10,Run2,LDA | Base | Heavy | Vocab2000 | K10 | Run2,lda_topics_HEAVY_final2_VOCAB2000_K10.json,HEAVY_final2_VOCAB2000_K10,0.08286082811647143,0.88,10,0
+LDA,Base,Heavy,Vocab2000,20,Run2,LDA | Base | Heavy | Vocab2000 | K20 | Run2,lda_topics_HEAVY_final2_VOCAB2000_K20.json,HEAVY_final2_VOCAB2000_K20,0.1074516890624175,0.9,20,0
+LDA,Base,Heavy,Vocab2000,30,Run2,LDA | Base | Heavy | Vocab2000 | K30 | Run2,lda_topics_HEAVY_final2_VOCAB2000_K30.json,HEAVY_final2_VOCAB2000_K30,0.13514129440417058,0.8866666666666667,30,0
+LDA,Base,Heavy,Vocab2000,40,Run2,LDA | Base | Heavy | Vocab2000 | K40 | Run2,lda_topics_HEAVY_final2_VOCAB2000_K40.json,HEAVY_final2_VOCAB2000_K40,0.11728036911314632,0.875,40,0
+LDA,Base,Heavy,Vocab2000,50,Run2,LDA | Base | Heavy | Vocab2000 | K50 | Run2,lda_topics_HEAVY_final2_VOCAB2000_K50.json,HEAVY_final2_VOCAB2000_K50,0.12732617690501205,0.896,50,0
+LDA,Base,Heavy,Vocab2000,60,Run2,LDA | Base | Heavy | Vocab2000 | K60 | Run2,lda_topics_HEAVY_final2_VOCAB2000_K60.json,HEAVY_final2_VOCAB2000_K60,0.11077340432998296,0.9133333333333333,60,0
+LDA,Base,Heavy,Vocab2000,10,Run3,LDA | Base | Heavy | Vocab2000 | K10 | Run3,lda_topics_HEAVY_final3_VOCAB2000_K10.json,HEAVY_final3_VOCAB2000_K10,0.08286082811647143,0.88,10,0
+LDA,Base,Heavy,Vocab2000,20,Run3,LDA | Base | Heavy | Vocab2000 | K20 | Run3,lda_topics_HEAVY_final3_VOCAB2000_K20.json,HEAVY_final3_VOCAB2000_K20,0.1074516890624175,0.9,20,0
+LDA,Base,Heavy,Vocab2000,30,Run3,LDA | Base | Heavy | Vocab2000 | K30 | Run3,lda_topics_HEAVY_final3_VOCAB2000_K30.json,HEAVY_final3_VOCAB2000_K30,0.13514129440417058,0.8866666666666667,30,0
+LDA,Base,Heavy,Vocab2000,40,Run3,LDA | Base | Heavy | Vocab2000 | K40 | Run3,lda_topics_HEAVY_final3_VOCAB2000_K40.json,HEAVY_final3_VOCAB2000_K40,0.11728036911314632,0.875,40,0
+LDA,Base,Heavy,Vocab2000,50,Run3,LDA | Base | Heavy | Vocab2000 | K50 | Run3,lda_topics_HEAVY_final3_VOCAB2000_K50.json,HEAVY_final3_VOCAB2000_K50,0.12732617690501205,0.896,50,0
+LDA,Base,Heavy,Vocab2000,60,Run3,LDA | Base | Heavy | Vocab2000 | K60 | Run3,lda_topics_HEAVY_final3_VOCAB2000_K60.json,HEAVY_final3_VOCAB2000_K60,0.11077340432998296,0.9133333333333333,60,0

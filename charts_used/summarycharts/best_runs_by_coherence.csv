@@ -1,0 +1,13 @@
+Model,Version,Original_Version,Topics,Coherence,Diversity,Runtime,Label,Summary_Label
+BERTopic Base,D2,BoW,30,0.1738,0.8847,140.2033,"BERTopic Base
+D2, K=30",BERTopic Base
+BERTopic-Reassign,D2,BoW,60,0.1677,0.7557,163.65,"BERTopic-Reassign
+D2, K=60",BERTopic-Reassign
+CTM,D1,Light,20,0.1392,0.96,1480.1033,"CTM
+D1, K=20",CTM
+BERTopic-HDBSCAN,D1,Light,50,0.1371,0.8418,197.39,"BERTopic-HDBSCAN
+D1, K=50",BERTopic-HDBSCAN
+LDA,D2,BoW,30,0.1351,0.8867,242.41,"LDA
+D2, K=30",LDA
+ETM,V2000,V2000,20,0.0829,0.685,432.9167,"ETM
+V2000, K=20",ETM

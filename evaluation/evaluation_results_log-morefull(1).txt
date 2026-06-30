@@ -1,0 +1,250 @@
+=== 1. Reconstructing the Reference Corpus ===
+Constructed reference corpus with 150000 documents.
+
+=== 2. Initializing OCTIS Metrics ===
+Evaluating BERTopic Base with full topics =========
+
+--- Evaluating Experiment 1 (BERTopic Light Embeddings Base fullK=10) ---
+  -> Topic Coherence (NPMI): 0.1569
+  -> Topic Diversity:        0.9800
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Experiment 2 (BERTopic Heavy Embeddings Base fullK=10) ---
+  -> Topic Coherence (NPMI): 0.1821
+  -> Topic Diversity:        0.9300
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Experiment 3 (BERTopic Light Embeddings Base fullK=20) ---
+  -> Topic Coherence (NPMI): 0.1197
+  -> Topic Diversity:        0.8950
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Experiment 4 (BERTopic Heavy Embeddings Base fullK=20) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1441
+  -> Topic Diversity:        0.9211
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Experiment 5 (BERTopic Light Embeddings Base fullK=30) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1455
+  -> Topic Diversity:        0.8379
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Experiment 6 (BERTopic Heavy Embeddings Base fullK=30) ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1723
+  -> Topic Diversity:        0.8778
+  -> (Successfully evaluated 27 valid topics)
+
+--- Evaluating Experiment 7 (BERTopic Light Embeddings Base fullK=40) ---
+  -> Topic Coherence (NPMI): 0.1203
+  -> Topic Diversity:        0.8350
+  -> (Successfully evaluated 40 valid topics)
+
+--- Evaluating Experiment 8 (BERTopic Heavy Embeddings Base fullK=40) ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.0922
+  -> Topic Diversity:        0.9111
+  -> (Successfully evaluated 36 valid topics)
+
+--- Evaluating Experiment 9 (BERTopic Light Embeddings Base fullK=50) ---
+  -> Topic Coherence (NPMI): 0.1419
+  -> Topic Diversity:        0.8388
+  -> (Successfully evaluated 49 valid topics)
+
+--- Evaluating Experiment 10 (BERTopic Heavy Embeddings Base fullK=50) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1271
+  -> Topic Diversity:        0.8673
+  -> (Successfully evaluated 49 valid topics)
+
+--- Evaluating Experiment 11 (BERTopic Light Embeddings Base fullK=60) ---
+  -> Topic Coherence (NPMI): 0.1431
+  -> Topic Diversity:        0.8136
+  -> (Successfully evaluated 59 valid topics)
+
+--- Evaluating Experiment 12 (BERTopic Heavy Embeddings Base fullK=60) ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1276
+  -> Topic Diversity:        0.8172
+  -> (Successfully evaluated 58 valid topics)
+
+Evaluating BERTopic UMAP noise parameters =========
+
+--- Evaluating Exp 13: BERTopic NoiseParams Light fullK10 ---
+  -> Topic Coherence (NPMI): 0.1416
+  -> Topic Diversity:        0.9400
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 14: BERTopic NoiseParams Heavy fullK10 ---
+  -> Topic Coherence (NPMI): 0.1669
+  -> Topic Diversity:        0.9300
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 15: BERTopic NoiseParams Light fullK20 ---
+  -> Topic Coherence (NPMI): 0.0980
+  -> Topic Diversity:        0.8650
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Exp 16: BERTopic NoiseParams Heavy fullK20 ---
+  -> Topic Coherence (NPMI): 0.1475
+  -> Topic Diversity:        0.9150
+  -> (Successfully evaluated 20 valid topics)
+
+--- Evaluating Exp 17: BERTopic NoiseParams Light fullK30 ---
+  -> Topic Coherence (NPMI): 0.1443
+  -> Topic Diversity:        0.8567
+  -> (Successfully evaluated 30 valid topics)
+
+--- Evaluating Exp 18: BERTopic NoiseParams Heavy fullK30 ---
+  -> Topic Coherence (NPMI): 0.1057
+  -> Topic Diversity:        0.8517
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Exp 19: BERTopic NoiseParams Light fullK40 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1221
+  -> Topic Diversity:        0.8538
+  -> (Successfully evaluated 39 valid topics)
+
+--- Evaluating Exp 20: BERTopic NoiseParams Heavy fullK40 ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1306
+  -> Topic Diversity:        0.8676
+  -> (Successfully evaluated 37 valid topics)
+
+--- Evaluating Exp 21: BERTopic NoiseParams Light fullK50 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1246
+  -> Topic Diversity:        0.8102
+  -> (Successfully evaluated 49 valid topics)
+
+--- Evaluating Exp 22: BERTopic NoiseParams Heavy fullK50 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.0958
+  -> Topic Diversity:        0.8521
+  -> (Successfully evaluated 48 valid topics)
+
+--- Evaluating Exp 23: BERTopic NoiseParams Light fullK60 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1181
+  -> Topic Diversity:        0.8153
+  -> (Successfully evaluated 59 valid topics)
+
+--- Evaluating Exp 24: BERTopic NoiseParams Heavy fullK60 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1105
+  -> Topic Diversity:        0.8448
+  -> (Successfully evaluated 58 valid topics)
+
+Evaluating BERTopic Reassignment =========
+
+--- Evaluating Exp 25: BERTopic Reassign Light fullK10 ---
+  -> Topic Coherence (NPMI): 0.1231
+  -> Topic Diversity:        0.9500
+  -> (Successfully evaluated 10 valid topics)
+
+--- Evaluating Exp 26: BERTopic Reassign Heavy fullK10 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1597
+  -> Topic Diversity:        0.9667
+  -> (Successfully evaluated 9 valid topics)
+
+--- Evaluating Exp 27: BERTopic Reassign Light fullK20 ---
+  -> Topic Coherence (NPMI): 0.1522
+  -> Topic Diversity:        0.8789
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Exp 28: BERTopic Reassign Heavy fullK20 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1890
+  -> Topic Diversity:        0.9158
+  -> (Successfully evaluated 19 valid topics)
+
+--- Evaluating Exp 29: BERTopic Reassign Light fullK30 ---
+  -> Topic Coherence (NPMI): 0.1532
+  -> Topic Diversity:        0.8310
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Exp 30: BERTopic Reassign Heavy fullK30 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1590
+  -> Topic Diversity:        0.8655
+  -> (Successfully evaluated 29 valid topics)
+
+--- Evaluating Exp 31: BERTopic Reassign Light fullK40 ---
+  -> Topic Coherence (NPMI): 0.1436
+  -> Topic Diversity:        0.8026
+  -> (Successfully evaluated 39 valid topics)
+
+--- Evaluating Exp 32: BERTopic Reassign Heavy fullK40 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1273
+  -> Topic Diversity:        0.8282
+  -> (Successfully evaluated 39 valid topics)
+
+--- Evaluating Exp 33: BERTopic Reassign Light fullK50 ---
+  -> Topic Coherence (NPMI): 0.1502
+  -> Topic Diversity:        0.8060
+  -> (Successfully evaluated 50 valid topics)
+
+--- Evaluating Exp 34: BERTopic Reassign Heavy fullK50 ---
+  -> Dropped 1 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1150
+  -> Topic Diversity:        0.7816
+  -> (Successfully evaluated 49 valid topics)
+
+--- Evaluating Exp 35: BERTopic Reassign Light fullK60 ---
+  -> Topic Coherence (NPMI): 0.1400
+  -> Topic Diversity:        0.7259
+  -> (Successfully evaluated 58 valid topics)
+
+--- Evaluating Exp 36: BERTopic Reassign Heavy fullK60 ---
+  -> Dropped 2 degenerate topics (fewer than 10 words).
+  -> Topic Coherence (NPMI): 0.1814
+  -> Topic Diversity:        0.7586
+  -> (Successfully evaluated 58 valid topics)
+
+=== Final Summary Table ===
+                                             Experiment     NPMI  Diversity  Valid_Topics
+ Experiment 1 (BERTopic Light Embeddings Base fullK=10) 0.156914   0.980000            10
+ Experiment 2 (BERTopic Heavy Embeddings Base fullK=10) 0.182108   0.930000            10
+ Experiment 3 (BERTopic Light Embeddings Base fullK=20) 0.119743   0.895000            20
+ Experiment 4 (BERTopic Heavy Embeddings Base fullK=20) 0.144129   0.921053            19
+ Experiment 5 (BERTopic Light Embeddings Base fullK=30) 0.145458   0.837931            29
+ Experiment 6 (BERTopic Heavy Embeddings Base fullK=30) 0.172258   0.877778            27
+ Experiment 7 (BERTopic Light Embeddings Base fullK=40) 0.120256   0.835000            40
+ Experiment 8 (BERTopic Heavy Embeddings Base fullK=40) 0.092167   0.911111            36
+ Experiment 9 (BERTopic Light Embeddings Base fullK=50) 0.141873   0.838776            49
+Experiment 10 (BERTopic Heavy Embeddings Base fullK=50) 0.127087   0.867347            49
+Experiment 11 (BERTopic Light Embeddings Base fullK=60) 0.143142   0.813559            59
+Experiment 12 (BERTopic Heavy Embeddings Base fullK=60) 0.127596   0.817241            58
+             Exp 13: BERTopic NoiseParams Light fullK10 0.141624   0.940000            10
+             Exp 14: BERTopic NoiseParams Heavy fullK10 0.166866   0.930000            10
+             Exp 15: BERTopic NoiseParams Light fullK20 0.097995   0.865000            20
+             Exp 16: BERTopic NoiseParams Heavy fullK20 0.147461   0.915000            20
+             Exp 17: BERTopic NoiseParams Light fullK30 0.144262   0.856667            30
+             Exp 18: BERTopic NoiseParams Heavy fullK30 0.105747   0.851724            29
+             Exp 19: BERTopic NoiseParams Light fullK40 0.122148   0.853846            39
+             Exp 20: BERTopic NoiseParams Heavy fullK40 0.130629   0.867568            37
+             Exp 21: BERTopic NoiseParams Light fullK50 0.124627   0.810204            49
+             Exp 22: BERTopic NoiseParams Heavy fullK50 0.095792   0.852083            48
+             Exp 23: BERTopic NoiseParams Light fullK60 0.118130   0.815254            59
+             Exp 24: BERTopic NoiseParams Heavy fullK60 0.110472   0.844828            58
+                Exp 25: BERTopic Reassign Light fullK10 0.123067   0.950000            10
+                Exp 26: BERTopic Reassign Heavy fullK10 0.159693   0.966667             9
+                Exp 27: BERTopic Reassign Light fullK20 0.152207   0.878947            19
+                Exp 28: BERTopic Reassign Heavy fullK20 0.189027   0.915789            19
+                Exp 29: BERTopic Reassign Light fullK30 0.153155   0.831034            29
+                Exp 30: BERTopic Reassign Heavy fullK30 0.158975   0.865517            29
+                Exp 31: BERTopic Reassign Light fullK40 0.143574   0.802564            39
+                Exp 32: BERTopic Reassign Heavy fullK40 0.127263   0.828205            39
+                Exp 33: BERTopic Reassign Light fullK50 0.150228   0.806000            50
+                Exp 34: BERTopic Reassign Heavy fullK50 0.114963   0.781633            49
+                Exp 35: BERTopic Reassign Light fullK60 0.140028   0.725862            58
+                Exp 36: BERTopic Reassign Heavy fullK60 0.181408   0.758621            58
+
+Evaluation Complete!
+
+Evaluation Complete!

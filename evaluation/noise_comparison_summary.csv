@@ -1,0 +1,13 @@
+Experiment,Total Docs,Noise Docs,Noise %,Final Topics Found
+HEAVY_EMBfinal2_noiseparams_fullK50,150000,59330,39.55,50
+HEAVY_EMBfinal2_noiseparams_fullK40,150000,58780,39.19,40
+HEAVY_EMBfinal2_noiseparams_fullK60,150000,58658,39.11,60
+HEAVY_EMBfinal2_noiseparams_fullK20,150000,58311,38.87,20
+LIGHT_EMBfinal2_noiseparams_fullK60,150000,58016,38.68,60
+LIGHT_EMBfinal2_noiseparams_fullK20,150000,56878,37.92,20
+HEAVY_EMBfinal2_noiseparams_fullK10,150000,56744,37.83,10
+HEAVY_EMBfinal2_noiseparams_fullK30,150000,56198,37.47,30
+LIGHT_EMBfinal2_noiseparams_fullK10,150000,55910,37.27,10
+LIGHT_EMBfinal2_noiseparams_fullK30,150000,55642,37.09,30
+LIGHT_EMBfinal2_noiseparams_fullK50,150000,55529,37.02,50
+LIGHT_EMBfinal2_noiseparams_fullK40,150000,53712,35.81,40
